@@ -1,0 +1,22 @@
+Aug 22 01:34:07.068 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Aug 22 01:34:07.068 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43397.
+Aug 22 01:34:07.078 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 22 01:34:07.078 HYPERVISOR: exec_cmd: hypervisor working_dir /home/dacer/GNS3/projects/serie 2/project-files/dynamips 
+Aug 22 01:34:07.078 GENERAL: working_dir=/home/dacer/GNS3/projects/serie 2/project-files/dynamips
+Aug 22 01:34:07.079 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Aug 22 01:34:48.835 HYPERVISOR: exec_cmd: nio create_udp udp-28faae5c-fe9c-4d64-996c-efd951684440 10000 127.0.0.1 10002 
+Aug 22 01:34:48.836 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-28faae5c-fe9c-4d64-996c-efd951684440 
+Aug 22 01:34:48.854 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-28faae5c-fe9c-4d64-996c-efd951684440 1 
+Aug 22 01:34:54.109 HYPERVISOR: exec_cmd: nio create_udp udp-ddca9063-d766-44a2-9806-2fcc9cb89b83 10009 127.0.0.1 10010 
+Aug 22 01:34:54.109 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-ddca9063-d766-44a2-9806-2fcc9cb89b83 
+Aug 22 01:34:54.126 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-ddca9063-d766-44a2-9806-2fcc9cb89b83 1 
+Aug 22 01:34:56.655 HYPERVISOR: exec_cmd: nio create_udp udp-e33ed22b-6786-4ccf-b00b-7e52d8384746 10011 127.0.0.1 10012 
+Aug 22 01:34:56.656 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-e33ed22b-6786-4ccf-b00b-7e52d8384746 
+Aug 22 01:34:56.661 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-e33ed22b-6786-4ccf-b00b-7e52d8384746 1 
+Aug 22 01:35:01.181 HYPERVISOR: exec_cmd: nio create_udp udp-cb2e5778-3149-42a4-b75f-2e6b6eee0e48 10013 127.0.0.1 10014 
+Aug 22 01:35:01.181 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-cb2e5778-3149-42a4-b75f-2e6b6eee0e48 
+Aug 22 01:35:01.189 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cb2e5778-3149-42a4-b75f-2e6b6eee0e48 1 
+Aug 22 01:35:25.606 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-28faae5c-fe9c-4d64-996c-efd951684440 1 
+Aug 22 01:35:25.606 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-ddca9063-d766-44a2-9806-2fcc9cb89b83 1 
+Aug 22 01:35:25.606 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-e33ed22b-6786-4ccf-b00b-7e52d8384746 1 
+Aug 22 01:35:25.607 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cb2e5778-3149-42a4-b75f-2e6b6eee0e48 1 
