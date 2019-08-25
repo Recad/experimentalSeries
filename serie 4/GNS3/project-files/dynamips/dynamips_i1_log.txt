@@ -1,0 +1,19 @@
+Aug 25 20:09:34.472 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Aug 25 20:09:34.472 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58177.
+Aug 25 20:09:34.483 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 20:09:34.483 HYPERVISOR: exec_cmd: hypervisor working_dir /home/dacer/tesis GNS3/firewall_univalle/project-files/dynamips 
+Aug 25 20:09:34.483 GENERAL: working_dir=/home/dacer/tesis GNS3/firewall_univalle/project-files/dynamips
+Aug 25 20:09:34.483 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Aug 25 20:09:35.043 HYPERVISOR: exec_cmd: nio create_udp udp-bd5381cc-29f3-4fbf-b10c-ff17dc9ccd4b 10003 127.0.0.1 10002 
+Aug 25 20:09:35.043 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-bd5381cc-29f3-4fbf-b10c-ff17dc9ccd4b 
+Aug 25 20:09:35.057 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-bd5381cc-29f3-4fbf-b10c-ff17dc9ccd4b 1 
+Aug 25 20:09:35.195 HYPERVISOR: exec_cmd: nio create_udp udp-8d617483-da75-4287-98cf-5024783c5a43 10005 127.0.0.1 10004 
+Aug 25 20:09:35.195 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-8d617483-da75-4287-98cf-5024783c5a43 
+Aug 25 20:09:35.198 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-8d617483-da75-4287-98cf-5024783c5a43 1 
+Aug 25 20:09:35.249 HYPERVISOR: exec_cmd: nio create_udp udp-3f232c70-2f29-49d0-9403-54713a68dc59 10006 127.0.0.1 10007 
+Aug 25 20:09:35.249 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-3f232c70-2f29-49d0-9403-54713a68dc59 
+Aug 25 20:09:35.258 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-3f232c70-2f29-49d0-9403-54713a68dc59 1 
+Aug 25 20:11:17.045 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-1 
+Aug 25 20:11:17.101 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 25 20:11:17.593 HYPERVISOR: Stopped.
+Aug 25 20:11:17.593 GENERAL: reset done.

@@ -1,4 +1,4 @@
-# Serie 1
+# Serie 3
 
 Esta serie experimental tiene como objetivo comprender el funcionamiento de Flocking en el contexto de 
 la red institucional de la Universidad del Valle. 

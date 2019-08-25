@@ -1,4 +1,4 @@
-# Serie 1
+# Serie 2
 
 Esta serie tiene como objetivo estudiar el comportamiento del Flocking en segmentos de red diferentes.
 ![Alt text](image14.png?raw=true "apariencia") 
