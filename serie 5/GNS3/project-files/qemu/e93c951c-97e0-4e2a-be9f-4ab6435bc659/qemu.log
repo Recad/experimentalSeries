@@ -1,0 +1,46 @@
+Start QEMU with /usr/bin/qemu-system-x86_64 -name CiscoASAv9.8.1-1 -m 512M -smp cpus=1 -enable-kvm -machine smm=off -boot order=c -drive 'file=/home/dacer/tesis GNS3/vpn_uni_cluster/project-files/qemu/e93c951c-97e0-4e2a-be9f-4ab6435bc659/hda_disk.qcow2,if=virtio,index=0,media=disk' -uuid e93c951c-97e0-4e2a-be9f-4ab6435bc659 -spice addr=127.0.0.1,port=5018,disable-ticketing -vga qxl -monitor tcp:127.0.0.1:44195,server,nowait -net none -device e1000,mac=0c:04:98:c6:59:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10017,localaddr=127.0.0.1:10002 -device e1000,mac=0c:04:98:c6:59:01,netdev=gns3-1 -netdev socket,id=gns3-1,udp=127.0.0.1:10022,localaddr=127.0.0.1:10021 -device e1000,mac=0c:04:98:c6:59:02,netdev=gns3-2 -netdev socket,id=gns3-2,udp=127.0.0.1:10024,localaddr=127.0.0.1:10023 -device e1000,mac=0c:04:98:c6:59:03,netdev=gns3-3 -netdev socket,id=gns3-3,udp=127.0.0.1:10026,localaddr=127.0.0.1:10025 -device e1000,mac=0c:04:98:c6:59:04,netdev=gns3-4 -netdev socket,id=gns3-4,udp=127.0.0.1:10028,localaddr=127.0.0.1:10027 -device e1000,mac=0c:04:98:c6:59:05,netdev=gns3-5 -netdev socket,id=gns3-5,udp=127.0.0.1:10030,localaddr=127.0.0.1:10029 -device e1000,mac=0c:04:98:c6:59:06,netdev=gns3-6 -netdev socket,id=gns3-6,udp=127.0.0.1:10032,localaddr=127.0.0.1:10031 -device e1000,mac=0c:04:98:c6:59:07,netdev=gns3-7 -netdev socket,id=gns3-7,udp=127.0.0.1:10034,localaddr=127.0.0.1:10033 -nographic
+
+Execution log:
+qemu-system-x86_64: warning: host doesn't support requested feature: CPUID.80000001H:ECX.svm [bit 2]
+loader: Platform type set to default
+Platform ASAv
+loader: Platform type set to default
+IO memory blocks requested from bigphys 32bit: 32768
+main_channel_link: add main channel client
+main_channel_client_handle_pong: net test: latency 2.121000 ms, bitrate 7613382899 bps (7260.687732 Mbps)
+inputs_connect: inputs channel client create
+red_qxl_set_cursor_peer: 
+loader: Platform type set to default
+Platform ASAv
+loader: Platform type set to default
+IO memory blocks requested from bigphys 32bit: 32768
+loader: Platform type set to default
+Platform ASAv
+loader: Platform type set to default
+IO memory blocks requested from bigphys 32bit: 32768
+loader: Platform type set to default
+Platform ASAv
+loader: Platform type set to default
+IO memory blocks requested from bigphys 32bit: 32768
+loader: Platform type set to default
+Platform ASAv
+loader: Platform type set to default
+IO memory blocks requested from bigphys 32bit: 32768
+loader: Platform type set to default
+Platform ASAv
+loader: Platform type set to default
+IO memory blocks requested from bigphys 32bit: 32768
+loader: Platform type set to default
+Platform ASAv
+loader: Platform type set to default
+IO memory blocks requested from bigphys 32bit: 32768
+red_channel_client_disconnect: rcc=0x560ad27141d0 (channel=0x560ad2066940 type=3 id=0)
+red_channel_client_disconnect: rcc=0x7f93d40474b0 (channel=0x560ad2c4f0d0 type=4 id=0)
+red_channel_client_disconnect: rcc=0x7f93d40a0a20 (channel=0x560ad2064230 type=2 id=0)
+red_peer_receive: Connection reset by peer
+red_channel_client_disconnect: rcc=0x560ad2946d20 (channel=0x560ad2064160 type=1 id=0)
+main_channel_client_on_disconnect: rcc=0x560ad2946d20
+red_client_destroy: destroy client 0x560ad205d170 with #channels=4
+red_qxl_disconnect_cursor_peer: 
+red_qxl_disconnect_display_peer: 
+qemu-system-x86_64: terminating on signal 15 from pid 10200 (/usr/share/gns3/gns3-server/bin/python)
