@@ -1,7 +1,9 @@
 # Serie 1
 
-Esta serie tiene como objetivo estudiar el comportamiento del Flocking en segmentos de red diferentes.
-![Alt text](image14.png?raw=true "apariencia") 
+Esta serie experimental tiene como objetivo comprender el funcionamiento de Flocking en el contexto de 
+la red institucional de la Universidad del Valle. 
+Más precisamente estudiar cuales son los factores de la red que afectan su funcionamiento.
+![Alt text](image2.png?raw=true "apariencia") 
 
 
 ## Consideraciones
@@ -15,13 +17,17 @@ Los parametros que se pueden configurar desde la interfaz de GNS son:
 - Modificar el archivo /etc/hosts para añadir las direciones correspondientes a los recursos.
 - Definir la configuración de red de cada nodo. 
 
+En la serie 1 se evidencia mejor la configuración anterior.
+
 ## Recursos
 
 Los recursos necesarios los encontraras en: https://hub.docker.com/u/recad
 
 ### Configuraciones
-Las configuraciones pueden ser iguales a las descritas en la serie uno. La unica diferencia es la configuración del Router
-para definir 2 segmentos de red diferentes. se uso router de la serie c7200.
-
 Otra configuración importante es el archivo /etc/condor/condor_config.local en el cual tenemos que 
-definir FLOCK_TO y FLOCK_FROM para ambos nodos mestro
+definir FLOCK_TO y FLOCK_FROM para ambos nodos mestro.
+
+A nivel del Firewall se reliza una Destination NAT y Source NAT con el recurso cancerbero con la IP "publica" 192.168.131.72, esta configuración se puede evidenciar 
+en la siguiente imagen:
+
+![Alt text](firewall.png?raw=true "firewall") 
