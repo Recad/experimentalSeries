@@ -1,0 +1,7 @@
+Start time: Sun Aug 18 23:29:20 UTC 2019
+Job is running on node: edier-worker-1
+Job running as user: uid=1000 gid=100(users) groups=100(users)
+Job is running in directory: /var/lib/condor/execute/dir_341
+
+Working hard...
+Science complete!

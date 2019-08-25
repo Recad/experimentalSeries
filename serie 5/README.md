@@ -1,7 +1,8 @@
 # Serie 5
 
- Esta serie experimental tiene como objetivo observar el comportamiento del 
- Flocking de HTCondor sobre redes superpuestas basadas en VPN.
+Esta serie experimental tiene como objetivo observar el comportamiento del 
+Flocking de HTCondor sobre redes superpuestas basadas en VPN.
+
 ![Alt text](image2.png?raw=true "apariencia") 
 
 
@@ -32,6 +33,8 @@ PRIVATE_NETWORK_INTERFACE y PRIVATE_NETWORK_NAME como configuraciones de los nod
 ## Recursos
 
 Los recursos necesarios los encontraras en: https://hub.docker.com/u/recad
+
+Las imagenes de HTCondor con OpenVPN ya poseen la herramienta para configurar los certificados
 
 
 

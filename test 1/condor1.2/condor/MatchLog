@@ -1,0 +1,57 @@
+08/18/19 22:04:53       Matched 1.0 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403> preempting none <157.253.205.93:46151?addrs=157.253.205.93-46151> slot1@edier-worker-3.cloud.uniandes.edu.co
+08/18/19 22:05:13       Matched 2.0 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403> preempting none <157.253.205.93:46151?addrs=157.253.205.93-46151> slot1@edier-worker-3.cloud.uniandes.edu.co
+08/18/19 22:05:13       Rejected 2.0 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/18/19 22:06:52       Matched 4.0 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403> preempting none <157.253.205.93:46151?addrs=157.253.205.93-46151> slot1@edier-worker-3.cloud.uniandes.edu.co
+08/18/19 22:06:52       Rejected 4.0 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/18/19 22:07:52       Rejected 4.4 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/18/19 22:08:52       Rejected 4.4 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/18/19 22:09:52       Rejected 4.4 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/18/19 22:10:52       Rejected 4.8 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/18/19 22:11:53       Rejected 4.8 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/18/19 22:12:52       Rejected 4.8 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/18/19 22:57:53       Rejected 5.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 22:58:52       Rejected 5.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 22:59:52       Rejected 5.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 22:59:52       Rejected 6.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:00:52       Rejected 5.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:00:52       Rejected 6.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:03:53       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:04:53       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:05:53       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:06:53       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:07:54       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:08:53       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:09:53       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:10:53       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:11:54       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:12:53       Rejected 7.0 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:15:53       Matched 8.4 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5> preempting none <157.253.205.93:46151?addrs=157.253.205.93-46151> slot1@edier-worker-3.cloud.uniandes.edu.co
+08/18/19 23:15:53       Rejected 8.4 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:16:53       Rejected 8.8 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:17:53       Rejected 8.8 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:18:53       Rejected 8.8 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:19:53       Rejected 8.8 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:20:53       Rejected 8.8 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:21:53       Rejected 8.8 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:22:53       Rejected 8.16 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:23:53       Rejected 8.16 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:24:53       Rejected 8.16 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:25:53       Rejected 8.16 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:26:53       Rejected 8.16 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:27:53       Rejected 8.16 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/18/19 23:28:53       Rejected 8.16 condor1@cloud.univalle.edu.co <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3fsock%3d79_147a_5%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP&sock=79_147a_5>: no match found
+08/19/19 00:00:40       Matched 5.0 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403> preempting none <157.253.205.93:46151?addrs=157.253.205.93-46151> slot1@edier-worker-3.cloud.uniandes.edu.co
+08/19/19 00:00:40       Rejected 5.0 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:01:40       Rejected 5.8 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:02:40       Rejected 5.8 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:03:41       Rejected 5.8 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:04:40       Rejected 5.8 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:05:40       Rejected 5.8 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:06:40       Rejected 5.8 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:07:40       Rejected 5.12 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:08:40       Rejected 5.16 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:09:40       Rejected 5.16 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:10:41       Rejected 5.16 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:11:40       Rejected 5.16 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:12:40       Rejected 5.16 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found
+08/19/19 00:13:40       Rejected 5.16 condor1@cloud.uniandes.edu.co <157.253.205.92:60403?addrs=157.253.205.92-60403>: no match found

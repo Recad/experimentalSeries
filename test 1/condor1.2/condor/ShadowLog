@@ -1,0 +1,512 @@
+08/18/19 22:04:54 ******************************************************
+08/18/19 22:04:54 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/18/19 22:04:54 ** /usr/sbin/condor_shadow
+08/18/19 22:04:54 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/18/19 22:04:54 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/18/19 22:04:54 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 22:04:54 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 22:04:54 ** PID = 146
+08/18/19 22:04:54 ** Log last touched time unavailable (No such file or directory)
+08/18/19 22:04:54 ******************************************************
+08/18/19 22:04:54 Using config source: /etc/condor/condor_config
+08/18/19 22:04:54 Using local config sources: 
+08/18/19 22:04:54    /etc/condor/condor_config.local
+08/18/19 22:04:54 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/18/19 22:04:54 CLASSAD_CACHING is OFF
+08/18/19 22:04:54 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 22:04:54 Daemoncore: Listening at <0.0.0.0:42759> on TCP (ReliSock).
+08/18/19 22:04:54 DaemonCore: command socket at <157.253.205.92:42759?addrs=157.253.205.92-42759&noUDP>
+08/18/19 22:04:54 DaemonCore: private command socket at <157.253.205.92:42759?addrs=157.253.205.92-42759>
+08/18/19 22:04:54 Initializing a VANILLA shadow for job 1.0
+08/18/19 22:04:54 (1.0) (146): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:04:57 (1.0) (146): File transfer completed successfully.
+08/18/19 22:05:13 ******************************************************
+08/18/19 22:05:13 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/18/19 22:05:13 ** /usr/sbin/condor_shadow
+08/18/19 22:05:13 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/18/19 22:05:13 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/18/19 22:05:13 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 22:05:13 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 22:05:13 ** PID = 214
+08/18/19 22:05:13 ** Log last touched 8/18 22:04:57
+08/18/19 22:05:13 ******************************************************
+08/18/19 22:05:13 Using config source: /etc/condor/condor_config
+08/18/19 22:05:13 Using local config sources: 
+08/18/19 22:05:13    /etc/condor/condor_config.local
+08/18/19 22:05:13 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/18/19 22:05:13 CLASSAD_CACHING is OFF
+08/18/19 22:05:13 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 22:05:13 Daemoncore: Listening at <0.0.0.0:11321> on TCP (ReliSock).
+08/18/19 22:05:13 DaemonCore: command socket at <157.253.205.92:11321?addrs=157.253.205.92-11321&noUDP>
+08/18/19 22:05:13 DaemonCore: private command socket at <157.253.205.92:11321?addrs=157.253.205.92-11321>
+08/18/19 22:05:13 Initializing a VANILLA shadow for job 2.0
+08/18/19 22:05:13 (2.0) (214): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:05:13 ******************************************************
+08/18/19 22:05:13 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/18/19 22:05:13 ** /usr/sbin/condor_shadow
+08/18/19 22:05:13 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/18/19 22:05:13 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/18/19 22:05:13 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 22:05:13 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 22:05:13 ** PID = 217
+08/18/19 22:05:13 ** Log last touched 8/18 22:05:13
+08/18/19 22:05:13 ******************************************************
+08/18/19 22:05:13 Using config source: /etc/condor/condor_config
+08/18/19 22:05:13 Using local config sources: 
+08/18/19 22:05:13    /etc/condor/condor_config.local
+08/18/19 22:05:13 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/18/19 22:05:13 CLASSAD_CACHING is OFF
+08/18/19 22:05:13 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 22:05:13 Daemoncore: Listening at <0.0.0.0:5209> on TCP (ReliSock).
+08/18/19 22:05:13 DaemonCore: command socket at <157.253.205.92:5209?addrs=157.253.205.92-5209&noUDP>
+08/18/19 22:05:13 DaemonCore: private command socket at <157.253.205.92:5209?addrs=157.253.205.92-5209>
+08/18/19 22:05:13 Initializing a VANILLA shadow for job 3.0
+08/18/19 22:05:14 (3.0) (217): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:05:17 (2.0) (214): File transfer completed successfully.
+08/18/19 22:05:18 (3.0) (217): File transfer completed successfully.
+08/18/19 22:05:19 (1.0) (146): File transfer completed successfully.
+08/18/19 22:05:20 (1.0) (146): Job 1.0 terminated: exited with status 0
+08/18/19 22:05:20 (1.0) (146): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:05:20 (1.0) (146): **** condor_shadow (condor_SHADOW) pid 146 EXITING WITH STATUS 100
+08/18/19 22:05:39 (2.0) (214): File transfer completed successfully.
+08/18/19 22:05:39 (2.0) (214): Job 2.0 terminated: exited with status 0
+08/18/19 22:05:39 (2.0) (214): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:05:39 (2.0) (214): **** condor_shadow (condor_SHADOW) pid 214 EXITING WITH STATUS 100
+08/18/19 22:05:40 (3.0) (217): File transfer completed successfully.
+08/18/19 22:05:40 (3.0) (217): Job 3.0 terminated: exited with status 0
+08/18/19 22:05:40 (3.0) (217): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:05:40 (3.0) (217): **** condor_shadow (condor_SHADOW) pid 217 EXITING WITH STATUS 100
+08/18/19 22:06:52 ******************************************************
+08/18/19 22:06:52 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/18/19 22:06:52 ** /usr/sbin/condor_shadow
+08/18/19 22:06:52 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/18/19 22:06:52 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/18/19 22:06:52 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 22:06:52 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 22:06:52 ** PID = 263
+08/18/19 22:06:52 ** Log last touched 8/18 22:05:40
+08/18/19 22:06:52 ******************************************************
+08/18/19 22:06:52 Using config source: /etc/condor/condor_config
+08/18/19 22:06:52 Using local config sources: 
+08/18/19 22:06:52    /etc/condor/condor_config.local
+08/18/19 22:06:52 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/18/19 22:06:52 CLASSAD_CACHING is OFF
+08/18/19 22:06:52 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 22:06:52 Daemoncore: Listening at <0.0.0.0:60825> on TCP (ReliSock).
+08/18/19 22:06:52 DaemonCore: command socket at <157.253.205.92:60825?addrs=157.253.205.92-60825&noUDP>
+08/18/19 22:06:52 DaemonCore: private command socket at <157.253.205.92:60825?addrs=157.253.205.92-60825>
+08/18/19 22:06:52 Initializing a VANILLA shadow for job 4.0
+08/18/19 22:06:52 (4.0) (263): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:06:52 ******************************************************
+08/18/19 22:06:52 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/18/19 22:06:52 ** /usr/sbin/condor_shadow
+08/18/19 22:06:52 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/18/19 22:06:52 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/18/19 22:06:52 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 22:06:52 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 22:06:52 ** PID = 264
+08/18/19 22:06:52 ** Log last touched 8/18 22:06:52
+08/18/19 22:06:52 ******************************************************
+08/18/19 22:06:52 Using config source: /etc/condor/condor_config
+08/18/19 22:06:52 Using local config sources: 
+08/18/19 22:06:52    /etc/condor/condor_config.local
+08/18/19 22:06:52 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/18/19 22:06:52 CLASSAD_CACHING is OFF
+08/18/19 22:06:52 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 22:06:52 Daemoncore: Listening at <0.0.0.0:12087> on TCP (ReliSock).
+08/18/19 22:06:52 DaemonCore: command socket at <157.253.205.92:12087?addrs=157.253.205.92-12087&noUDP>
+08/18/19 22:06:52 DaemonCore: private command socket at <157.253.205.92:12087?addrs=157.253.205.92-12087>
+08/18/19 22:06:52 Initializing a VANILLA shadow for job 4.1
+08/18/19 22:06:53 (4.1) (264): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:06:53 ******************************************************
+08/18/19 22:06:53 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/18/19 22:06:53 ** /usr/sbin/condor_shadow
+08/18/19 22:06:53 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/18/19 22:06:53 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/18/19 22:06:53 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 22:06:53 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 22:06:53 ** PID = 267
+08/18/19 22:06:53 ** Log last touched 8/18 22:06:53
+08/18/19 22:06:53 ******************************************************
+08/18/19 22:06:53 Using config source: /etc/condor/condor_config
+08/18/19 22:06:53 Using local config sources: 
+08/18/19 22:06:53    /etc/condor/condor_config.local
+08/18/19 22:06:53 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/18/19 22:06:53 CLASSAD_CACHING is OFF
+08/18/19 22:06:53 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 22:06:53 Daemoncore: Listening at <0.0.0.0:31199> on TCP (ReliSock).
+08/18/19 22:06:53 DaemonCore: command socket at <157.253.205.92:31199?addrs=157.253.205.92-31199&noUDP>
+08/18/19 22:06:53 DaemonCore: private command socket at <157.253.205.92:31199?addrs=157.253.205.92-31199>
+08/18/19 22:06:53 Initializing a VANILLA shadow for job 4.2
+08/18/19 22:06:53 (4.2) (267): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:06:54 ******************************************************
+08/18/19 22:06:54 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/18/19 22:06:54 ** /usr/sbin/condor_shadow
+08/18/19 22:06:54 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/18/19 22:06:54 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/18/19 22:06:54 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 22:06:54 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 22:06:54 ** PID = 270
+08/18/19 22:06:54 ** Log last touched 8/18 22:06:53
+08/18/19 22:06:54 ******************************************************
+08/18/19 22:06:54 Using config source: /etc/condor/condor_config
+08/18/19 22:06:54 Using local config sources: 
+08/18/19 22:06:54    /etc/condor/condor_config.local
+08/18/19 22:06:54 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/18/19 22:06:54 CLASSAD_CACHING is OFF
+08/18/19 22:06:54 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 22:06:54 Daemoncore: Listening at <0.0.0.0:16081> on TCP (ReliSock).
+08/18/19 22:06:54 DaemonCore: command socket at <157.253.205.92:16081?addrs=157.253.205.92-16081&noUDP>
+08/18/19 22:06:54 DaemonCore: private command socket at <157.253.205.92:16081?addrs=157.253.205.92-16081>
+08/18/19 22:06:54 Initializing a VANILLA shadow for job 4.3
+08/18/19 22:06:55 (4.3) (270): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:06:56 (4.0) (263): File transfer completed successfully.
+08/18/19 22:06:58 (4.1) (264): File transfer completed successfully.
+08/18/19 22:06:59 (4.2) (267): File transfer completed successfully.
+08/18/19 22:07:00 (4.3) (270): File transfer completed successfully.
+08/18/19 22:10:18 (4.0) (263): File transfer completed successfully.
+08/18/19 22:10:18 (4.0) (263): Job 4.0 terminated: exited with status 0
+08/18/19 22:10:18 (4.0) (263): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:10:18 (4.0) (263): Switching to new job 4.4
+08/18/19 22:10:18 (?.?) (263): Initializing a VANILLA shadow for job 4.4
+08/18/19 22:10:18 (4.4) (263): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:10:20 (4.1) (264): File transfer completed successfully.
+08/18/19 22:10:20 (4.1) (264): Job 4.1 terminated: exited with status 0
+08/18/19 22:10:20 (4.1) (264): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:10:20 (4.1) (264): Switching to new job 4.5
+08/18/19 22:10:20 (?.?) (264): Initializing a VANILLA shadow for job 4.5
+08/18/19 22:10:20 (4.5) (264): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:10:21 (4.2) (267): File transfer completed successfully.
+08/18/19 22:10:21 (4.2) (267): Job 4.2 terminated: exited with status 0
+08/18/19 22:10:21 (4.2) (267): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:10:21 (4.2) (267): Switching to new job 4.6
+08/18/19 22:10:21 (?.?) (267): Initializing a VANILLA shadow for job 4.6
+08/18/19 22:10:21 (4.6) (267): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:10:22 (4.3) (270): File transfer completed successfully.
+08/18/19 22:10:23 (4.3) (270): Job 4.3 terminated: exited with status 0
+08/18/19 22:10:23 (4.3) (270): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:10:23 (4.3) (270): Switching to new job 4.7
+08/18/19 22:10:23 (?.?) (270): Initializing a VANILLA shadow for job 4.7
+08/18/19 22:10:23 (4.7) (270): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:10:23 (4.4) (263): File transfer completed successfully.
+08/18/19 22:10:25 (4.5) (264): File transfer completed successfully.
+08/18/19 22:10:27 (4.6) (267): File transfer completed successfully.
+08/18/19 22:10:28 (4.7) (270): File transfer completed successfully.
+08/18/19 22:13:45 (4.4) (263): File transfer completed successfully.
+08/18/19 22:13:45 (4.4) (263): Job 4.4 terminated: exited with status 0
+08/18/19 22:13:45 (4.4) (263): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:13:45 (4.4) (263): Switching to new job 4.8
+08/18/19 22:13:45 (?.?) (263): Initializing a VANILLA shadow for job 4.8
+08/18/19 22:13:45 (4.8) (263): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:13:47 (4.5) (264): File transfer completed successfully.
+08/18/19 22:13:47 (4.5) (264): Job 4.5 terminated: exited with status 0
+08/18/19 22:13:47 (4.5) (264): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:13:47 (4.5) (264): Switching to new job 4.9
+08/18/19 22:13:47 (?.?) (264): Initializing a VANILLA shadow for job 4.9
+08/18/19 22:13:47 (4.9) (264): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/18/19 22:13:49 (4.6) (267): File transfer completed successfully.
+08/18/19 22:13:49 (4.6) (267): Job 4.6 terminated: exited with status 0
+08/18/19 22:13:49 (4.6) (267): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:13:49 (4.6) (267): **** condor_shadow (condor_SHADOW) pid 267 EXITING WITH STATUS 100
+08/18/19 22:13:49 (4.8) (263): File transfer completed successfully.
+08/18/19 22:13:49 (4.7) (270): File transfer completed successfully.
+08/18/19 22:13:49 (4.7) (270): Job 4.7 terminated: exited with status 0
+08/18/19 22:13:49 (4.7) (270): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:13:49 (4.7) (270): **** condor_shadow (condor_SHADOW) pid 270 EXITING WITH STATUS 100
+08/18/19 22:13:51 (4.9) (264): File transfer completed successfully.
+08/18/19 22:17:11 (4.8) (263): File transfer completed successfully.
+08/18/19 22:17:11 (4.8) (263): Job 4.8 terminated: exited with status 0
+08/18/19 22:17:11 (4.8) (263): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:17:11 (4.8) (263): **** condor_shadow (condor_SHADOW) pid 263 EXITING WITH STATUS 100
+08/18/19 22:17:13 (4.9) (264): File transfer completed successfully.
+08/18/19 22:17:13 (4.9) (264): Job 4.9 terminated: exited with status 0
+08/18/19 22:17:13 (4.9) (264): Reporting job exit reason 100 and attempting to fetch new job.
+08/18/19 22:17:13 (4.9) (264): **** condor_shadow (condor_SHADOW) pid 264 EXITING WITH STATUS 100
+08/19/19 00:00:41 ******************************************************
+08/19/19 00:00:41 ******************************************************
+08/19/19 00:00:41 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/19/19 00:00:41 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/19/19 00:00:41 ** /usr/sbin/condor_shadow
+08/19/19 00:00:41 ** /usr/sbin/condor_shadow
+08/19/19 00:00:41 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/19/19 00:00:41 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/19/19 00:00:41 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/19/19 00:00:41 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/19/19 00:00:41 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/19/19 00:00:41 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/19/19 00:00:41 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/19/19 00:00:41 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/19/19 00:00:41 ** PID = 901
+08/19/19 00:00:41 ** PID = 900
+08/19/19 00:00:41 ** Log last touched 8/18 22:17:13
+08/19/19 00:00:41 ** Log last touched 8/18 22:17:13
+08/19/19 00:00:41 ******************************************************
+08/19/19 00:00:41 ******************************************************
+08/19/19 00:00:41 Using config source: /etc/condor/condor_config
+08/19/19 00:00:41 Using config source: /etc/condor/condor_config
+08/19/19 00:00:41 Using local config sources: 
+08/19/19 00:00:41 Using local config sources: 
+08/19/19 00:00:41    /etc/condor/condor_config.local
+08/19/19 00:00:41    /etc/condor/condor_config.local
+08/19/19 00:00:41 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/19/19 00:00:41 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/19/19 00:00:41 CLASSAD_CACHING is OFF
+08/19/19 00:00:41 CLASSAD_CACHING is OFF
+08/19/19 00:00:41 Daemon Log is logging: D_ALWAYS D_ERROR
+08/19/19 00:00:41 Daemon Log is logging: D_ALWAYS D_ERROR
+08/19/19 00:00:41 Daemoncore: Listening at <0.0.0.0:54575> on TCP (ReliSock).
+08/19/19 00:00:41 Daemoncore: Listening at <0.0.0.0:63599> on TCP (ReliSock).
+08/19/19 00:00:41 DaemonCore: command socket at <157.253.205.92:54575?addrs=157.253.205.92-54575&noUDP>
+08/19/19 00:00:41 DaemonCore: command socket at <157.253.205.92:63599?addrs=157.253.205.92-63599&noUDP>
+08/19/19 00:00:41 DaemonCore: private command socket at <157.253.205.92:54575?addrs=157.253.205.92-54575>
+08/19/19 00:00:41 DaemonCore: private command socket at <157.253.205.92:63599?addrs=157.253.205.92-63599>
+08/19/19 00:00:41 Initializing a VANILLA shadow for job 5.0
+08/19/19 00:00:41 Initializing a VANILLA shadow for job 5.1
+08/19/19 00:00:41 (5.0) (900): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:00:41 ******************************************************
+08/19/19 00:00:41 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/19/19 00:00:41 ** /usr/sbin/condor_shadow
+08/19/19 00:00:41 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/19/19 00:00:41 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/19/19 00:00:41 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/19/19 00:00:41 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/19/19 00:00:41 ** PID = 902
+08/19/19 00:00:41 ** Log last touched 8/19 00:00:41
+08/19/19 00:00:41 ******************************************************
+08/19/19 00:00:41 Using config source: /etc/condor/condor_config
+08/19/19 00:00:41 Using local config sources: 
+08/19/19 00:00:41    /etc/condor/condor_config.local
+08/19/19 00:00:41 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/19/19 00:00:41 CLASSAD_CACHING is OFF
+08/19/19 00:00:41 Daemon Log is logging: D_ALWAYS D_ERROR
+08/19/19 00:00:41 Daemoncore: Listening at <0.0.0.0:46869> on TCP (ReliSock).
+08/19/19 00:00:41 DaemonCore: command socket at <157.253.205.92:46869?addrs=157.253.205.92-46869&noUDP>
+08/19/19 00:00:41 DaemonCore: private command socket at <157.253.205.92:46869?addrs=157.253.205.92-46869>
+08/19/19 00:00:41 Initializing a VANILLA shadow for job 5.2
+08/19/19 00:00:41 (5.1) (901): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:00:42 (5.2) (902): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:00:43 ******************************************************
+08/19/19 00:00:43 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/19/19 00:00:43 ** /usr/sbin/condor_shadow
+08/19/19 00:00:43 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/19/19 00:00:43 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/19/19 00:00:43 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/19/19 00:00:43 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/19/19 00:00:43 ** PID = 911
+08/19/19 00:00:43 ** Log last touched 8/19 00:00:42
+08/19/19 00:00:43 ******************************************************
+08/19/19 00:00:43 Using config source: /etc/condor/condor_config
+08/19/19 00:00:43 Using local config sources: 
+08/19/19 00:00:43    /etc/condor/condor_config.local
+08/19/19 00:00:43 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/19/19 00:00:43 CLASSAD_CACHING is OFF
+08/19/19 00:00:43 Daemon Log is logging: D_ALWAYS D_ERROR
+08/19/19 00:00:43 Daemoncore: Listening at <0.0.0.0:63873> on TCP (ReliSock).
+08/19/19 00:00:43 DaemonCore: command socket at <157.253.205.92:63873?addrs=157.253.205.92-63873&noUDP>
+08/19/19 00:00:43 DaemonCore: private command socket at <157.253.205.92:63873?addrs=157.253.205.92-63873>
+08/19/19 00:00:43 Initializing a VANILLA shadow for job 5.3
+08/19/19 00:00:43 (5.3) (911): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:00:49 (5.1) (901): File transfer completed successfully.
+08/19/19 00:00:49 (5.0) (900): File transfer completed successfully.
+08/19/19 00:00:49 (5.2) (902): File transfer completed successfully.
+08/19/19 00:00:50 (5.3) (911): File transfer completed successfully.
+08/19/19 00:00:54 ******************************************************
+08/19/19 00:00:54 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/19/19 00:00:54 ** /usr/sbin/condor_shadow
+08/19/19 00:00:54 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/19/19 00:00:54 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/19/19 00:00:54 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/19/19 00:00:54 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/19/19 00:00:54 ** PID = 952
+08/19/19 00:00:54 ** Log last touched 8/19 00:00:50
+08/19/19 00:00:54 ******************************************************
+08/19/19 00:00:54 Using config source: /etc/condor/condor_config
+08/19/19 00:00:54 Using local config sources: 
+08/19/19 00:00:54    /etc/condor/condor_config.local
+08/19/19 00:00:54 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/19/19 00:00:54 CLASSAD_CACHING is OFF
+08/19/19 00:00:54 Daemon Log is logging: D_ALWAYS D_ERROR
+08/19/19 00:00:54 Daemoncore: Listening at <0.0.0.0:22279> on TCP (ReliSock).
+08/19/19 00:00:54 DaemonCore: command socket at <157.253.205.92:22279?addrs=157.253.205.92-22279&noUDP>
+08/19/19 00:00:54 DaemonCore: private command socket at <157.253.205.92:22279?addrs=157.253.205.92-22279>
+08/19/19 00:00:54 Initializing a VANILLA shadow for job 5.4
+08/19/19 00:00:55 ******************************************************
+08/19/19 00:00:55 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/19/19 00:00:55 ** /usr/sbin/condor_shadow
+08/19/19 00:00:55 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/19/19 00:00:55 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/19/19 00:00:55 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/19/19 00:00:55 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/19/19 00:00:55 ** PID = 954
+08/19/19 00:00:55 ** Log last touched 8/19 00:00:54
+08/19/19 00:00:55 ******************************************************
+08/19/19 00:00:55 Using config source: /etc/condor/condor_config
+08/19/19 00:00:55 Using local config sources: 
+08/19/19 00:00:55    /etc/condor/condor_config.local
+08/19/19 00:00:55 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/19/19 00:00:55 CLASSAD_CACHING is OFF
+08/19/19 00:00:55 Daemon Log is logging: D_ALWAYS D_ERROR
+08/19/19 00:00:55 Daemoncore: Listening at <0.0.0.0:45945> on TCP (ReliSock).
+08/19/19 00:00:55 DaemonCore: command socket at <157.253.205.92:45945?addrs=157.253.205.92-45945&noUDP>
+08/19/19 00:00:55 DaemonCore: private command socket at <157.253.205.92:45945?addrs=157.253.205.92-45945>
+08/19/19 00:00:55 Initializing a VANILLA shadow for job 5.5
+08/19/19 00:00:55 (5.4) (952): Request to run on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> was ACCEPTED
+08/19/19 00:00:56 (5.5) (954): Request to run on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> was ACCEPTED
+08/19/19 00:00:57 ******************************************************
+08/19/19 00:00:57 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/19/19 00:00:57 ** /usr/sbin/condor_shadow
+08/19/19 00:00:57 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/19/19 00:00:57 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/19/19 00:00:57 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/19/19 00:00:57 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/19/19 00:00:57 ** PID = 962
+08/19/19 00:00:57 ** Log last touched 8/19 00:00:56
+08/19/19 00:00:57 ******************************************************
+08/19/19 00:00:57 Using config source: /etc/condor/condor_config
+08/19/19 00:00:57 Using local config sources: 
+08/19/19 00:00:57    /etc/condor/condor_config.local
+08/19/19 00:00:57 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/19/19 00:00:57 CLASSAD_CACHING is OFF
+08/19/19 00:00:57 Daemon Log is logging: D_ALWAYS D_ERROR
+08/19/19 00:00:57 Daemoncore: Listening at <0.0.0.0:32925> on TCP (ReliSock).
+08/19/19 00:00:57 DaemonCore: command socket at <157.253.205.92:32925?addrs=157.253.205.92-32925&noUDP>
+08/19/19 00:00:57 DaemonCore: private command socket at <157.253.205.92:32925?addrs=157.253.205.92-32925>
+08/19/19 00:00:57 Initializing a VANILLA shadow for job 5.6
+08/19/19 00:00:58 (5.6) (962): Request to run on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> was ACCEPTED
+08/19/19 00:00:59 ******************************************************
+08/19/19 00:00:59 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+08/19/19 00:00:59 ** /usr/sbin/condor_shadow
+08/19/19 00:00:59 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+08/19/19 00:00:59 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+08/19/19 00:00:59 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/19/19 00:00:59 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/19/19 00:00:59 ** PID = 963
+08/19/19 00:00:59 ** Log last touched 8/19 00:00:58
+08/19/19 00:00:59 ******************************************************
+08/19/19 00:00:59 Using config source: /etc/condor/condor_config
+08/19/19 00:00:59 Using local config sources: 
+08/19/19 00:00:59    /etc/condor/condor_config.local
+08/19/19 00:00:59 config Macros = 79, Sorted = 79, StringBytes = 2617, TablesBytes = 1312
+08/19/19 00:00:59 CLASSAD_CACHING is OFF
+08/19/19 00:00:59 Daemon Log is logging: D_ALWAYS D_ERROR
+08/19/19 00:00:59 Daemoncore: Listening at <0.0.0.0:56945> on TCP (ReliSock).
+08/19/19 00:00:59 DaemonCore: command socket at <157.253.205.92:56945?addrs=157.253.205.92-56945&noUDP>
+08/19/19 00:00:59 DaemonCore: private command socket at <157.253.205.92:56945?addrs=157.253.205.92-56945>
+08/19/19 00:00:59 Initializing a VANILLA shadow for job 5.7
+08/19/19 00:00:59 (5.7) (963): Request to run on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> was ACCEPTED
+08/19/19 00:01:00 (5.4) (952): File transfer completed successfully.
+08/19/19 00:01:01 (5.5) (954): File transfer completed successfully.
+08/19/19 00:01:04 (5.6) (962): File transfer completed successfully.
+08/19/19 00:01:05 (5.7) (963): File transfer completed successfully.
+08/19/19 00:07:31 (5.1) (901): File transfer completed successfully.
+08/19/19 00:07:31 (5.1) (901): Job 5.1 terminated: exited with status 0
+08/19/19 00:07:31 (5.1) (901): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:07:31 (5.1) (901): Switching to new job 5.8
+08/19/19 00:07:31 (?.?) (901): Initializing a VANILLA shadow for job 5.8
+08/19/19 00:07:31 (5.8) (901): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:07:31 (5.0) (900): File transfer completed successfully.
+08/19/19 00:07:31 (5.2) (902): File transfer completed successfully.
+08/19/19 00:07:31 (5.3) (911): File transfer completed successfully.
+08/19/19 00:07:32 (5.2) (902): Job 5.2 terminated: exited with status 0
+08/19/19 00:07:32 (5.2) (902): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:07:32 (5.3) (911): Job 5.3 terminated: exited with status 0
+08/19/19 00:07:32 (5.3) (911): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:07:32 (5.2) (902): Switching to new job 5.9
+08/19/19 00:07:32 (?.?) (902): Initializing a VANILLA shadow for job 5.9
+08/19/19 00:07:32 (5.9) (902): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:07:32 (5.0) (900): Job 5.0 terminated: exited with status 0
+08/19/19 00:07:33 (5.0) (900): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:07:33 (5.3) (911): Switching to new job 5.10
+08/19/19 00:07:33 (?.?) (911): Initializing a VANILLA shadow for job 5.10
+08/19/19 00:07:33 (5.0) (900): Switching to new job 5.11
+08/19/19 00:07:33 (?.?) (900): Initializing a VANILLA shadow for job 5.11
+08/19/19 00:07:33 (5.10) (911): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:07:34 (5.11) (900): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:07:36 (5.8) (901): File transfer completed successfully.
+08/19/19 00:07:38 (5.9) (902): File transfer completed successfully.
+08/19/19 00:07:39 (5.10) (911): File transfer completed successfully.
+08/19/19 00:07:40 (5.11) (900): File transfer completed successfully.
+08/19/19 00:07:43 (5.4) (952): File transfer completed successfully.
+08/19/19 00:07:43 (5.4) (952): Job 5.4 terminated: exited with status 0
+08/19/19 00:07:43 (5.4) (952): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:07:43 (5.4) (952): Switching to new job 5.12
+08/19/19 00:07:43 (?.?) (952): Initializing a VANILLA shadow for job 5.12
+08/19/19 00:07:43 (5.12) (952): Request to run on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> was ACCEPTED
+08/19/19 00:07:44 (5.5) (954): File transfer completed successfully.
+08/19/19 00:07:44 (5.5) (954): Job 5.5 terminated: exited with status 0
+08/19/19 00:07:44 (5.5) (954): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:07:44 (5.5) (954): Switching to new job 5.13
+08/19/19 00:07:44 (?.?) (954): Initializing a VANILLA shadow for job 5.13
+08/19/19 00:07:44 (5.13) (954): Request to run on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> was ACCEPTED
+08/19/19 00:07:46 (5.6) (962): File transfer completed successfully.
+08/19/19 00:07:47 (5.6) (962): Job 5.6 terminated: exited with status 0
+08/19/19 00:07:47 (5.6) (962): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:07:47 (5.6) (962): Switching to new job 5.14
+08/19/19 00:07:47 (?.?) (962): Initializing a VANILLA shadow for job 5.14
+08/19/19 00:07:47 (5.14) (962): Request to run on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> was ACCEPTED
+08/19/19 00:07:47 (5.7) (963): File transfer completed successfully.
+08/19/19 00:07:47 (5.12) (952): File transfer completed successfully.
+08/19/19 00:07:48 (5.7) (963): Job 5.7 terminated: exited with status 0
+08/19/19 00:07:48 (5.7) (963): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:07:48 (5.7) (963): Switching to new job 5.15
+08/19/19 00:07:48 (?.?) (963): Initializing a VANILLA shadow for job 5.15
+08/19/19 00:07:48 (5.15) (963): Request to run on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> was ACCEPTED
+08/19/19 00:07:49 (5.13) (954): File transfer completed successfully.
+08/19/19 00:07:52 (5.14) (962): File transfer completed successfully.
+08/19/19 00:07:53 (5.15) (963): File transfer completed successfully.
+08/19/19 00:14:18 (5.8) (901): File transfer completed successfully.
+08/19/19 00:14:18 (5.8) (901): Job 5.8 terminated: exited with status 0
+08/19/19 00:14:18 (5.8) (901): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:14:18 (5.8) (901): Switching to new job 5.16
+08/19/19 00:14:18 (?.?) (901): Initializing a VANILLA shadow for job 5.16
+08/19/19 00:14:18 (5.16) (901): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:14:20 (5.9) (902): File transfer completed successfully.
+08/19/19 00:14:20 (5.9) (902): Job 5.9 terminated: exited with status 0
+08/19/19 00:14:20 (5.9) (902): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:14:20 (5.9) (902): Switching to new job 5.17
+08/19/19 00:14:20 (?.?) (902): Initializing a VANILLA shadow for job 5.17
+08/19/19 00:14:20 (5.17) (902): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:14:21 (5.10) (911): File transfer completed successfully.
+08/19/19 00:14:21 (5.10) (911): Job 5.10 terminated: exited with status 0
+08/19/19 00:14:21 (5.10) (911): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:14:21 (5.10) (911): Switching to new job 5.18
+08/19/19 00:14:21 (?.?) (911): Initializing a VANILLA shadow for job 5.18
+08/19/19 00:14:21 (5.11) (900): File transfer completed successfully.
+08/19/19 00:14:21 (5.18) (911): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:14:23 (5.11) (900): Job 5.11 terminated: exited with status 0
+08/19/19 00:14:23 (5.11) (900): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:14:23 (5.11) (900): Switching to new job 5.19
+08/19/19 00:14:23 (?.?) (900): Initializing a VANILLA shadow for job 5.19
+08/19/19 00:14:23 (5.19) (900): Request to run on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> was ACCEPTED
+08/19/19 00:14:23 (5.16) (901): File transfer completed successfully.
+08/19/19 00:14:26 (5.17) (902): File transfer completed successfully.
+08/19/19 00:14:28 (5.18) (911): File transfer completed successfully.
+08/19/19 00:14:29 (5.19) (900): File transfer completed successfully.
+08/19/19 00:14:30 (5.12) (952): File transfer completed successfully.
+08/19/19 00:14:31 (5.12) (952): Job 5.12 terminated: exited with status 0
+08/19/19 00:14:31 (5.12) (952): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:14:31 (5.12) (952): **** condor_shadow (condor_SHADOW) pid 952 EXITING WITH STATUS 100
+08/19/19 00:14:32 (5.13) (954): File transfer completed successfully.
+08/19/19 00:14:32 (5.13) (954): Job 5.13 terminated: exited with status 0
+08/19/19 00:14:32 (5.13) (954): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:14:32 (5.13) (954): **** condor_shadow (condor_SHADOW) pid 954 EXITING WITH STATUS 100
+08/19/19 00:14:34 (5.14) (962): File transfer completed successfully.
+08/19/19 00:14:34 (5.14) (962): Job 5.14 terminated: exited with status 0
+08/19/19 00:14:34 (5.14) (962): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:14:34 (5.14) (962): **** condor_shadow (condor_SHADOW) pid 962 EXITING WITH STATUS 100
+08/19/19 00:14:35 (5.15) (963): File transfer completed successfully.
+08/19/19 00:14:35 (5.15) (963): Job 5.15 terminated: exited with status 0
+08/19/19 00:14:35 (5.15) (963): Reporting job exit reason 100 and attempting to fetch new job.
+08/19/19 00:14:35 (5.15) (963): **** condor_shadow (condor_SHADOW) pid 963 EXITING WITH STATUS 100
+08/19/19 00:21:06 (5.16) (901): File transfer completed successfully.
+08/19/19 00:21:06 (5.16) (901): Job 5.16 terminated: exited with status 0
+08/19/19 00:21:06 (5.16) (901): **** condor_shadow (condor_SHADOW) pid 901 EXITING WITH STATUS 115
+08/19/19 00:21:08 (5.17) (902): File transfer completed successfully.
+08/19/19 00:21:08 (5.17) (902): Job 5.17 terminated: exited with status 0
+08/19/19 00:21:08 (5.17) (902): **** condor_shadow (condor_SHADOW) pid 902 EXITING WITH STATUS 115
+08/19/19 00:21:09 (5.18) (911): File transfer completed successfully.
+08/19/19 00:21:10 (5.18) (911): Job 5.18 terminated: exited with status 0
+08/19/19 00:21:10 (5.18) (911): **** condor_shadow (condor_SHADOW) pid 911 EXITING WITH STATUS 115
+08/19/19 00:21:11 (5.19) (900): File transfer completed successfully.
+08/19/19 00:21:11 (5.19) (900): Job 5.19 terminated: exited with status 0
+08/19/19 00:21:11 (5.19) (900): **** condor_shadow (condor_SHADOW) pid 900 EXITING WITH STATUS 115

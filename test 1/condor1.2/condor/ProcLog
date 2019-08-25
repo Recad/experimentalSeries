@@ -1,0 +1,928 @@
+07/22/19 05:58:50 : ***********************************
+07/22/19 05:58:50 : * condor_procd STARTING UP
+07/22/19 05:58:50 : * PID = 68
+07/22/19 05:58:50 : * UID = 0
+07/22/19 05:58:50 : * GID = 0
+07/22/19 05:58:50 : ***********************************
+07/22/19 05:58:50 : Procd has a watcher pid and will die if pid 38 dies.
+07/22/19 05:58:50 : Initializing cgroup library.
+07/22/19 05:58:50 : taking a snapshot...
+07/22/19 05:58:50 : method PID: found family 38 for process 38
+07/22/19 05:58:50 : method PARENT: found family 38 for process 68
+07/22/19 05:58:50 : method PARENT: found family 38 for process 68 (already determined)
+07/22/19 05:58:50 : no methods have determined process 1 to be in a monitored family
+07/22/19 05:58:50 : no methods have determined process 39 to be in a monitored family
+07/22/19 05:58:50 : ...snapshot complete
+07/22/19 05:58:50 : PROC_FAMILY_REGISTER_SUBFAMILY
+07/22/19 05:58:50 : taking a snapshot...
+07/22/19 05:58:50 : method PARENT: found family 38 for process 69
+07/22/19 05:58:50 : method PARENT: found family 38 for process 69 (already determined)
+07/22/19 05:58:50 : ...snapshot complete
+07/22/19 05:58:50 : moving process 69 into new subfamily 69
+07/22/19 05:58:50 : new subfamily registered: root = 69, watcher = 38
+07/22/19 05:58:50 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+07/22/19 05:58:52 : PROC_FAMILY_REGISTER_SUBFAMILY
+07/22/19 05:58:52 : taking a snapshot...
+07/22/19 05:58:52 : method PARENT: found family 38 for process 70
+07/22/19 05:58:52 : method PARENT: found family 38 for process 70 (already determined)
+07/22/19 05:58:52 : ...snapshot complete
+07/22/19 05:58:52 : moving process 70 into new subfamily 70
+07/22/19 05:58:52 : new subfamily registered: root = 70, watcher = 38
+07/22/19 05:58:52 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+07/22/19 05:58:53 : PROC_FAMILY_REGISTER_SUBFAMILY
+07/22/19 05:58:53 : taking a snapshot...
+07/22/19 05:58:53 : method PARENT: found family 38 for process 71
+07/22/19 05:58:53 : method PARENT: found family 38 for process 71 (already determined)
+07/22/19 05:58:53 : ...snapshot complete
+07/22/19 05:58:53 : moving process 71 into new subfamily 71
+07/22/19 05:58:53 : new subfamily registered: root = 71, watcher = 38
+07/22/19 05:58:53 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+07/22/19 05:58:54 : PROC_FAMILY_REGISTER_SUBFAMILY
+07/22/19 05:58:54 : taking a snapshot...
+07/22/19 05:58:54 : method PARENT: found family 38 for process 72
+07/22/19 05:58:54 : method PARENT: found family 38 for process 72 (already determined)
+07/22/19 05:58:54 : ...snapshot complete
+07/22/19 05:58:54 : moving process 72 into new subfamily 72
+07/22/19 05:58:54 : new subfamily registered: root = 72, watcher = 38
+07/22/19 05:58:54 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+07/22/19 05:59:50 : taking a snapshot...
+07/22/19 05:59:50 : ProcAPI: new boottime = 1563764543; old_boottime = 1563764543; /proc/stat boottime = 1563764543; /proc/uptime boottime = 1563764544
+07/22/19 05:59:50 : ...snapshot complete
+07/22/19 06:00:50 : taking a snapshot...
+07/22/19 06:00:50 : ProcAPI: new boottime = 1563764543; old_boottime = 1563764543; /proc/stat boottime = 1563764543; /proc/uptime boottime = 1563764544
+07/22/19 06:00:50 : no methods have determined process 80 to be in a monitored family
+07/22/19 06:00:50 : no methods have determined process 83 to be in a monitored family
+07/22/19 06:00:50 : no methods have determined process 84 to be in a monitored family
+07/22/19 06:00:50 : no methods have determined process 86 to be in a monitored family
+07/22/19 06:00:50 : no methods have determined process 131 to be in a monitored family
+07/22/19 06:00:50 : ...snapshot complete
+07/22/19 06:01:50 : taking a snapshot...
+07/22/19 06:01:50 : ProcAPI: new boottime = 1563764543; old_boottime = 1563764543; /proc/stat boottime = 1563764543; /proc/uptime boottime = 1563764543
+07/22/19 06:01:50 : ...snapshot complete
+07/22/19 06:02:50 : taking a snapshot...
+07/22/19 06:02:50 : ProcAPI: new boottime = 1563764543; old_boottime = 1563764543; /proc/stat boottime = 1563764543; /proc/uptime boottime = 1563764543
+07/22/19 06:02:50 : process 131 (not in monitored family) has exited
+07/22/19 06:02:50 : process 86 (not in monitored family) has exited
+07/22/19 06:02:50 : process 84 (not in monitored family) has exited
+07/22/19 06:02:50 : process 83 (not in monitored family) has exited
+07/22/19 06:02:50 : process 80 (not in monitored family) has exited
+07/22/19 06:02:50 : ...snapshot complete
+07/22/19 06:03:50 : taking a snapshot...
+07/22/19 06:03:50 : ProcAPI: new boottime = 1563764543; old_boottime = 1563764543; /proc/stat boottime = 1563764543; /proc/uptime boottime = 1563764543
+07/22/19 06:03:50 : ...snapshot complete
+07/22/19 06:04:50 : taking a snapshot...
+07/22/19 06:04:50 : ProcAPI: new boottime = 1563764543; old_boottime = 1563764543; /proc/stat boottime = 1563764543; /proc/uptime boottime = 1563764543
+07/22/19 06:04:50 : ...snapshot complete
+07/22/19 06:05:50 : taking a snapshot...
+07/22/19 06:05:50 : ProcAPI: new boottime = 1563764543; old_boottime = 1563764543; /proc/stat boottime = 1563764543; /proc/uptime boottime = 1563764543
+07/22/19 06:05:50 : ...snapshot complete
+08/07/19 22:36:28 : ***********************************
+08/07/19 22:36:28 : * condor_procd STARTING UP
+08/07/19 22:36:28 : * PID = 68
+08/07/19 22:36:28 : * UID = 0
+08/07/19 22:36:28 : * GID = 0
+08/07/19 22:36:28 : ***********************************
+08/07/19 22:36:28 : Procd has a watcher pid and will die if pid 38 dies.
+08/07/19 22:36:28 : Initializing cgroup library.
+08/07/19 22:36:28 : taking a snapshot...
+08/07/19 22:36:28 : method PID: found family 38 for process 38
+08/07/19 22:36:28 : method PARENT: found family 38 for process 68
+08/07/19 22:36:28 : method PARENT: found family 38 for process 68 (already determined)
+08/07/19 22:36:28 : no methods have determined process 1 to be in a monitored family
+08/07/19 22:36:28 : no methods have determined process 39 to be in a monitored family
+08/07/19 22:36:28 : ...snapshot complete
+08/07/19 22:36:28 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/07/19 22:36:28 : taking a snapshot...
+08/07/19 22:36:28 : method PARENT: found family 38 for process 69
+08/07/19 22:36:28 : method PARENT: found family 38 for process 69 (already determined)
+08/07/19 22:36:28 : ...snapshot complete
+08/07/19 22:36:28 : moving process 69 into new subfamily 69
+08/07/19 22:36:28 : new subfamily registered: root = 69, watcher = 38
+08/07/19 22:36:28 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/07/19 22:36:30 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/07/19 22:36:30 : taking a snapshot...
+08/07/19 22:36:30 : method PARENT: found family 38 for process 70
+08/07/19 22:36:30 : method PARENT: found family 38 for process 70 (already determined)
+08/07/19 22:36:30 : ...snapshot complete
+08/07/19 22:36:30 : moving process 70 into new subfamily 70
+08/07/19 22:36:30 : new subfamily registered: root = 70, watcher = 38
+08/07/19 22:36:30 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/07/19 22:36:32 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/07/19 22:36:32 : taking a snapshot...
+08/07/19 22:36:32 : method PARENT: found family 38 for process 71
+08/07/19 22:36:32 : method PARENT: found family 38 for process 71 (already determined)
+08/07/19 22:36:32 : ...snapshot complete
+08/07/19 22:36:32 : moving process 71 into new subfamily 71
+08/07/19 22:36:32 : new subfamily registered: root = 71, watcher = 38
+08/07/19 22:36:32 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/07/19 22:36:33 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/07/19 22:36:33 : taking a snapshot...
+08/07/19 22:36:33 : method PARENT: found family 38 for process 72
+08/07/19 22:36:33 : method PARENT: found family 38 for process 72 (already determined)
+08/07/19 22:36:33 : ...snapshot complete
+08/07/19 22:36:33 : moving process 72 into new subfamily 72
+08/07/19 22:36:33 : new subfamily registered: root = 72, watcher = 38
+08/07/19 22:36:33 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/07/19 22:37:28 : taking a snapshot...
+08/07/19 22:37:28 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:37:28 : ...snapshot complete
+08/07/19 22:38:28 : taking a snapshot...
+08/07/19 22:38:28 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:38:28 : ...snapshot complete
+08/07/19 22:39:28 : taking a snapshot...
+08/07/19 22:39:28 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:39:28 : ...snapshot complete
+08/07/19 22:40:28 : taking a snapshot...
+08/07/19 22:40:28 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:40:28 : ...snapshot complete
+08/07/19 22:41:28 : taking a snapshot...
+08/07/19 22:41:28 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:41:28 : ...snapshot complete
+08/07/19 22:42:28 : taking a snapshot...
+08/07/19 22:42:28 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:42:28 : ...snapshot complete
+08/07/19 22:43:28 : taking a snapshot...
+08/07/19 22:43:28 : ProcAPI: new boottime = 1565200019; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200019
+08/07/19 22:43:28 : ...snapshot complete
+08/07/19 22:44:28 : taking a snapshot...
+08/07/19 22:44:28 : ProcAPI: new boottime = 1565200019; old_boottime = 1565200019; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200019
+08/07/19 22:44:28 : ...snapshot complete
+08/07/19 22:45:28 : taking a snapshot...
+08/07/19 22:45:28 : ProcAPI: new boottime = 1565200019; old_boottime = 1565200019; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200019
+08/07/19 22:45:28 : ...snapshot complete
+08/07/19 22:46:28 : taking a snapshot...
+08/07/19 22:46:28 : ProcAPI: new boottime = 1565200019; old_boottime = 1565200019; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200019
+08/07/19 22:46:28 : ...snapshot complete
+08/07/19 22:47:28 : taking a snapshot...
+08/07/19 22:47:28 : ProcAPI: new boottime = 1565200019; old_boottime = 1565200019; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200019
+08/07/19 22:47:28 : ...snapshot complete
+08/07/19 22:48:28 : taking a snapshot...
+08/07/19 22:48:28 : ProcAPI: new boottime = 1565200019; old_boottime = 1565200019; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200019
+08/07/19 22:48:28 : no methods have determined process 105 to be in a monitored family
+08/07/19 22:48:28 : no methods have determined process 106 to be in a monitored family
+08/07/19 22:48:28 : ...snapshot complete
+08/07/19 22:49:29 : taking a snapshot...
+08/07/19 22:49:29 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200019; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:49:29 : ...snapshot complete
+08/07/19 22:50:29 : taking a snapshot...
+08/07/19 22:50:29 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:50:29 : process 106 (not in monitored family) has exited
+08/07/19 22:50:29 : process 105 (not in monitored family) has exited
+08/07/19 22:50:29 : ...snapshot complete
+08/07/19 22:51:29 : taking a snapshot...
+08/07/19 22:51:29 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:51:29 : no methods have determined process 125 to be in a monitored family
+08/07/19 22:51:29 : no methods have determined process 126 to be in a monitored family
+08/07/19 22:51:29 : no methods have determined process 132 to be in a monitored family
+08/07/19 22:51:29 : ...snapshot complete
+08/07/19 22:52:29 : taking a snapshot...
+08/07/19 22:52:29 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:52:29 : process 132 (not in monitored family) has exited
+08/07/19 22:52:29 : no methods have determined process 136 to be in a monitored family
+08/07/19 22:52:29 : ...snapshot complete
+08/07/19 22:53:29 : taking a snapshot...
+08/07/19 22:53:29 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:53:29 : process 136 (not in monitored family) has exited
+08/07/19 22:53:29 : ...snapshot complete
+08/07/19 22:54:29 : taking a snapshot...
+08/07/19 22:54:29 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:54:29 : no methods have determined process 143 to be in a monitored family
+08/07/19 22:54:29 : ...snapshot complete
+08/07/19 22:55:29 : taking a snapshot...
+08/07/19 22:55:29 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:55:29 : process 143 (not in monitored family) has exited
+08/07/19 22:55:29 : ...snapshot complete
+08/07/19 22:56:29 : taking a snapshot...
+08/07/19 22:56:29 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 22:56:29 : ...snapshot complete
+08/07/19 23:34:17 : ***********************************
+08/07/19 23:34:17 : * condor_procd STARTING UP
+08/07/19 23:34:17 : * PID = 68
+08/07/19 23:34:17 : * UID = 0
+08/07/19 23:34:17 : * GID = 0
+08/07/19 23:34:17 : ***********************************
+08/07/19 23:34:17 : Procd has a watcher pid and will die if pid 38 dies.
+08/07/19 23:34:17 : Initializing cgroup library.
+08/07/19 23:34:17 : taking a snapshot...
+08/07/19 23:34:17 : method PID: found family 38 for process 38
+08/07/19 23:34:17 : method PARENT: found family 38 for process 68
+08/07/19 23:34:17 : method PARENT: found family 38 for process 68 (already determined)
+08/07/19 23:34:17 : no methods have determined process 1 to be in a monitored family
+08/07/19 23:34:17 : no methods have determined process 39 to be in a monitored family
+08/07/19 23:34:17 : ...snapshot complete
+08/07/19 23:34:17 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/07/19 23:34:17 : taking a snapshot...
+08/07/19 23:34:17 : method PARENT: found family 38 for process 69
+08/07/19 23:34:17 : method PARENT: found family 38 for process 69 (already determined)
+08/07/19 23:34:17 : ...snapshot complete
+08/07/19 23:34:17 : moving process 69 into new subfamily 69
+08/07/19 23:34:17 : new subfamily registered: root = 69, watcher = 38
+08/07/19 23:34:17 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/07/19 23:34:18 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/07/19 23:34:18 : taking a snapshot...
+08/07/19 23:34:18 : method PARENT: found family 38 for process 70
+08/07/19 23:34:18 : method PARENT: found family 38 for process 70 (already determined)
+08/07/19 23:34:18 : ...snapshot complete
+08/07/19 23:34:18 : moving process 70 into new subfamily 70
+08/07/19 23:34:18 : new subfamily registered: root = 70, watcher = 38
+08/07/19 23:34:18 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/07/19 23:34:20 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/07/19 23:34:20 : taking a snapshot...
+08/07/19 23:34:20 : method PARENT: found family 38 for process 71
+08/07/19 23:34:20 : method PARENT: found family 38 for process 71 (already determined)
+08/07/19 23:34:20 : ...snapshot complete
+08/07/19 23:34:20 : moving process 71 into new subfamily 71
+08/07/19 23:34:20 : new subfamily registered: root = 71, watcher = 38
+08/07/19 23:34:20 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/07/19 23:34:21 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/07/19 23:34:21 : taking a snapshot...
+08/07/19 23:34:21 : method PARENT: found family 38 for process 72
+08/07/19 23:34:21 : method PARENT: found family 38 for process 72 (already determined)
+08/07/19 23:34:21 : ...snapshot complete
+08/07/19 23:34:21 : moving process 72 into new subfamily 72
+08/07/19 23:34:21 : new subfamily registered: root = 72, watcher = 38
+08/07/19 23:34:21 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/07/19 23:35:17 : taking a snapshot...
+08/07/19 23:35:17 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 23:35:17 : no methods have determined process 78 to be in a monitored family
+08/07/19 23:35:17 : ...snapshot complete
+08/07/19 23:36:17 : taking a snapshot...
+08/07/19 23:36:17 : ProcAPI: new boottime = 1565200020; old_boottime = 1565200020; /proc/stat boottime = 1565200020; /proc/uptime boottime = 1565200020
+08/07/19 23:36:17 : process 78 (not in monitored family) has exited
+08/07/19 23:36:17 : ...snapshot complete
+08/18/19 21:31:19 : ***********************************
+08/18/19 21:31:19 : * condor_procd STARTING UP
+08/18/19 21:31:19 : * PID = 114
+08/18/19 21:31:19 : * UID = 0
+08/18/19 21:31:19 : * GID = 0
+08/18/19 21:31:19 : ***********************************
+08/18/19 21:31:19 : Procd has a watcher pid and will die if pid 84 dies.
+08/18/19 21:31:19 : Initializing cgroup library.
+08/18/19 21:31:19 : taking a snapshot...
+08/18/19 21:31:19 : method PID: found family 84 for process 84
+08/18/19 21:31:19 : method PARENT: found family 84 for process 114
+08/18/19 21:31:19 : method PARENT: found family 84 for process 114 (already determined)
+08/18/19 21:31:19 : no methods have determined process 1 to be in a monitored family
+08/18/19 21:31:19 : no methods have determined process 71 to be in a monitored family
+08/18/19 21:31:19 : no methods have determined process 76 to be in a monitored family
+08/18/19 21:31:19 : no methods have determined process 77 to be in a monitored family
+08/18/19 21:31:19 : no methods have determined process 85 to be in a monitored family
+08/18/19 21:31:19 : ...snapshot complete
+08/18/19 21:31:19 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/18/19 21:31:19 : taking a snapshot...
+08/18/19 21:31:19 : method PARENT: found family 84 for process 115
+08/18/19 21:31:19 : method PARENT: found family 84 for process 115 (already determined)
+08/18/19 21:31:19 : ...snapshot complete
+08/18/19 21:31:19 : moving process 115 into new subfamily 115
+08/18/19 21:31:19 : new subfamily registered: root = 115, watcher = 84
+08/18/19 21:31:19 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/18/19 21:31:20 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/18/19 21:31:20 : taking a snapshot...
+08/18/19 21:31:20 : method PARENT: found family 84 for process 116
+08/18/19 21:31:20 : method PARENT: found family 84 for process 116 (already determined)
+08/18/19 21:31:20 : ...snapshot complete
+08/18/19 21:31:20 : moving process 116 into new subfamily 116
+08/18/19 21:31:20 : new subfamily registered: root = 116, watcher = 84
+08/18/19 21:31:20 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/18/19 21:31:22 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/18/19 21:31:22 : taking a snapshot...
+08/18/19 21:31:22 : method PARENT: found family 84 for process 117
+08/18/19 21:31:22 : method PARENT: found family 84 for process 117 (already determined)
+08/18/19 21:31:22 : ...snapshot complete
+08/18/19 21:31:22 : moving process 117 into new subfamily 117
+08/18/19 21:31:22 : new subfamily registered: root = 117, watcher = 84
+08/18/19 21:31:22 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/18/19 21:31:23 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/18/19 21:31:23 : taking a snapshot...
+08/18/19 21:31:23 : method PARENT: found family 84 for process 118
+08/18/19 21:31:23 : method PARENT: found family 84 for process 118 (already determined)
+08/18/19 21:31:23 : ...snapshot complete
+08/18/19 21:31:23 : moving process 118 into new subfamily 118
+08/18/19 21:31:23 : new subfamily registered: root = 118, watcher = 84
+08/18/19 21:31:23 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/18/19 21:32:19 : taking a snapshot...
+08/18/19 21:32:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 21:32:19 : ...snapshot complete
+08/18/19 21:33:19 : taking a snapshot...
+08/18/19 21:33:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 21:33:19 : ...snapshot complete
+08/18/19 21:34:19 : taking a snapshot...
+08/18/19 21:34:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:34:19 : no methods have determined process 122 to be in a monitored family
+08/18/19 21:34:19 : ...snapshot complete
+08/18/19 21:35:19 : taking a snapshot...
+08/18/19 21:35:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:35:19 : process 122 (not in monitored family) has exited
+08/18/19 21:35:19 : ...snapshot complete
+08/18/19 21:36:19 : taking a snapshot...
+08/18/19 21:36:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:36:19 : ...snapshot complete
+08/18/19 21:37:19 : taking a snapshot...
+08/18/19 21:37:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:37:19 : no methods have determined process 124 to be in a monitored family
+08/18/19 21:37:19 : ...snapshot complete
+08/18/19 21:38:19 : taking a snapshot...
+08/18/19 21:38:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:38:19 : process 124 (not in monitored family) has exited
+08/18/19 21:38:19 : ...snapshot complete
+08/18/19 21:39:19 : taking a snapshot...
+08/18/19 21:39:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:39:19 : ...snapshot complete
+08/18/19 21:40:19 : taking a snapshot...
+08/18/19 21:40:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:40:19 : ...snapshot complete
+08/18/19 21:41:19 : taking a snapshot...
+08/18/19 21:41:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:41:19 : no methods have determined process 126 to be in a monitored family
+08/18/19 21:41:19 : ...snapshot complete
+08/18/19 21:42:19 : taking a snapshot...
+08/18/19 21:42:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:42:19 : process 126 (not in monitored family) has exited
+08/18/19 21:42:19 : ...snapshot complete
+08/18/19 21:43:19 : taking a snapshot...
+08/18/19 21:43:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:43:19 : no methods have determined process 128 to be in a monitored family
+08/18/19 21:43:19 : ...snapshot complete
+08/18/19 21:44:19 : taking a snapshot...
+08/18/19 21:44:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:44:19 : ...snapshot complete
+08/18/19 21:45:19 : taking a snapshot...
+08/18/19 21:45:19 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 21:45:19 : ...snapshot complete
+08/18/19 21:46:20 : taking a snapshot...
+08/18/19 21:46:20 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 21:46:20 : ...snapshot complete
+08/18/19 21:59:58 : ***********************************
+08/18/19 21:59:58 : * condor_procd STARTING UP
+08/18/19 21:59:58 : * PID = 109
+08/18/19 21:59:58 : * UID = 0
+08/18/19 21:59:58 : * GID = 0
+08/18/19 21:59:58 : ***********************************
+08/18/19 21:59:58 : Procd has a watcher pid and will die if pid 79 dies.
+08/18/19 21:59:58 : Initializing cgroup library.
+08/18/19 21:59:58 : taking a snapshot...
+08/18/19 21:59:58 : method PID: found family 79 for process 79
+08/18/19 21:59:58 : method PARENT: found family 79 for process 109
+08/18/19 21:59:58 : method PARENT: found family 79 for process 109 (already determined)
+08/18/19 21:59:58 : no methods have determined process 1 to be in a monitored family
+08/18/19 21:59:58 : no methods have determined process 58 to be in a monitored family
+08/18/19 21:59:58 : no methods have determined process 75 to be in a monitored family
+08/18/19 21:59:58 : no methods have determined process 76 to be in a monitored family
+08/18/19 21:59:58 : no methods have determined process 80 to be in a monitored family
+08/18/19 21:59:58 : ...snapshot complete
+08/18/19 21:59:58 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/18/19 21:59:58 : taking a snapshot...
+08/18/19 21:59:58 : method PARENT: found family 79 for process 110
+08/18/19 21:59:58 : method PARENT: found family 79 for process 110 (already determined)
+08/18/19 21:59:58 : ...snapshot complete
+08/18/19 21:59:58 : moving process 110 into new subfamily 110
+08/18/19 21:59:58 : new subfamily registered: root = 110, watcher = 79
+08/18/19 21:59:58 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/18/19 21:59:59 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/18/19 21:59:59 : taking a snapshot...
+08/18/19 21:59:59 : method PARENT: found family 79 for process 111
+08/18/19 21:59:59 : method PARENT: found family 79 for process 111 (already determined)
+08/18/19 21:59:59 : ...snapshot complete
+08/18/19 21:59:59 : moving process 111 into new subfamily 111
+08/18/19 21:59:59 : new subfamily registered: root = 111, watcher = 79
+08/18/19 21:59:59 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/18/19 22:00:01 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/18/19 22:00:01 : taking a snapshot...
+08/18/19 22:00:01 : method PARENT: found family 79 for process 112
+08/18/19 22:00:01 : method PARENT: found family 79 for process 112 (already determined)
+08/18/19 22:00:01 : ...snapshot complete
+08/18/19 22:00:01 : moving process 112 into new subfamily 112
+08/18/19 22:00:01 : new subfamily registered: root = 112, watcher = 79
+08/18/19 22:00:01 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/18/19 22:00:02 : PROC_FAMILY_REGISTER_SUBFAMILY
+08/18/19 22:00:02 : taking a snapshot...
+08/18/19 22:00:02 : method PARENT: found family 79 for process 113
+08/18/19 22:00:02 : method PARENT: found family 79 for process 113 (already determined)
+08/18/19 22:00:02 : ...snapshot complete
+08/18/19 22:00:02 : moving process 113 into new subfamily 113
+08/18/19 22:00:02 : new subfamily registered: root = 113, watcher = 79
+08/18/19 22:00:02 : PROC_FAMILY_TRACK_FAMILY_VIA_ENVIRONMENT
+08/18/19 22:00:58 : taking a snapshot...
+08/18/19 22:00:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:00:58 : ...snapshot complete
+08/18/19 22:01:58 : taking a snapshot...
+08/18/19 22:01:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:01:58 : ...snapshot complete
+08/18/19 22:02:58 : taking a snapshot...
+08/18/19 22:02:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:02:58 : ...snapshot complete
+08/18/19 22:03:58 : taking a snapshot...
+08/18/19 22:03:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:03:58 : no methods have determined process 133 to be in a monitored family
+08/18/19 22:03:58 : ...snapshot complete
+08/18/19 22:04:58 : taking a snapshot...
+08/18/19 22:04:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:04:58 : process 133 (not in monitored family) has exited
+08/18/19 22:04:58 : method ENV: found family 113 for process 146
+08/18/19 22:04:58 : method PARENT: found family 113 for process 146 (already determined)
+08/18/19 22:04:58 : no methods have determined process 139 to be in a monitored family
+08/18/19 22:04:58 : no methods have determined process 140 to be in a monitored family
+08/18/19 22:04:58 : ...snapshot complete
+08/18/19 22:05:58 : taking a snapshot...
+08/18/19 22:05:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:05:58 : process 146 (of family 113) has exited
+08/18/19 22:05:58 : no methods have determined process 255 to be in a monitored family
+08/18/19 22:05:58 : ...snapshot complete
+08/18/19 22:06:58 : taking a snapshot...
+08/18/19 22:06:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:06:58 : process 255 (not in monitored family) has exited
+08/18/19 22:06:58 : method ENV: found family 113 for process 263
+08/18/19 22:06:58 : method ENV: found family 113 for process 264
+08/18/19 22:06:58 : method ENV: found family 113 for process 267
+08/18/19 22:06:58 : method ENV: found family 113 for process 270
+08/18/19 22:06:58 : method PARENT: found family 113 for process 263 (already determined)
+08/18/19 22:06:58 : method PARENT: found family 113 for process 264 (already determined)
+08/18/19 22:06:58 : method PARENT: found family 113 for process 267 (already determined)
+08/18/19 22:06:58 : method PARENT: found family 113 for process 270 (already determined)
+08/18/19 22:06:58 : ...snapshot complete
+08/18/19 22:07:58 : taking a snapshot...
+08/18/19 22:07:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:07:58 : ...snapshot complete
+08/18/19 22:08:58 : taking a snapshot...
+08/18/19 22:08:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:08:58 : ...snapshot complete
+08/18/19 22:09:58 : taking a snapshot...
+08/18/19 22:09:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:09:58 : ...snapshot complete
+08/18/19 22:10:58 : taking a snapshot...
+08/18/19 22:10:58 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:10:58 : ...snapshot complete
+08/18/19 22:11:59 : taking a snapshot...
+08/18/19 22:11:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:11:59 : ...snapshot complete
+08/18/19 22:12:59 : taking a snapshot...
+08/18/19 22:12:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:12:59 : ...snapshot complete
+08/18/19 22:13:59 : taking a snapshot...
+08/18/19 22:13:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:13:59 : process 270 (of family 113) has exited
+08/18/19 22:13:59 : process 267 (of family 113) has exited
+08/18/19 22:13:59 : ...snapshot complete
+08/18/19 22:14:59 : taking a snapshot...
+08/18/19 22:14:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:14:59 : ...snapshot complete
+08/18/19 22:15:59 : taking a snapshot...
+08/18/19 22:15:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:15:59 : method PARENT: found family 113 for process 613
+08/18/19 22:15:59 : method PARENT: found family 113 for process 613 (already determined)
+08/18/19 22:15:59 : no methods have determined process 612 to be in a monitored family
+08/18/19 22:15:59 : ...snapshot complete
+08/18/19 22:16:59 : taking a snapshot...
+08/18/19 22:16:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:16:59 : process 613 (of family 113) has exited
+08/18/19 22:16:59 : process 612 (not in monitored family) has exited
+08/18/19 22:16:59 : ...snapshot complete
+08/18/19 22:17:59 : taking a snapshot...
+08/18/19 22:17:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:17:59 : process 264 (of family 113) has exited
+08/18/19 22:17:59 : process 263 (of family 113) has exited
+08/18/19 22:17:59 : ...snapshot complete
+08/18/19 22:18:59 : taking a snapshot...
+08/18/19 22:18:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:18:59 : ...snapshot complete
+08/18/19 22:19:59 : taking a snapshot...
+08/18/19 22:19:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:19:59 : ...snapshot complete
+08/18/19 22:20:59 : taking a snapshot...
+08/18/19 22:20:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:20:59 : ...snapshot complete
+08/18/19 22:21:59 : taking a snapshot...
+08/18/19 22:21:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:21:59 : ...snapshot complete
+08/18/19 22:22:59 : taking a snapshot...
+08/18/19 22:22:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:22:59 : ...snapshot complete
+08/18/19 22:23:59 : taking a snapshot...
+08/18/19 22:23:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:23:59 : ...snapshot complete
+08/18/19 22:24:59 : taking a snapshot...
+08/18/19 22:24:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:24:59 : ...snapshot complete
+08/18/19 22:25:59 : taking a snapshot...
+08/18/19 22:25:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:25:59 : ...snapshot complete
+08/18/19 22:26:59 : taking a snapshot...
+08/18/19 22:26:59 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:26:59 : ...snapshot complete
+08/18/19 22:28:00 : taking a snapshot...
+08/18/19 22:28:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:28:00 : ...snapshot complete
+08/18/19 22:29:00 : taking a snapshot...
+08/18/19 22:29:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:29:00 : ...snapshot complete
+08/18/19 22:30:00 : taking a snapshot...
+08/18/19 22:30:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:30:00 : ...snapshot complete
+08/18/19 22:31:00 : taking a snapshot...
+08/18/19 22:31:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:31:00 : ...snapshot complete
+08/18/19 22:32:00 : taking a snapshot...
+08/18/19 22:32:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:32:00 : ...snapshot complete
+08/18/19 22:33:00 : taking a snapshot...
+08/18/19 22:33:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:33:00 : ...snapshot complete
+08/18/19 22:34:00 : taking a snapshot...
+08/18/19 22:34:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:34:00 : ...snapshot complete
+08/18/19 22:35:00 : taking a snapshot...
+08/18/19 22:35:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:35:00 : ...snapshot complete
+08/18/19 22:36:00 : taking a snapshot...
+08/18/19 22:36:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:36:00 : ...snapshot complete
+08/18/19 22:37:00 : taking a snapshot...
+08/18/19 22:37:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:37:00 : ...snapshot complete
+08/18/19 22:38:00 : taking a snapshot...
+08/18/19 22:38:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:38:00 : ...snapshot complete
+08/18/19 22:39:00 : taking a snapshot...
+08/18/19 22:39:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:39:00 : ...snapshot complete
+08/18/19 22:40:00 : taking a snapshot...
+08/18/19 22:40:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:40:00 : ...snapshot complete
+08/18/19 22:41:00 : taking a snapshot...
+08/18/19 22:41:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:41:00 : ...snapshot complete
+08/18/19 22:42:00 : taking a snapshot...
+08/18/19 22:42:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:42:00 : ...snapshot complete
+08/18/19 22:43:00 : taking a snapshot...
+08/18/19 22:43:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:43:00 : ...snapshot complete
+08/18/19 22:44:00 : taking a snapshot...
+08/18/19 22:44:00 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:44:00 : ...snapshot complete
+08/18/19 22:45:01 : taking a snapshot...
+08/18/19 22:45:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:45:01 : ...snapshot complete
+08/18/19 22:46:01 : taking a snapshot...
+08/18/19 22:46:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:46:01 : no methods have determined process 718 to be in a monitored family
+08/18/19 22:46:01 : ...snapshot complete
+08/18/19 22:47:01 : taking a snapshot...
+08/18/19 22:47:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:47:01 : process 718 (not in monitored family) has exited
+08/18/19 22:47:01 : ...snapshot complete
+08/18/19 22:48:01 : taking a snapshot...
+08/18/19 22:48:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 22:48:01 : ...snapshot complete
+08/18/19 22:49:01 : taking a snapshot...
+08/18/19 22:49:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:49:01 : ...snapshot complete
+08/18/19 22:50:01 : taking a snapshot...
+08/18/19 22:50:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:50:01 : no methods have determined process 727 to be in a monitored family
+08/18/19 22:50:01 : ...snapshot complete
+08/18/19 22:51:01 : taking a snapshot...
+08/18/19 22:51:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:51:01 : process 727 (not in monitored family) has exited
+08/18/19 22:51:01 : ...snapshot complete
+08/18/19 22:52:01 : taking a snapshot...
+08/18/19 22:52:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:52:01 : no methods have determined process 732 to be in a monitored family
+08/18/19 22:52:01 : ...snapshot complete
+08/18/19 22:53:01 : taking a snapshot...
+08/18/19 22:53:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:53:01 : ...snapshot complete
+08/18/19 22:54:01 : taking a snapshot...
+08/18/19 22:54:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:54:01 : process 732 (not in monitored family) has exited
+08/18/19 22:54:01 : ...snapshot complete
+08/18/19 22:55:01 : taking a snapshot...
+08/18/19 22:55:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:55:01 : ...snapshot complete
+08/18/19 22:56:01 : taking a snapshot...
+08/18/19 22:56:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:56:01 : ...snapshot complete
+08/18/19 22:57:01 : taking a snapshot...
+08/18/19 22:57:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:57:01 : ...snapshot complete
+08/18/19 22:58:01 : taking a snapshot...
+08/18/19 22:58:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:58:01 : ...snapshot complete
+08/18/19 22:59:01 : taking a snapshot...
+08/18/19 22:59:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 22:59:01 : ...snapshot complete
+08/18/19 23:00:01 : taking a snapshot...
+08/18/19 23:00:01 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:00:01 : ...snapshot complete
+08/18/19 23:01:02 : taking a snapshot...
+08/18/19 23:01:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:01:02 : ...snapshot complete
+08/18/19 23:02:02 : taking a snapshot...
+08/18/19 23:02:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:02:02 : ...snapshot complete
+08/18/19 23:03:02 : taking a snapshot...
+08/18/19 23:03:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:03:02 : ...snapshot complete
+08/18/19 23:04:02 : taking a snapshot...
+08/18/19 23:04:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:04:02 : ...snapshot complete
+08/18/19 23:05:02 : taking a snapshot...
+08/18/19 23:05:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:05:02 : ...snapshot complete
+08/18/19 23:06:02 : taking a snapshot...
+08/18/19 23:06:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:06:02 : ...snapshot complete
+08/18/19 23:07:02 : taking a snapshot...
+08/18/19 23:07:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:07:02 : ...snapshot complete
+08/18/19 23:08:02 : taking a snapshot...
+08/18/19 23:08:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:08:02 : ...snapshot complete
+08/18/19 23:09:02 : taking a snapshot...
+08/18/19 23:09:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:09:02 : ...snapshot complete
+08/18/19 23:10:02 : taking a snapshot...
+08/18/19 23:10:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:10:02 : ...snapshot complete
+08/18/19 23:11:02 : taking a snapshot...
+08/18/19 23:11:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:11:02 : ...snapshot complete
+08/18/19 23:12:02 : taking a snapshot...
+08/18/19 23:12:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:12:02 : ...snapshot complete
+08/18/19 23:13:02 : taking a snapshot...
+08/18/19 23:13:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:13:02 : ...snapshot complete
+08/18/19 23:14:02 : taking a snapshot...
+08/18/19 23:14:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:14:02 : ...snapshot complete
+08/18/19 23:15:02 : taking a snapshot...
+08/18/19 23:15:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:15:02 : ...snapshot complete
+08/18/19 23:16:02 : taking a snapshot...
+08/18/19 23:16:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:16:02 : ...snapshot complete
+08/18/19 23:17:02 : taking a snapshot...
+08/18/19 23:17:02 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:17:02 : ...snapshot complete
+08/18/19 23:18:03 : taking a snapshot...
+08/18/19 23:18:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:18:03 : ...snapshot complete
+08/18/19 23:19:03 : taking a snapshot...
+08/18/19 23:19:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:19:03 : ...snapshot complete
+08/18/19 23:20:03 : taking a snapshot...
+08/18/19 23:20:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:20:03 : ...snapshot complete
+08/18/19 23:21:03 : taking a snapshot...
+08/18/19 23:21:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:21:03 : ...snapshot complete
+08/18/19 23:22:03 : taking a snapshot...
+08/18/19 23:22:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:22:03 : ...snapshot complete
+08/18/19 23:23:03 : taking a snapshot...
+08/18/19 23:23:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:23:03 : ...snapshot complete
+08/18/19 23:24:03 : taking a snapshot...
+08/18/19 23:24:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:24:03 : ...snapshot complete
+08/18/19 23:25:03 : taking a snapshot...
+08/18/19 23:25:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:25:03 : ...snapshot complete
+08/18/19 23:26:03 : taking a snapshot...
+08/18/19 23:26:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:26:03 : ...snapshot complete
+08/18/19 23:27:03 : taking a snapshot...
+08/18/19 23:27:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:27:03 : ...snapshot complete
+08/18/19 23:28:03 : taking a snapshot...
+08/18/19 23:28:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:28:03 : ...snapshot complete
+08/18/19 23:29:03 : taking a snapshot...
+08/18/19 23:29:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:29:03 : ...snapshot complete
+08/18/19 23:30:03 : taking a snapshot...
+08/18/19 23:30:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:30:03 : ...snapshot complete
+08/18/19 23:31:03 : taking a snapshot...
+08/18/19 23:31:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:31:03 : ...snapshot complete
+08/18/19 23:32:03 : taking a snapshot...
+08/18/19 23:32:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:32:03 : ...snapshot complete
+08/18/19 23:33:03 : taking a snapshot...
+08/18/19 23:33:03 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:33:03 : ...snapshot complete
+08/18/19 23:34:04 : taking a snapshot...
+08/18/19 23:34:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:34:04 : ...snapshot complete
+08/18/19 23:35:04 : taking a snapshot...
+08/18/19 23:35:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:35:04 : ...snapshot complete
+08/18/19 23:36:04 : taking a snapshot...
+08/18/19 23:36:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:36:04 : ...snapshot complete
+08/18/19 23:37:04 : taking a snapshot...
+08/18/19 23:37:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:37:04 : ...snapshot complete
+08/18/19 23:38:04 : taking a snapshot...
+08/18/19 23:38:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:38:04 : ...snapshot complete
+08/18/19 23:39:04 : taking a snapshot...
+08/18/19 23:39:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:39:04 : ...snapshot complete
+08/18/19 23:40:04 : taking a snapshot...
+08/18/19 23:40:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:40:04 : ...snapshot complete
+08/18/19 23:41:04 : taking a snapshot...
+08/18/19 23:41:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:41:04 : ...snapshot complete
+08/18/19 23:42:04 : taking a snapshot...
+08/18/19 23:42:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:42:04 : ...snapshot complete
+08/18/19 23:43:04 : taking a snapshot...
+08/18/19 23:43:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:43:04 : ...snapshot complete
+08/18/19 23:44:04 : taking a snapshot...
+08/18/19 23:44:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:44:04 : ...snapshot complete
+08/18/19 23:45:04 : taking a snapshot...
+08/18/19 23:45:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:45:04 : ...snapshot complete
+08/18/19 23:46:04 : taking a snapshot...
+08/18/19 23:46:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:46:04 : ...snapshot complete
+08/18/19 23:47:04 : taking a snapshot...
+08/18/19 23:47:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:47:04 : ...snapshot complete
+08/18/19 23:48:04 : taking a snapshot...
+08/18/19 23:48:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:48:04 : ...snapshot complete
+08/18/19 23:49:04 : taking a snapshot...
+08/18/19 23:49:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:49:04 : ...snapshot complete
+08/18/19 23:50:04 : taking a snapshot...
+08/18/19 23:50:04 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:50:04 : ...snapshot complete
+08/18/19 23:51:05 : taking a snapshot...
+08/18/19 23:51:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:51:05 : ...snapshot complete
+08/18/19 23:52:05 : taking a snapshot...
+08/18/19 23:52:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:52:05 : ...snapshot complete
+08/18/19 23:53:05 : taking a snapshot...
+08/18/19 23:53:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:53:05 : ...snapshot complete
+08/18/19 23:54:05 : taking a snapshot...
+08/18/19 23:54:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/18/19 23:54:05 : ...snapshot complete
+08/18/19 23:55:05 : taking a snapshot...
+08/18/19 23:55:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:55:05 : ...snapshot complete
+08/18/19 23:56:05 : taking a snapshot...
+08/18/19 23:56:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:56:05 : ...snapshot complete
+08/18/19 23:57:05 : taking a snapshot...
+08/18/19 23:57:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:57:05 : ...snapshot complete
+08/18/19 23:58:05 : taking a snapshot...
+08/18/19 23:58:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:58:05 : ...snapshot complete
+08/18/19 23:59:05 : taking a snapshot...
+08/18/19 23:59:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/18/19 23:59:05 : ...snapshot complete
+08/19/19 00:00:05 : taking a snapshot...
+08/19/19 00:00:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:00:05 : ...snapshot complete
+08/19/19 00:01:05 : taking a snapshot...
+08/19/19 00:01:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:01:05 : method ENV: found family 113 for process 900
+08/19/19 00:01:05 : method ENV: found family 113 for process 901
+08/19/19 00:01:05 : method ENV: found family 113 for process 902
+08/19/19 00:01:05 : method ENV: found family 113 for process 911
+08/19/19 00:01:05 : method ENV: found family 113 for process 952
+08/19/19 00:01:05 : method ENV: found family 113 for process 954
+08/19/19 00:01:05 : method ENV: found family 113 for process 962
+08/19/19 00:01:05 : method ENV: found family 113 for process 963
+08/19/19 00:01:05 : method PARENT: found family 113 for process 900 (already determined)
+08/19/19 00:01:05 : method PARENT: found family 113 for process 901 (already determined)
+08/19/19 00:01:05 : method PARENT: found family 113 for process 902 (already determined)
+08/19/19 00:01:05 : method PARENT: found family 113 for process 911 (already determined)
+08/19/19 00:01:05 : method PARENT: found family 113 for process 952 (already determined)
+08/19/19 00:01:05 : method PARENT: found family 113 for process 954 (already determined)
+08/19/19 00:01:05 : method PARENT: found family 113 for process 962 (already determined)
+08/19/19 00:01:05 : method PARENT: found family 113 for process 963 (already determined)
+08/19/19 00:01:05 : ...snapshot complete
+08/19/19 00:02:05 : taking a snapshot...
+08/19/19 00:02:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:02:05 : ...snapshot complete
+08/19/19 00:03:05 : taking a snapshot...
+08/19/19 00:03:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:03:05 : ...snapshot complete
+08/19/19 00:04:05 : taking a snapshot...
+08/19/19 00:04:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:04:05 : ...snapshot complete
+08/19/19 00:05:05 : taking a snapshot...
+08/19/19 00:05:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:05:05 : ...snapshot complete
+08/19/19 00:06:05 : taking a snapshot...
+08/19/19 00:06:05 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:06:05 : ...snapshot complete
+08/19/19 00:07:06 : taking a snapshot...
+08/19/19 00:07:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/19/19 00:07:06 : ...snapshot complete
+08/19/19 00:08:06 : taking a snapshot...
+08/19/19 00:08:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/19/19 00:08:06 : ...snapshot complete
+08/19/19 00:09:06 : taking a snapshot...
+08/19/19 00:09:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/19/19 00:09:06 : ...snapshot complete
+08/19/19 00:10:06 : taking a snapshot...
+08/19/19 00:10:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/19/19 00:10:06 : ...snapshot complete
+08/19/19 00:11:06 : taking a snapshot...
+08/19/19 00:11:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/19/19 00:11:06 : ...snapshot complete
+08/19/19 00:12:06 : taking a snapshot...
+08/19/19 00:12:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:12:06 : ...snapshot complete
+08/19/19 00:13:06 : taking a snapshot...
+08/19/19 00:13:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:13:06 : ...snapshot complete
+08/19/19 00:14:06 : taking a snapshot...
+08/19/19 00:14:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:14:06 : ...snapshot complete
+08/19/19 00:15:06 : taking a snapshot...
+08/19/19 00:15:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:15:06 : process 963 (of family 113) has exited
+08/19/19 00:15:06 : process 962 (of family 113) has exited
+08/19/19 00:15:06 : process 954 (of family 113) has exited
+08/19/19 00:15:06 : process 952 (of family 113) has exited
+08/19/19 00:15:06 : ...snapshot complete
+08/19/19 00:16:06 : taking a snapshot...
+08/19/19 00:16:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:16:06 : ...snapshot complete
+08/19/19 00:17:06 : taking a snapshot...
+08/19/19 00:17:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:17:06 : ...snapshot complete
+08/19/19 00:18:06 : taking a snapshot...
+08/19/19 00:18:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:18:06 : ...snapshot complete
+08/19/19 00:19:06 : taking a snapshot...
+08/19/19 00:19:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:19:06 : ...snapshot complete
+08/19/19 00:20:06 : taking a snapshot...
+08/19/19 00:20:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:20:06 : ...snapshot complete
+08/19/19 00:21:06 : taking a snapshot...
+08/19/19 00:21:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:21:06 : process 901 (of family 113) has exited
+08/19/19 00:21:06 : ...snapshot complete
+08/19/19 00:22:06 : taking a snapshot...
+08/19/19 00:22:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:22:06 : process 911 (of family 113) has exited
+08/19/19 00:22:06 : process 902 (of family 113) has exited
+08/19/19 00:22:06 : process 900 (of family 113) has exited
+08/19/19 00:22:06 : ...snapshot complete
+08/19/19 00:23:06 : taking a snapshot...
+08/19/19 00:23:06 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:23:06 : ...snapshot complete
+08/19/19 00:24:07 : taking a snapshot...
+08/19/19 00:24:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/19/19 00:24:07 : ...snapshot complete
+08/19/19 00:25:07 : taking a snapshot...
+08/19/19 00:25:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/19/19 00:25:07 : ...snapshot complete
+08/19/19 00:26:07 : taking a snapshot...
+08/19/19 00:26:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/19/19 00:26:07 : ...snapshot complete
+08/19/19 00:27:07 : taking a snapshot...
+08/19/19 00:27:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155694
+08/19/19 00:27:07 : ...snapshot complete
+08/19/19 00:28:07 : taking a snapshot...
+08/19/19 00:28:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:28:07 : ...snapshot complete
+08/19/19 00:29:07 : taking a snapshot...
+08/19/19 00:29:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:29:07 : ...snapshot complete
+08/19/19 00:30:07 : taking a snapshot...
+08/19/19 00:30:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:30:07 : ...snapshot complete
+08/19/19 00:31:07 : taking a snapshot...
+08/19/19 00:31:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:31:07 : ...snapshot complete
+08/19/19 00:32:07 : taking a snapshot...
+08/19/19 00:32:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:32:07 : ...snapshot complete
+08/19/19 00:33:07 : taking a snapshot...
+08/19/19 00:33:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:33:07 : ...snapshot complete
+08/19/19 00:34:07 : taking a snapshot...
+08/19/19 00:34:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:34:07 : ...snapshot complete
+08/19/19 00:35:07 : taking a snapshot...
+08/19/19 00:35:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:35:07 : ...snapshot complete
+08/19/19 00:36:07 : taking a snapshot...
+08/19/19 00:36:07 : ProcAPI: new boottime = 1566155693; old_boottime = 1566155693; /proc/stat boottime = 1566155693; /proc/uptime boottime = 1566155693
+08/19/19 00:36:07 : ...snapshot complete

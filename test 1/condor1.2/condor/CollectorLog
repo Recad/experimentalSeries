@@ -1,0 +1,2025 @@
+07/22/19 05:58:53 Setting maximum file descriptors to 10240.
+07/22/19 05:58:53 ******************************************************
+07/22/19 05:58:53 ** condor_collector (CONDOR_COLLECTOR) STARTING UP
+07/22/19 05:58:53 ** /usr/sbin/condor_collector
+07/22/19 05:58:53 ** SubsystemInfo: name=COLLECTOR type=COLLECTOR(3) class=DAEMON(1)
+07/22/19 05:58:53 ** Configuration: subsystem:COLLECTOR local:<NONE> class:DAEMON
+07/22/19 05:58:53 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+07/22/19 05:58:53 ** $CondorPlatform: x86_64_Ubuntu14 $
+07/22/19 05:58:53 ** PID = 70
+07/22/19 05:58:53 ** Log last touched time unavailable (No such file or directory)
+07/22/19 05:58:53 ******************************************************
+07/22/19 05:58:53 Using config source: /etc/condor/condor_config
+07/22/19 05:58:53 Using local config sources: 
+07/22/19 05:58:53    /etc/condor/condor_config.local
+07/22/19 05:58:53 config Macros = 62, Sorted = 62, StringBytes = 1603, TablesBytes = 2280
+07/22/19 05:58:53 CLASSAD_CACHING is ENABLED
+07/22/19 05:58:53 Daemon Log is logging: D_ALWAYS D_ERROR
+07/22/19 05:58:53 SharedPortEndpoint: waiting for connections to named socket collector
+07/22/19 05:58:53 DaemonCore: non-shared command socket at <172.17.0.2:32827>
+07/22/19 05:58:53 Daemoncore: Listening at <0.0.0.0:32827> on TCP (ReliSock) and UDP (SafeSock).
+07/22/19 05:58:53 DaemonCore: command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=collector>
+07/22/19 05:58:53 DaemonCore: private command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=collector>
+07/22/19 05:58:53 In ViewServer::Init()
+07/22/19 05:58:53 In CollectorDaemon::Init()
+07/22/19 05:58:53 In ViewServer::Config()
+07/22/19 05:58:53 In CollectorDaemon::Config()
+07/22/19 05:58:53 ABSENT_REQUIREMENTS = None
+07/22/19 05:58:53 OfflineCollectorPlugin::configure: no persistent store was defined for off-line ads.
+07/22/19 05:58:53 enable: Creating stats hash table
+07/22/19 05:58:53 Enabling CCB Server.
+07/22/19 05:58:53 m_reconnect_fname = /var/lib/condor/spool/172.17.0.2-9618.ccb_reconnect
+07/22/19 05:58:54 CollectorAd  : Inserting ** "< My Pool - c7c2ce089db0@c7c2ce089db0 >"
+07/22/19 05:58:54 stats: Inserting new hashent for 'Collector':'My Pool - c7c2ce089db0@c7c2ce089db0':'172.17.0.2'
+07/22/19 05:58:54 Got QUERY_STARTD_PVT_ADS
+07/22/19 05:58:54 Number of Active Workers 0
+07/22/19 05:58:54 (Sending 0 ads in response to query)
+07/22/19 05:58:54 Query info: matched=0; skipped=0; query_time=0.000706; send_time=0.000085; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:33027>; projection={}
+07/22/19 05:58:54 Number of Active Workers 0
+07/22/19 05:58:54 (Sending 0 ads in response to query)
+07/22/19 05:58:54 Query info: matched=0; skipped=1; query_time=0.000749; send_time=0.000057; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:33123>; projection={}
+07/22/19 05:58:54 NegotiatorAd  : Inserting ** "< c7c2ce089db0 >"
+07/22/19 05:58:54 stats: Inserting new hashent for 'Negotiator':'c7c2ce089db0':'172.17.0.2'
+07/22/19 05:58:56 MasterAd     : Inserting ** "< c7c2ce089db0 >"
+07/22/19 05:58:56 stats: Inserting new hashent for 'Master':'c7c2ce089db0':'172.17.0.2'
+07/22/19 05:59:00 ScheddAd     : Inserting ** "< c7c2ce089db0 , 172.17.0.2 >"
+07/22/19 05:59:00 stats: Inserting new hashent for 'Schedd':'c7c2ce089db0':'172.17.0.2'
+07/22/19 05:59:54 Got QUERY_STARTD_PVT_ADS
+07/22/19 05:59:54 Number of Active Workers 0
+07/22/19 05:59:54 (Sending 0 ads in response to query)
+07/22/19 05:59:54 Query info: matched=0; skipped=0; query_time=0.001901; send_time=0.000220; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:37165>; projection={}
+07/22/19 05:59:54 Number of Active Workers 0
+07/22/19 05:59:54 (Sending 1 ads in response to query)
+07/22/19 05:59:54 Query info: matched=1; skipped=3; query_time=0.001553; send_time=0.001417; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:41915>; projection={}
+07/22/19 06:00:54 Got QUERY_STARTD_PVT_ADS
+07/22/19 06:00:54 Number of Active Workers 0
+07/22/19 06:00:54 (Sending 0 ads in response to query)
+07/22/19 06:00:54 Query info: matched=0; skipped=0; query_time=0.001553; send_time=0.000232; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:44753>; projection={}
+07/22/19 06:00:54 Number of Active Workers 0
+07/22/19 06:00:54 (Sending 1 ads in response to query)
+07/22/19 06:00:54 Query info: matched=1; skipped=3; query_time=0.001264; send_time=0.001412; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:49109>; projection={}
+07/22/19 06:01:54 Got QUERY_STARTD_PVT_ADS
+07/22/19 06:01:54 Number of Active Workers 0
+07/22/19 06:01:54 (Sending 0 ads in response to query)
+07/22/19 06:01:54 Query info: matched=0; skipped=0; query_time=0.001567; send_time=0.000219; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:46263>; projection={}
+07/22/19 06:01:54 Number of Active Workers 0
+07/22/19 06:01:54 (Sending 1 ads in response to query)
+07/22/19 06:01:54 Query info: matched=1; skipped=3; query_time=0.001708; send_time=0.001733; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:52569>; projection={}
+07/22/19 06:02:54 Got QUERY_STARTD_PVT_ADS
+07/22/19 06:02:54 Number of Active Workers 0
+07/22/19 06:02:54 (Sending 0 ads in response to query)
+07/22/19 06:02:54 Query info: matched=0; skipped=0; query_time=0.000755; send_time=0.000092; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:57809>; projection={}
+07/22/19 06:02:54 Number of Active Workers 0
+07/22/19 06:02:54 (Sending 1 ads in response to query)
+07/22/19 06:02:54 Query info: matched=1; skipped=3; query_time=0.000878; send_time=0.000806; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:42827>; projection={}
+07/22/19 06:03:54 NegotiatorAd  : Inserting ** "< c7c2ce089db0 >"
+07/22/19 06:03:54 Got QUERY_STARTD_PVT_ADS
+07/22/19 06:03:54 Number of Active Workers 0
+07/22/19 06:03:54 (Sending 0 ads in response to query)
+07/22/19 06:03:54 Query info: matched=0; skipped=0; query_time=0.000651; send_time=0.000095; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:59035>; projection={}
+07/22/19 06:03:54 Number of Active Workers 0
+07/22/19 06:03:54 (Sending 1 ads in response to query)
+07/22/19 06:03:54 Query info: matched=1; skipped=3; query_time=0.000652; send_time=0.000538; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:48569>; projection={}
+07/22/19 06:04:55 Got QUERY_STARTD_PVT_ADS
+07/22/19 06:04:55 Number of Active Workers 0
+07/22/19 06:04:55 (Sending 0 ads in response to query)
+07/22/19 06:04:55 Query info: matched=0; skipped=0; query_time=0.000672; send_time=0.000118; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:50229>; projection={}
+07/22/19 06:04:55 Number of Active Workers 0
+07/22/19 06:04:55 (Sending 1 ads in response to query)
+07/22/19 06:04:55 Query info: matched=1; skipped=3; query_time=0.000880; send_time=0.000599; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:59175>; projection={}
+07/22/19 06:05:55 Got QUERY_STARTD_PVT_ADS
+07/22/19 06:05:55 Number of Active Workers 0
+07/22/19 06:05:55 (Sending 0 ads in response to query)
+07/22/19 06:05:55 Query info: matched=0; skipped=0; query_time=0.001575; send_time=0.000294; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:43997>; projection={}
+07/22/19 06:05:55 Number of Active Workers 0
+07/22/19 06:05:55 (Sending 1 ads in response to query)
+07/22/19 06:05:55 Query info: matched=1; skipped=3; query_time=0.001596; send_time=0.001253; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:34893>; projection={}
+08/07/19 22:36:31 Setting maximum file descriptors to 10240.
+08/07/19 22:36:31 ******************************************************
+08/07/19 22:36:31 ** condor_collector (CONDOR_COLLECTOR) STARTING UP
+08/07/19 22:36:31 ** /usr/sbin/condor_collector
+08/07/19 22:36:31 ** SubsystemInfo: name=COLLECTOR type=COLLECTOR(3) class=DAEMON(1)
+08/07/19 22:36:31 ** Configuration: subsystem:COLLECTOR local:<NONE> class:DAEMON
+08/07/19 22:36:31 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/07/19 22:36:31 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/07/19 22:36:31 ** PID = 70
+08/07/19 22:36:31 ** Log last touched 7/22 06:06:01
+08/07/19 22:36:31 ******************************************************
+08/07/19 22:36:31 Using config source: /etc/condor/condor_config
+08/07/19 22:36:31 Using local config sources: 
+08/07/19 22:36:31    /etc/condor/condor_config.local
+08/07/19 22:36:31 config Macros = 62, Sorted = 62, StringBytes = 1603, TablesBytes = 2280
+08/07/19 22:36:31 CLASSAD_CACHING is ENABLED
+08/07/19 22:36:31 Daemon Log is logging: D_ALWAYS D_ERROR
+08/07/19 22:36:31 SharedPortEndpoint: waiting for connections to named socket collector
+08/07/19 22:36:31 DaemonCore: non-shared command socket at <172.17.0.2:38325>
+08/07/19 22:36:31 Daemoncore: Listening at <0.0.0.0:38325> on TCP (ReliSock) and UDP (SafeSock).
+08/07/19 22:36:31 DaemonCore: command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=collector>
+08/07/19 22:36:31 DaemonCore: private command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=collector>
+08/07/19 22:36:31 In ViewServer::Init()
+08/07/19 22:36:31 In CollectorDaemon::Init()
+08/07/19 22:36:31 In ViewServer::Config()
+08/07/19 22:36:31 In CollectorDaemon::Config()
+08/07/19 22:36:31 ABSENT_REQUIREMENTS = None
+08/07/19 22:36:31 OfflineCollectorPlugin::configure: no persistent store was defined for off-line ads.
+08/07/19 22:36:31 enable: Creating stats hash table
+08/07/19 22:36:31 Enabling CCB Server.
+08/07/19 22:36:31 m_reconnect_fname = /var/lib/condor/spool/172.17.0.2-9618.ccb_reconnect
+08/07/19 22:36:32 CollectorAd  : Inserting ** "< My Pool - dbcabcc5015f@dbcabcc5015f >"
+08/07/19 22:36:32 stats: Inserting new hashent for 'Collector':'My Pool - dbcabcc5015f@dbcabcc5015f':'172.17.0.2'
+08/07/19 22:36:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:36:33 Number of Active Workers 0
+08/07/19 22:36:33 (Sending 0 ads in response to query)
+08/07/19 22:36:33 Query info: matched=0; skipped=0; query_time=0.000722; send_time=0.000085; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:50897>; projection={}
+08/07/19 22:36:33 Number of Active Workers 0
+08/07/19 22:36:33 (Sending 0 ads in response to query)
+08/07/19 22:36:33 Query info: matched=0; skipped=1; query_time=0.000710; send_time=0.000068; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:36491>; projection={}
+08/07/19 22:36:33 NegotiatorAd  : Inserting ** "< dbcabcc5015f >"
+08/07/19 22:36:33 stats: Inserting new hashent for 'Negotiator':'dbcabcc5015f':'172.17.0.2'
+08/07/19 22:36:34 MasterAd     : Inserting ** "< dbcabcc5015f >"
+08/07/19 22:36:34 stats: Inserting new hashent for 'Master':'dbcabcc5015f':'172.17.0.2'
+08/07/19 22:36:39 ScheddAd     : Inserting ** "< dbcabcc5015f , 172.17.0.2 >"
+08/07/19 22:36:39 stats: Inserting new hashent for 'Schedd':'dbcabcc5015f':'172.17.0.2'
+08/07/19 22:37:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:37:33 Number of Active Workers 0
+08/07/19 22:37:33 (Sending 0 ads in response to query)
+08/07/19 22:37:33 Query info: matched=0; skipped=0; query_time=0.000653; send_time=0.000095; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:46479>; projection={}
+08/07/19 22:37:33 Number of Active Workers 0
+08/07/19 22:37:33 (Sending 1 ads in response to query)
+08/07/19 22:37:33 Query info: matched=1; skipped=3; query_time=0.000806; send_time=0.000722; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:44503>; projection={}
+08/07/19 22:38:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:38:33 Number of Active Workers 0
+08/07/19 22:38:33 (Sending 0 ads in response to query)
+08/07/19 22:38:33 Query info: matched=0; skipped=0; query_time=0.001929; send_time=0.000322; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:36431>; projection={}
+08/07/19 22:38:33 Number of Active Workers 0
+08/07/19 22:38:33 (Sending 1 ads in response to query)
+08/07/19 22:38:33 Query info: matched=1; skipped=3; query_time=0.001523; send_time=0.001642; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:56553>; projection={}
+08/07/19 22:39:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:39:33 Number of Active Workers 0
+08/07/19 22:39:33 (Sending 0 ads in response to query)
+08/07/19 22:39:33 Query info: matched=0; skipped=0; query_time=0.001167; send_time=0.000140; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:54435>; projection={}
+08/07/19 22:39:33 Number of Active Workers 0
+08/07/19 22:39:33 (Sending 1 ads in response to query)
+08/07/19 22:39:33 Query info: matched=1; skipped=3; query_time=0.000972; send_time=0.001063; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:40799>; projection={}
+08/07/19 22:40:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:40:33 Number of Active Workers 0
+08/07/19 22:40:33 (Sending 0 ads in response to query)
+08/07/19 22:40:33 Query info: matched=0; skipped=0; query_time=0.001810; send_time=0.000216; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:57519>; projection={}
+08/07/19 22:40:33 Number of Active Workers 0
+08/07/19 22:40:33 (Sending 1 ads in response to query)
+08/07/19 22:40:33 Query info: matched=1; skipped=3; query_time=0.001666; send_time=0.000884; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:42555>; projection={}
+08/07/19 22:41:33 NegotiatorAd  : Inserting ** "< dbcabcc5015f >"
+08/07/19 22:41:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:41:33 Number of Active Workers 0
+08/07/19 22:41:33 (Sending 0 ads in response to query)
+08/07/19 22:41:33 Query info: matched=0; skipped=0; query_time=0.000667; send_time=0.000090; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:59357>; projection={}
+08/07/19 22:41:33 Number of Active Workers 0
+08/07/19 22:41:33 (Sending 1 ads in response to query)
+08/07/19 22:41:33 Query info: matched=1; skipped=3; query_time=0.000625; send_time=0.000658; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:52711>; projection={}
+08/07/19 22:42:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:42:33 Number of Active Workers 0
+08/07/19 22:42:33 (Sending 0 ads in response to query)
+08/07/19 22:42:33 Query info: matched=0; skipped=0; query_time=0.000796; send_time=0.000108; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:39631>; projection={}
+08/07/19 22:42:33 Number of Active Workers 0
+08/07/19 22:42:33 (Sending 1 ads in response to query)
+08/07/19 22:42:33 Query info: matched=1; skipped=3; query_time=0.000798; send_time=0.000615; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:38847>; projection={}
+08/07/19 22:43:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:43:33 Number of Active Workers 0
+08/07/19 22:43:33 (Sending 0 ads in response to query)
+08/07/19 22:43:33 Query info: matched=0; skipped=0; query_time=0.001731; send_time=0.000237; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:41583>; projection={}
+08/07/19 22:43:33 Number of Active Workers 0
+08/07/19 22:43:33 (Sending 1 ads in response to query)
+08/07/19 22:43:33 Query info: matched=1; skipped=3; query_time=0.001500; send_time=0.001189; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:37243>; projection={}
+08/07/19 22:44:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:44:33 Number of Active Workers 0
+08/07/19 22:44:33 (Sending 0 ads in response to query)
+08/07/19 22:44:33 Query info: matched=0; skipped=0; query_time=0.000614; send_time=0.000120; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:34685>; projection={}
+08/07/19 22:44:33 Number of Active Workers 0
+08/07/19 22:44:33 (Sending 1 ads in response to query)
+08/07/19 22:44:33 Query info: matched=1; skipped=3; query_time=0.001069; send_time=0.000618; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:35105>; projection={}
+08/07/19 22:45:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:45:33 Number of Active Workers 0
+08/07/19 22:45:33 (Sending 0 ads in response to query)
+08/07/19 22:45:33 Query info: matched=0; skipped=0; query_time=0.001406; send_time=0.000262; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:38161>; projection={}
+08/07/19 22:45:33 Number of Active Workers 0
+08/07/19 22:45:33 (Sending 1 ads in response to query)
+08/07/19 22:45:33 Query info: matched=1; skipped=3; query_time=0.002896; send_time=0.002036; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:58061>; projection={}
+08/07/19 22:46:33 NegotiatorAd  : Inserting ** "< dbcabcc5015f >"
+08/07/19 22:46:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:46:33 Number of Active Workers 0
+08/07/19 22:46:33 (Sending 0 ads in response to query)
+08/07/19 22:46:33 Query info: matched=0; skipped=0; query_time=0.001094; send_time=0.000207; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:34701>; projection={}
+08/07/19 22:46:33 Number of Active Workers 0
+08/07/19 22:46:33 (Sending 1 ads in response to query)
+08/07/19 22:46:33 Query info: matched=1; skipped=3; query_time=0.000859; send_time=0.000679; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:57043>; projection={}
+08/07/19 22:47:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:47:33 Number of Active Workers 0
+08/07/19 22:47:33 (Sending 0 ads in response to query)
+08/07/19 22:47:33 Query info: matched=0; skipped=0; query_time=0.001384; send_time=0.000367; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:50431>; projection={}
+08/07/19 22:47:33 Number of Active Workers 0
+08/07/19 22:47:33 (Sending 1 ads in response to query)
+08/07/19 22:47:33 Query info: matched=1; skipped=3; query_time=0.001938; send_time=0.001515; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:51945>; projection={}
+08/07/19 22:48:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:48:33 Number of Active Workers 0
+08/07/19 22:48:33 (Sending 0 ads in response to query)
+08/07/19 22:48:33 Query info: matched=0; skipped=0; query_time=0.001683; send_time=0.000261; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:42893>; projection={}
+08/07/19 22:48:33 Number of Active Workers 0
+08/07/19 22:48:33 (Sending 1 ads in response to query)
+08/07/19 22:48:33 Query info: matched=1; skipped=3; query_time=0.001504; send_time=0.000776; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:44231>; projection={}
+08/07/19 22:49:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:49:33 Number of Active Workers 0
+08/07/19 22:49:33 (Sending 0 ads in response to query)
+08/07/19 22:49:33 Query info: matched=0; skipped=0; query_time=0.001398; send_time=0.000285; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:54065>; projection={}
+08/07/19 22:49:33 Number of Active Workers 0
+08/07/19 22:49:33 (Sending 1 ads in response to query)
+08/07/19 22:49:33 Query info: matched=1; skipped=3; query_time=0.001119; send_time=0.000929; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:59853>; projection={}
+08/07/19 22:50:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:50:33 Number of Active Workers 0
+08/07/19 22:50:33 (Sending 0 ads in response to query)
+08/07/19 22:50:33 Query info: matched=0; skipped=0; query_time=0.001448; send_time=0.000267; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:41545>; projection={}
+08/07/19 22:50:33 Number of Active Workers 0
+08/07/19 22:50:33 (Sending 1 ads in response to query)
+08/07/19 22:50:33 Query info: matched=1; skipped=3; query_time=0.001603; send_time=0.001541; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:42549>; projection={}
+08/07/19 22:51:31 Housekeeper:  Ready to clean old ads
+08/07/19 22:51:31 	Cleaning StartdAds ...
+08/07/19 22:51:31 	Cleaning StartdPrivateAds ...
+08/07/19 22:51:31 	Cleaning ScheddAds ...
+08/07/19 22:51:31 	Cleaning SubmittorAds ...
+08/07/19 22:51:31 	Cleaning LicenseAds ...
+08/07/19 22:51:31 	Cleaning MasterAds ...
+08/07/19 22:51:31 	Cleaning CkptServerAds ...
+08/07/19 22:51:31 	Cleaning CollectorAds ...
+08/07/19 22:51:31 	Cleaning StorageAds ...
+08/07/19 22:51:31 	Cleaning NegotiatorAds ...
+08/07/19 22:51:31 	Cleaning HadAds ...
+08/07/19 22:51:31 	Cleaning GridAds ...
+08/07/19 22:51:31 	Cleaning XferServiceAds ...
+08/07/19 22:51:31 	Cleaning LeaseManagerAds ...
+08/07/19 22:51:31 	Cleaning Generic Ads ...
+08/07/19 22:51:31 Housekeeper:  Done cleaning
+08/07/19 22:51:33 NegotiatorAd  : Inserting ** "< dbcabcc5015f >"
+08/07/19 22:51:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:51:33 Number of Active Workers 0
+08/07/19 22:51:33 (Sending 0 ads in response to query)
+08/07/19 22:51:33 Query info: matched=0; skipped=0; query_time=0.001037; send_time=0.000205; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:34187>; projection={}
+08/07/19 22:51:33 Number of Active Workers 0
+08/07/19 22:51:33 (Sending 1 ads in response to query)
+08/07/19 22:51:33 Query info: matched=1; skipped=3; query_time=0.001663; send_time=0.001107; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:41921>; projection={}
+08/07/19 22:52:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:52:33 Number of Active Workers 0
+08/07/19 22:52:33 (Sending 0 ads in response to query)
+08/07/19 22:52:33 Query info: matched=0; skipped=0; query_time=0.001460; send_time=0.000350; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:51261>; projection={}
+08/07/19 22:52:33 Number of Active Workers 0
+08/07/19 22:52:33 (Sending 1 ads in response to query)
+08/07/19 22:52:33 Query info: matched=1; skipped=3; query_time=0.001637; send_time=0.001610; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:32999>; projection={}
+08/07/19 22:53:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:53:33 Number of Active Workers 0
+08/07/19 22:53:33 (Sending 0 ads in response to query)
+08/07/19 22:53:33 Query info: matched=0; skipped=0; query_time=0.001688; send_time=0.000318; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:52161>; projection={}
+08/07/19 22:53:33 Number of Active Workers 0
+08/07/19 22:53:33 (Sending 1 ads in response to query)
+08/07/19 22:53:33 Query info: matched=1; skipped=3; query_time=0.001298; send_time=0.001208; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:38529>; projection={}
+08/07/19 22:54:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:54:33 Number of Active Workers 0
+08/07/19 22:54:33 (Sending 0 ads in response to query)
+08/07/19 22:54:33 Query info: matched=0; skipped=0; query_time=0.000957; send_time=0.000126; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:46663>; projection={}
+08/07/19 22:54:33 Number of Active Workers 0
+08/07/19 22:54:33 (Sending 1 ads in response to query)
+08/07/19 22:54:33 Query info: matched=1; skipped=3; query_time=0.000946; send_time=0.000556; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:56519>; projection={}
+08/07/19 22:55:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:55:33 Number of Active Workers 0
+08/07/19 22:55:33 (Sending 0 ads in response to query)
+08/07/19 22:55:33 Query info: matched=0; skipped=0; query_time=0.001713; send_time=0.000307; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:37471>; projection={}
+08/07/19 22:55:33 Number of Active Workers 0
+08/07/19 22:55:33 (Sending 1 ads in response to query)
+08/07/19 22:55:33 Query info: matched=1; skipped=3; query_time=0.001394; send_time=0.001239; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:55923>; projection={}
+08/07/19 22:56:33 NegotiatorAd  : Inserting ** "< dbcabcc5015f >"
+08/07/19 22:56:33 Got QUERY_STARTD_PVT_ADS
+08/07/19 22:56:33 Number of Active Workers 0
+08/07/19 22:56:33 (Sending 0 ads in response to query)
+08/07/19 22:56:33 Query info: matched=0; skipped=0; query_time=0.000631; send_time=0.000120; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:60129>; projection={}
+08/07/19 22:56:33 Number of Active Workers 0
+08/07/19 22:56:33 (Sending 1 ads in response to query)
+08/07/19 22:56:33 Query info: matched=1; skipped=3; query_time=0.000941; send_time=0.000651; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:52977>; projection={}
+08/07/19 23:34:19 Setting maximum file descriptors to 10240.
+08/07/19 23:34:19 ******************************************************
+08/07/19 23:34:19 ** condor_collector (CONDOR_COLLECTOR) STARTING UP
+08/07/19 23:34:19 ** /usr/sbin/condor_collector
+08/07/19 23:34:19 ** SubsystemInfo: name=COLLECTOR type=COLLECTOR(3) class=DAEMON(1)
+08/07/19 23:34:19 ** Configuration: subsystem:COLLECTOR local:<NONE> class:DAEMON
+08/07/19 23:34:19 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/07/19 23:34:19 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/07/19 23:34:19 ** PID = 70
+08/07/19 23:34:19 ** Log last touched 8/7 22:56:48
+08/07/19 23:34:19 ******************************************************
+08/07/19 23:34:19 Using config source: /etc/condor/condor_config
+08/07/19 23:34:19 Using local config sources: 
+08/07/19 23:34:19    /etc/condor/condor_config.local
+08/07/19 23:34:19 config Macros = 62, Sorted = 62, StringBytes = 1603, TablesBytes = 2280
+08/07/19 23:34:19 CLASSAD_CACHING is ENABLED
+08/07/19 23:34:19 Daemon Log is logging: D_ALWAYS D_ERROR
+08/07/19 23:34:19 SharedPortEndpoint: waiting for connections to named socket collector
+08/07/19 23:34:19 DaemonCore: non-shared command socket at <172.17.0.2:60867>
+08/07/19 23:34:19 Daemoncore: Listening at <0.0.0.0:60867> on TCP (ReliSock) and UDP (SafeSock).
+08/07/19 23:34:19 DaemonCore: command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=collector>
+08/07/19 23:34:19 DaemonCore: private command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=collector>
+08/07/19 23:34:19 In ViewServer::Init()
+08/07/19 23:34:19 In CollectorDaemon::Init()
+08/07/19 23:34:19 In ViewServer::Config()
+08/07/19 23:34:19 In CollectorDaemon::Config()
+08/07/19 23:34:19 ABSENT_REQUIREMENTS = None
+08/07/19 23:34:19 OfflineCollectorPlugin::configure: no persistent store was defined for off-line ads.
+08/07/19 23:34:19 enable: Creating stats hash table
+08/07/19 23:34:19 Enabling CCB Server.
+08/07/19 23:34:19 m_reconnect_fname = /var/lib/condor/spool/172.17.0.2-9618.ccb_reconnect
+08/07/19 23:34:20 CollectorAd  : Inserting ** "< My Pool - dbe9534fc80a@dbe9534fc80a >"
+08/07/19 23:34:20 stats: Inserting new hashent for 'Collector':'My Pool - dbe9534fc80a@dbe9534fc80a':'172.17.0.2'
+08/07/19 23:34:21 Got QUERY_STARTD_PVT_ADS
+08/07/19 23:34:21 Number of Active Workers 0
+08/07/19 23:34:21 (Sending 0 ads in response to query)
+08/07/19 23:34:21 Query info: matched=0; skipped=0; query_time=0.000594; send_time=0.000078; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:50851>; projection={}
+08/07/19 23:34:21 Number of Active Workers 0
+08/07/19 23:34:21 (Sending 0 ads in response to query)
+08/07/19 23:34:21 Query info: matched=0; skipped=1; query_time=0.000703; send_time=0.000055; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:55839>; projection={}
+08/07/19 23:34:21 NegotiatorAd  : Inserting ** "< dbe9534fc80a >"
+08/07/19 23:34:21 stats: Inserting new hashent for 'Negotiator':'dbe9534fc80a':'172.17.0.2'
+08/07/19 23:34:22 MasterAd     : Inserting ** "< dbe9534fc80a >"
+08/07/19 23:34:22 stats: Inserting new hashent for 'Master':'dbe9534fc80a':'172.17.0.2'
+08/07/19 23:34:27 ScheddAd     : Inserting ** "< dbe9534fc80a , 172.17.0.2 >"
+08/07/19 23:34:27 stats: Inserting new hashent for 'Schedd':'dbe9534fc80a':'172.17.0.2'
+08/07/19 23:35:21 Got QUERY_STARTD_PVT_ADS
+08/07/19 23:35:21 Number of Active Workers 0
+08/07/19 23:35:21 (Sending 0 ads in response to query)
+08/07/19 23:35:21 Query info: matched=0; skipped=0; query_time=0.001625; send_time=0.000215; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:59563>; projection={}
+08/07/19 23:35:21 Number of Active Workers 0
+08/07/19 23:35:21 (Sending 1 ads in response to query)
+08/07/19 23:35:21 Query info: matched=1; skipped=3; query_time=0.001813; send_time=0.001478; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:51509>; projection={}
+08/07/19 23:36:21 Got QUERY_STARTD_PVT_ADS
+08/07/19 23:36:21 Number of Active Workers 0
+08/07/19 23:36:21 (Sending 0 ads in response to query)
+08/07/19 23:36:21 Query info: matched=0; skipped=0; query_time=0.001504; send_time=0.000212; type=MachinePrivate; requirements={true}; peer=<172.17.0.2:34455>; projection={}
+08/07/19 23:36:21 Number of Active Workers 0
+08/07/19 23:36:21 (Sending 1 ads in response to query)
+08/07/19 23:36:21 Query info: matched=1; skipped=3; query_time=0.001494; send_time=0.001716; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<172.17.0.2:46773>; projection={}
+08/18/19 21:31:21 Setting maximum file descriptors to 10240.
+08/18/19 21:31:21 ******************************************************
+08/18/19 21:31:21 ** condor_collector (CONDOR_COLLECTOR) STARTING UP
+08/18/19 21:31:21 ** /usr/sbin/condor_collector
+08/18/19 21:31:21 ** SubsystemInfo: name=COLLECTOR type=COLLECTOR(3) class=DAEMON(1)
+08/18/19 21:31:21 ** Configuration: subsystem:COLLECTOR local:<NONE> class:DAEMON
+08/18/19 21:31:21 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 21:31:21 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 21:31:21 ** PID = 116
+08/18/19 21:31:21 ** Log last touched 8/7 23:36:35
+08/18/19 21:31:21 ******************************************************
+08/18/19 21:31:21 Using config source: /etc/condor/condor_config
+08/18/19 21:31:21 Using local config sources: 
+08/18/19 21:31:21    /etc/condor/condor_config.local
+08/18/19 21:31:21 config Macros = 62, Sorted = 62, StringBytes = 1613, TablesBytes = 2280
+08/18/19 21:31:21 CLASSAD_CACHING is ENABLED
+08/18/19 21:31:21 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 21:31:21 SharedPortEndpoint: waiting for connections to named socket collector
+08/18/19 21:31:21 DaemonCore: non-shared command socket at <157.253.205.92:13945>
+08/18/19 21:31:21 Daemoncore: Listening at <0.0.0.0:13945> on TCP (ReliSock) and UDP (SafeSock).
+08/18/19 21:31:21 DaemonCore: command socket at <157.253.205.92:9618?addrs=157.253.205.92-9618&noUDP&sock=collector>
+08/18/19 21:31:21 DaemonCore: private command socket at <157.253.205.92:9618?addrs=157.253.205.92-9618&noUDP&sock=collector>
+08/18/19 21:31:21 In ViewServer::Init()
+08/18/19 21:31:21 In CollectorDaemon::Init()
+08/18/19 21:31:21 In ViewServer::Config()
+08/18/19 21:31:21 In CollectorDaemon::Config()
+08/18/19 21:31:21 ABSENT_REQUIREMENTS = None
+08/18/19 21:31:21 OfflineCollectorPlugin::configure: no persistent store was defined for off-line ads.
+08/18/19 21:31:21 enable: Creating stats hash table
+08/18/19 21:31:21 Enabling CCB Server.
+08/18/19 21:31:21 m_reconnect_fname = /var/lib/condor/spool/157.253.205.92-9618.ccb_reconnect
+08/18/19 21:31:22 CollectorAd  : Inserting ** "< My Pool - edier-master-2@edier-master-2 >"
+08/18/19 21:31:22 stats: Inserting new hashent for 'Collector':'My Pool - edier-master-2@edier-master-2':'157.253.205.92'
+08/18/19 21:31:23 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+08/18/19 21:31:23 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+08/18/19 21:31:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: NEGOTIATOR authorization policy contains no matching ALLOW entry for this request; identifiers used for this host: 127.0.0.1,localhost, hostname size = 1, original ip address = 127.0.0.1
+08/18/19 21:31:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:31:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 49 (UPDATE_NEGOTIATOR_AD), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:31:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:31:24 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+08/18/19 21:31:24 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+08/18/19 21:31:24 MasterAd     : Inserting ** "< edier-master-2 >"
+08/18/19 21:31:24 stats: Inserting new hashent for 'Master':'edier-master-2':'157.253.205.92'
+08/18/19 21:31:29 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+08/18/19 21:31:29 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+08/18/19 21:31:29 ScheddAd     : Inserting ** "< edier-master-2 , 157.253.205.92 >"
+08/18/19 21:31:29 stats: Inserting new hashent for 'Schedd':'edier-master-2':'157.253.205.92'
+08/18/19 21:32:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:32:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:33:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:33:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:34:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:34:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:35:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:35:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:36:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 49 (UPDATE_NEGOTIATOR_AD), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:36:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:36:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:36:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:37:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:37:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:38:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:38:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:39:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:39:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:40:24 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:40:24 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:41:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 49 (UPDATE_NEGOTIATOR_AD), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:41:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:41:24 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:41:24 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:42:24 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:42:24 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:43:24 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:43:24 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:44:24 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:44:24 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:45:24 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:45:24 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:46:21 Housekeeper:  Ready to clean old ads
+08/18/19 21:46:21 	Cleaning StartdAds ...
+08/18/19 21:46:21 	Cleaning StartdPrivateAds ...
+08/18/19 21:46:21 	Cleaning ScheddAds ...
+08/18/19 21:46:21 	Cleaning SubmittorAds ...
+08/18/19 21:46:21 	Cleaning LicenseAds ...
+08/18/19 21:46:21 	Cleaning MasterAds ...
+08/18/19 21:46:21 	Cleaning CkptServerAds ...
+08/18/19 21:46:21 	Cleaning CollectorAds ...
+08/18/19 21:46:21 	Cleaning StorageAds ...
+08/18/19 21:46:21 	Cleaning NegotiatorAds ...
+08/18/19 21:46:21 	Cleaning HadAds ...
+08/18/19 21:46:21 	Cleaning GridAds ...
+08/18/19 21:46:21 	Cleaning XferServiceAds ...
+08/18/19 21:46:21 	Cleaning LeaseManagerAds ...
+08/18/19 21:46:21 	Cleaning Generic Ads ...
+08/18/19 21:46:21 Housekeeper:  Done cleaning
+08/18/19 21:46:23 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 49 (UPDATE_NEGOTIATOR_AD), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:46:23 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 21:46:24 PERMISSION DENIED to unauthenticated@unmapped from host 127.0.0.1 for command 10 (QUERY_STARTD_PVT_ADS), access level NEGOTIATOR: reason: cached result for NEGOTIATOR; see first case for the full reason
+08/18/19 21:46:24 DC_AUTHENTICATE: Command not authorized, done!
+08/18/19 22:00:00 Setting maximum file descriptors to 10240.
+08/18/19 22:00:00 ******************************************************
+08/18/19 22:00:00 ** condor_collector (CONDOR_COLLECTOR) STARTING UP
+08/18/19 22:00:00 ** /usr/sbin/condor_collector
+08/18/19 22:00:00 ** SubsystemInfo: name=COLLECTOR type=COLLECTOR(3) class=DAEMON(1)
+08/18/19 22:00:00 ** Configuration: subsystem:COLLECTOR local:<NONE> class:DAEMON
+08/18/19 22:00:00 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 22:00:00 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 22:00:00 ** PID = 111
+08/18/19 22:00:00 ** Log last touched 8/18 21:46:24
+08/18/19 22:00:00 ******************************************************
+08/18/19 22:00:00 Using config source: /etc/condor/condor_config
+08/18/19 22:00:00 Using local config sources: 
+08/18/19 22:00:00    /etc/condor/condor_config.local
+08/18/19 22:00:00 config Macros = 77, Sorted = 77, StringBytes = 2527, TablesBytes = 2820
+08/18/19 22:00:00 CLASSAD_CACHING is ENABLED
+08/18/19 22:00:00 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 22:00:00 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock) and UDP (SafeSock).
+08/18/19 22:00:00 DaemonCore: command socket at <157.253.205.92:9618?addrs=157.253.205.92-9618>
+08/18/19 22:00:00 DaemonCore: private command socket at <157.253.205.92:9618?addrs=157.253.205.92-9618>
+08/18/19 22:00:00 In ViewServer::Init()
+08/18/19 22:00:00 In CollectorDaemon::Init()
+08/18/19 22:00:00 In ViewServer::Config()
+08/18/19 22:00:00 In CollectorDaemon::Config()
+08/18/19 22:00:00 ABSENT_REQUIREMENTS = None
+08/18/19 22:00:00 OfflineCollectorPlugin::configure: no persistent store was defined for off-line ads.
+08/18/19 22:00:00 enable: Creating stats hash table
+08/18/19 22:00:00 Enabling CCB Server.
+08/18/19 22:00:00 m_reconnect_fname = /var/lib/condor/spool/157.253.205.92-9618.ccb_reconnect
+08/18/19 22:00:01 CollectorAd  : Inserting ** "< My Pool - edier-master-2.cloud.uniandes.edu.co@edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:00:01 stats: Inserting new hashent for 'Collector':'My Pool - edier-master-2.cloud.uniandes.edu.co@edier-master-2.cloud.uniandes.edu.co':'157.253.205.92'
+08/18/19 22:00:02 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:00:02 Number of Active Workers 0
+08/18/19 22:00:02 (Sending 0 ads in response to query)
+08/18/19 22:00:02 Query info: matched=0; skipped=0; query_time=0.000890; send_time=0.000111; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:34915>; projection={}
+08/18/19 22:00:02 Number of Active Workers 0
+08/18/19 22:00:02 (Sending 0 ads in response to query)
+08/18/19 22:00:02 Query info: matched=0; skipped=1; query_time=0.000924; send_time=0.000072; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:60893>; projection={}
+08/18/19 22:00:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:00:02 stats: Inserting new hashent for 'Negotiator':'edier-master-2.cloud.uniandes.edu.co':'157.253.205.92'
+08/18/19 22:00:03 MasterAd     : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:00:03 stats: Inserting new hashent for 'Master':'edier-master-2.cloud.uniandes.edu.co':'157.253.205.92'
+08/18/19 22:00:08 ScheddAd     : Inserting ** "< edier-master-2.cloud.uniandes.edu.co , 157.253.205.92 >"
+08/18/19 22:00:08 stats: Inserting new hashent for 'Schedd':'edier-master-2.cloud.uniandes.edu.co':'157.253.205.92'
+08/18/19 22:01:02 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:01:02 Number of Active Workers 0
+08/18/19 22:01:02 (Sending 0 ads in response to query)
+08/18/19 22:01:02 Query info: matched=0; skipped=0; query_time=0.000666; send_time=0.000080; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:48713>; projection={}
+08/18/19 22:01:02 Number of Active Workers 0
+08/18/19 22:01:02 (Sending 1 ads in response to query)
+08/18/19 22:01:02 Query info: matched=1; skipped=3; query_time=0.000603; send_time=0.000687; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:6599>; projection={}
+08/18/19 22:02:02 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:02:02 Number of Active Workers 0
+08/18/19 22:02:02 (Sending 0 ads in response to query)
+08/18/19 22:02:02 Query info: matched=0; skipped=0; query_time=0.000573; send_time=0.000082; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:53809>; projection={}
+08/18/19 22:02:02 Number of Active Workers 0
+08/18/19 22:02:02 (Sending 1 ads in response to query)
+08/18/19 22:02:02 Query info: matched=1; skipped=3; query_time=0.000689; send_time=0.000529; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:31795>; projection={}
+08/18/19 22:03:02 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:03:02 Number of Active Workers 0
+08/18/19 22:03:02 (Sending 0 ads in response to query)
+08/18/19 22:03:02 Query info: matched=0; skipped=0; query_time=0.000596; send_time=0.000088; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:12589>; projection={}
+08/18/19 22:03:02 Number of Active Workers 0
+08/18/19 22:03:02 (Sending 1 ads in response to query)
+08/18/19 22:03:02 Query info: matched=1; skipped=3; query_time=0.000609; send_time=0.000585; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:57823>; projection={}
+08/18/19 22:03:46 MasterAd     : Inserting ** "< edier-worker-3.cloud.uniandes.edu.co >"
+08/18/19 22:03:46 stats: Inserting new hashent for 'Master':'edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:03:51 Got QUERY_STARTD_ADS
+08/18/19 22:03:51 Number of Active Workers 0
+08/18/19 22:03:51 (Sending 0 ads in response to query)
+08/18/19 22:03:51 Query info: matched=0; skipped=0; query_time=0.000933; send_time=0.000217; type=Machine; requirements={true}; peer=<157.253.205.92:12411>; projection={Name Machine Opsys Arch State Activity LoadAvg Memory ActvtyTime MyCurrentTime EnteredCurrentActivity}
+08/18/19 22:03:52 Got QUERY_STARTD_ADS
+08/18/19 22:03:52 Number of Active Workers 0
+08/18/19 22:03:52 (Sending 0 ads in response to query)
+08/18/19 22:03:52 Query info: matched=0; skipped=0; query_time=0.000669; send_time=0.000122; type=Machine; requirements={true}; peer=<157.253.205.92:38639>; projection={Name Machine Opsys Arch State Activity LoadAvg Memory ActvtyTime MyCurrentTime EnteredCurrentActivity}
+08/18/19 22:03:53 Got QUERY_STARTD_ADS
+08/18/19 22:03:53 Number of Active Workers 0
+08/18/19 22:03:53 (Sending 0 ads in response to query)
+08/18/19 22:03:53 Query info: matched=0; skipped=0; query_time=0.000693; send_time=0.000168; type=Machine; requirements={true}; peer=<157.253.205.92:16167>; projection={Name Machine Opsys Arch State Activity LoadAvg Memory ActvtyTime MyCurrentTime EnteredCurrentActivity}
+08/18/19 22:03:57 StartdAd     : Inserting ** "< slot1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:03:57 stats: Inserting new hashent for 'Start':'slot1@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:03:57 StartdPvtAd  : Inserting ** "< slot1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:03:57 stats: Inserting new hashent for 'StartdPvt':'slot1@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:04:02 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:04:02 Number of Active Workers 0
+08/18/19 22:04:02 (Sending 1 ads in response to query)
+08/18/19 22:04:02 Query info: matched=1; skipped=0; query_time=0.001025; send_time=0.000304; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:55773>; projection={}
+08/18/19 22:04:02 Number of Active Workers 0
+08/18/19 22:04:02 (Sending 2 ads in response to query)
+08/18/19 22:04:02 Query info: matched=2; skipped=4; query_time=0.000703; send_time=0.001381; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:55723>; projection={}
+08/18/19 22:04:05 Got QUERY_STARTD_ADS
+08/18/19 22:04:05 Number of Active Workers 0
+08/18/19 22:04:05 (Sending 1 ads in response to query)
+08/18/19 22:04:05 Query info: matched=1; skipped=0; query_time=0.000886; send_time=0.000321; type=Machine; requirements={true}; peer=<157.253.205.92:44123>; projection={Name Machine Opsys Arch State Activity LoadAvg Memory ActvtyTime MyCurrentTime EnteredCurrentActivity}
+08/18/19 22:04:53 SubmittorAd  : Inserting ** "< condor1@cloud.uniandes.edu.coedier-master-2.cloud.uniandes.edu.co , 157.253.205.92 >"
+08/18/19 22:04:53 stats: Inserting new hashent for 'Submittor':'condor1@cloud.uniandes.edu.co':'157.253.205.92'
+08/18/19 22:04:53 (Sending 1 ads in response to query)
+08/18/19 22:04:53 Query info: matched=1; skipped=0; query_time=0.000051; send_time=0.000161; type=Negotiator; requirements={true}; peer=<157.253.205.92:51325>; projection={}
+08/18/19 22:04:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:04:53 Number of Active Workers 0
+08/18/19 22:04:53 (Sending 1 ads in response to query)
+08/18/19 22:04:53 Query info: matched=1; skipped=0; query_time=0.000756; send_time=0.000275; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:32535>; projection={}
+08/18/19 22:04:53 Number of Active Workers 0
+08/18/19 22:04:53 (Sending 3 ads in response to query)
+08/18/19 22:04:53 Query info: matched=3; skipped=4; query_time=0.001223; send_time=0.005071; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:26505>; projection={}
+08/18/19 22:04:57 StartdAd     : Inserting ** "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:04:57 stats: Inserting new hashent for 'Start':'slot1_1@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:04:57 StartdPvtAd  : Inserting ** "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:04:57 stats: Inserting new hashent for 'StartdPvt':'slot1_1@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:04:59 (Sending 1 ads in response to query)
+08/18/19 22:04:59 Query info: matched=1; skipped=0; query_time=0.000075; send_time=0.000242; type=Negotiator; requirements={true}; peer=<157.253.205.92:2237>; projection={}
+08/18/19 22:05:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:05:13 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:05:13 Number of Active Workers 0
+08/18/19 22:05:13 (Sending 2 ads in response to query)
+08/18/19 22:05:13 Query info: matched=2; skipped=0; query_time=0.000747; send_time=0.000296; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:3235>; projection={}
+08/18/19 22:05:13 Number of Active Workers 0
+08/18/19 22:05:13 (Sending 4 ads in response to query)
+08/18/19 22:05:13 Query info: matched=4; skipped=4; query_time=0.000648; send_time=0.001441; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:45785>; projection={}
+08/18/19 22:05:17 StartdAd     : Inserting ** "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:17 stats: Inserting new hashent for 'Start':'slot1_2@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:05:17 StartdPvtAd  : Inserting ** "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:17 stats: Inserting new hashent for 'StartdPvt':'slot1_2@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:05:17 StartdAd     : Inserting ** "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:17 stats: Inserting new hashent for 'Start':'slot1_3@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:05:17 StartdPvtAd  : Inserting ** "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:17 stats: Inserting new hashent for 'StartdPvt':'slot1_3@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:05:20 Got INVALIDATE_STARTD_ADS
+08/18/19 22:05:20 		**** Removed(1) ad(s): "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:20 (Invalidated 1 ads)
+08/18/19 22:05:20 		**** Removed(1) ad(s): "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:20 (Invalidated 1 ads)
+08/18/19 22:05:39 Got INVALIDATE_STARTD_ADS
+08/18/19 22:05:39 		**** Removed(1) ad(s): "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:39 (Invalidated 1 ads)
+08/18/19 22:05:39 		**** Removed(1) ad(s): "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:39 (Invalidated 1 ads)
+08/18/19 22:05:40 Got INVALIDATE_STARTD_ADS
+08/18/19 22:05:40 		**** Removed(1) ad(s): "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:40 (Invalidated 1 ads)
+08/18/19 22:05:40 		**** Removed(1) ad(s): "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:05:40 (Invalidated 1 ads)
+08/18/19 22:06:13 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:06:13 Number of Active Workers 0
+08/18/19 22:06:13 (Sending 1 ads in response to query)
+08/18/19 22:06:13 Query info: matched=1; skipped=0; query_time=0.000643; send_time=0.000319; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:8799>; projection={}
+08/18/19 22:06:13 Number of Active Workers 0
+08/18/19 22:06:13 (Sending 3 ads in response to query)
+08/18/19 22:06:13 Query info: matched=3; skipped=4; query_time=0.000677; send_time=0.001087; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:44833>; projection={}
+08/18/19 22:06:52 (Sending 1 ads in response to query)
+08/18/19 22:06:52 Query info: matched=1; skipped=0; query_time=0.000046; send_time=0.000168; type=Negotiator; requirements={true}; peer=<157.253.205.92:19471>; projection={}
+08/18/19 22:06:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:06:52 Number of Active Workers 0
+08/18/19 22:06:52 (Sending 1 ads in response to query)
+08/18/19 22:06:52 Query info: matched=1; skipped=0; query_time=0.000799; send_time=0.000274; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:63111>; projection={}
+08/18/19 22:06:52 Number of Active Workers 0
+08/18/19 22:06:52 (Sending 3 ads in response to query)
+08/18/19 22:06:52 Query info: matched=3; skipped=4; query_time=0.000888; send_time=0.002416; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:31405>; projection={}
+08/18/19 22:06:56 StartdAd     : Inserting ** "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:06:56 StartdPvtAd  : Inserting ** "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:06:56 StartdAd     : Inserting ** "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:06:56 StartdPvtAd  : Inserting ** "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:06:57 StartdAd     : Inserting ** "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:06:57 StartdPvtAd  : Inserting ** "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:06:57 StartdAd     : Inserting ** "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:06:57 stats: Inserting new hashent for 'Start':'slot1_4@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:06:57 StartdPvtAd  : Inserting ** "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:06:57 stats: Inserting new hashent for 'StartdPvt':'slot1_4@edier-worker-3.cloud.uniandes.edu.co':'157.253.205.93'
+08/18/19 22:07:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:07:52 Number of Active Workers 0
+08/18/19 22:07:52 (Sending 5 ads in response to query)
+08/18/19 22:07:52 Query info: matched=5; skipped=0; query_time=0.000634; send_time=0.000434; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:19733>; projection={}
+08/18/19 22:07:52 Number of Active Workers 0
+08/18/19 22:07:52 (Sending 7 ads in response to query)
+08/18/19 22:07:52 Query info: matched=7; skipped=4; query_time=0.000972; send_time=0.002028; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:20159>; projection={}
+08/18/19 22:08:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:08:52 Number of Active Workers 0
+08/18/19 22:08:52 (Sending 5 ads in response to query)
+08/18/19 22:08:52 Query info: matched=5; skipped=0; query_time=0.000667; send_time=0.000420; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:49947>; projection={}
+08/18/19 22:08:52 Number of Active Workers 0
+08/18/19 22:08:52 (Sending 7 ads in response to query)
+08/18/19 22:08:52 Query info: matched=7; skipped=4; query_time=0.000838; send_time=0.002057; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:10163>; projection={}
+08/18/19 22:09:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:09:52 Number of Active Workers 0
+08/18/19 22:09:52 (Sending 5 ads in response to query)
+08/18/19 22:09:52 Query info: matched=5; skipped=0; query_time=0.000648; send_time=0.000489; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:50395>; projection={}
+08/18/19 22:09:52 Number of Active Workers 0
+08/18/19 22:09:52 (Sending 7 ads in response to query)
+08/18/19 22:09:52 Query info: matched=7; skipped=4; query_time=0.000689; send_time=0.002364; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:4615>; projection={}
+08/18/19 22:10:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:10:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:10:52 Number of Active Workers 0
+08/18/19 22:10:52 (Sending 5 ads in response to query)
+08/18/19 22:10:52 Number of Active Workers 1
+08/18/19 22:10:52 Query info: matched=5; skipped=0; query_time=0.001327; send_time=0.003104; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:19741>; projection={}
+08/18/19 22:10:52 (Sending 7 ads in response to query)
+08/18/19 22:10:52 Query info: matched=7; skipped=4; query_time=0.003303; send_time=0.003040; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:15623>; projection={}
+08/18/19 22:11:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:11:52 Number of Active Workers 0
+08/18/19 22:11:52 (Sending 5 ads in response to query)
+08/18/19 22:11:52 Query info: matched=5; skipped=0; query_time=0.000698; send_time=0.000493; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:45101>; projection={}
+08/18/19 22:11:52 Number of Active Workers 0
+08/18/19 22:11:52 (Sending 7 ads in response to query)
+08/18/19 22:11:52 Query info: matched=7; skipped=4; query_time=0.001052; send_time=0.002477; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:58583>; projection={}
+08/18/19 22:12:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:12:52 Number of Active Workers 0
+08/18/19 22:12:52 (Sending 5 ads in response to query)
+08/18/19 22:12:52 Query info: matched=5; skipped=0; query_time=0.000684; send_time=0.000460; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:42529>; projection={}
+08/18/19 22:12:52 Number of Active Workers 0
+08/18/19 22:12:52 (Sending 7 ads in response to query)
+08/18/19 22:12:52 Query info: matched=7; skipped=4; query_time=0.001024; send_time=0.001728; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:10493>; projection={}
+08/18/19 22:13:49 Got INVALIDATE_STARTD_ADS
+08/18/19 22:13:49 		**** Removed(1) ad(s): "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:13:49 (Invalidated 1 ads)
+08/18/19 22:13:49 		**** Removed(1) ad(s): "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:13:49 (Invalidated 1 ads)
+08/18/19 22:13:49 Got INVALIDATE_STARTD_ADS
+08/18/19 22:13:49 		**** Removed(1) ad(s): "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:13:49 (Invalidated 1 ads)
+08/18/19 22:13:49 		**** Removed(1) ad(s): "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:13:49 (Invalidated 1 ads)
+08/18/19 22:13:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:13:52 Number of Active Workers 0
+08/18/19 22:13:52 (Sending 3 ads in response to query)
+08/18/19 22:13:52 Query info: matched=3; skipped=0; query_time=0.000927; send_time=0.000434; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:33951>; projection={}
+08/18/19 22:13:52 Number of Active Workers 0
+08/18/19 22:13:52 (Sending 5 ads in response to query)
+08/18/19 22:13:52 Query info: matched=5; skipped=4; query_time=0.000806; send_time=0.001607; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:37061>; projection={}
+08/18/19 22:14:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:14:52 Number of Active Workers 0
+08/18/19 22:14:52 (Sending 3 ads in response to query)
+08/18/19 22:14:52 Query info: matched=3; skipped=0; query_time=0.000708; send_time=0.000391; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:41271>; projection={}
+08/18/19 22:14:52 Number of Active Workers 0
+08/18/19 22:14:52 (Sending 5 ads in response to query)
+08/18/19 22:14:52 Query info: matched=5; skipped=4; query_time=0.000849; send_time=0.001386; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:48107>; projection={}
+08/18/19 22:15:00 Housekeeper:  Ready to clean old ads
+08/18/19 22:15:00 	Cleaning StartdAds ...
+08/18/19 22:15:00 	Cleaning StartdPrivateAds ...
+08/18/19 22:15:00 	Cleaning ScheddAds ...
+08/18/19 22:15:00 	Cleaning SubmittorAds ...
+08/18/19 22:15:00 	Cleaning LicenseAds ...
+08/18/19 22:15:00 	Cleaning MasterAds ...
+08/18/19 22:15:00 	Cleaning CkptServerAds ...
+08/18/19 22:15:00 	Cleaning CollectorAds ...
+08/18/19 22:15:00 	Cleaning StorageAds ...
+08/18/19 22:15:00 	Cleaning NegotiatorAds ...
+08/18/19 22:15:00 	Cleaning HadAds ...
+08/18/19 22:15:00 	Cleaning GridAds ...
+08/18/19 22:15:00 	Cleaning XferServiceAds ...
+08/18/19 22:15:00 	Cleaning LeaseManagerAds ...
+08/18/19 22:15:00 	Cleaning Generic Ads ...
+08/18/19 22:15:00 Housekeeper:  Done cleaning
+08/18/19 22:15:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/18/19 22:15:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/18/19 22:15:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:15:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:15:52 Number of Active Workers 0
+08/18/19 22:15:52 (Sending 3 ads in response to query)
+08/18/19 22:15:52 Query info: matched=3; skipped=0; query_time=0.001465; send_time=0.000585; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:16309>; projection={}
+08/18/19 22:15:52 Number of Active Workers 0
+08/18/19 22:15:52 (Sending 5 ads in response to query)
+08/18/19 22:15:52 Query info: matched=5; skipped=4; query_time=0.001027; send_time=0.002058; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:30013>; projection={}
+08/18/19 22:16:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:16:52 Number of Active Workers 0
+08/18/19 22:16:52 (Sending 3 ads in response to query)
+08/18/19 22:16:52 Query info: matched=3; skipped=0; query_time=0.000655; send_time=0.000406; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:60947>; projection={}
+08/18/19 22:16:52 Number of Active Workers 0
+08/18/19 22:16:52 (Sending 5 ads in response to query)
+08/18/19 22:16:52 Query info: matched=5; skipped=4; query_time=0.000772; send_time=0.001741; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:16125>; projection={}
+08/18/19 22:17:11 Got INVALIDATE_STARTD_ADS
+08/18/19 22:17:11 		**** Removed(1) ad(s): "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:17:11 (Invalidated 1 ads)
+08/18/19 22:17:11 		**** Removed(1) ad(s): "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:17:11 (Invalidated 1 ads)
+08/18/19 22:17:13 Got INVALIDATE_STARTD_ADS
+08/18/19 22:17:13 		**** Removed(1) ad(s): "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:17:13 (Invalidated 1 ads)
+08/18/19 22:17:13 		**** Removed(1) ad(s): "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 22:17:13 (Invalidated 1 ads)
+08/18/19 22:17:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:17:52 Number of Active Workers 0
+08/18/19 22:17:52 (Sending 1 ads in response to query)
+08/18/19 22:17:52 Query info: matched=1; skipped=0; query_time=0.000793; send_time=0.000459; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:40501>; projection={}
+08/18/19 22:17:52 Number of Active Workers 1
+08/18/19 22:17:52 (Sending 3 ads in response to query)
+08/18/19 22:17:52 Query info: matched=3; skipped=4; query_time=0.001627; send_time=0.001382; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:37547>; projection={}
+08/18/19 22:18:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:18:52 Number of Active Workers 0
+08/18/19 22:18:52 (Sending 1 ads in response to query)
+08/18/19 22:18:52 Query info: matched=1; skipped=0; query_time=0.000677; send_time=0.000328; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:32781>; projection={}
+08/18/19 22:18:52 Number of Active Workers 0
+08/18/19 22:18:52 (Sending 3 ads in response to query)
+08/18/19 22:18:52 Query info: matched=3; skipped=4; query_time=0.000963; send_time=0.001039; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:41311>; projection={}
+08/18/19 22:19:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:19:52 Number of Active Workers 0
+08/18/19 22:19:52 (Sending 1 ads in response to query)
+08/18/19 22:19:52 Query info: matched=1; skipped=0; query_time=0.000656; send_time=0.000331; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:15973>; projection={}
+08/18/19 22:19:52 Number of Active Workers 0
+08/18/19 22:19:52 (Sending 3 ads in response to query)
+08/18/19 22:19:52 Query info: matched=3; skipped=4; query_time=0.000686; send_time=0.001047; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:25839>; projection={}
+08/18/19 22:20:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:20:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:20:52 Number of Active Workers 0
+08/18/19 22:20:52 (Sending 1 ads in response to query)
+08/18/19 22:20:52 Query info: matched=1; skipped=0; query_time=0.000676; send_time=0.000323; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:36323>; projection={}
+08/18/19 22:20:52 Number of Active Workers 0
+08/18/19 22:20:52 (Sending 3 ads in response to query)
+08/18/19 22:20:52 Query info: matched=3; skipped=4; query_time=0.000729; send_time=0.000885; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:41279>; projection={}
+08/18/19 22:21:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:21:52 Number of Active Workers 0
+08/18/19 22:21:52 (Sending 1 ads in response to query)
+08/18/19 22:21:52 Query info: matched=1; skipped=0; query_time=0.000881; send_time=0.000299; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:13073>; projection={}
+08/18/19 22:21:52 Number of Active Workers 0
+08/18/19 22:21:52 (Sending 3 ads in response to query)
+08/18/19 22:21:52 Query info: matched=3; skipped=4; query_time=0.000928; send_time=0.000889; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:58919>; projection={}
+08/18/19 22:22:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:22:52 Number of Active Workers 0
+08/18/19 22:22:52 (Sending 1 ads in response to query)
+08/18/19 22:22:52 Query info: matched=1; skipped=0; query_time=0.001201; send_time=0.000412; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:52177>; projection={}
+08/18/19 22:22:52 Number of Active Workers 0
+08/18/19 22:22:52 (Sending 3 ads in response to query)
+08/18/19 22:22:52 Query info: matched=3; skipped=4; query_time=0.001479; send_time=0.001432; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:4577>; projection={}
+08/18/19 22:23:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:23:52 Number of Active Workers 0
+08/18/19 22:23:52 (Sending 1 ads in response to query)
+08/18/19 22:23:52 Query info: matched=1; skipped=0; query_time=0.000691; send_time=0.000393; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:62021>; projection={}
+08/18/19 22:23:52 Number of Active Workers 0
+08/18/19 22:23:52 (Sending 3 ads in response to query)
+08/18/19 22:23:52 Query info: matched=3; skipped=4; query_time=0.000881; send_time=0.001088; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:25207>; projection={}
+08/18/19 22:24:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:24:52 Number of Active Workers 0
+08/18/19 22:24:52 (Sending 1 ads in response to query)
+08/18/19 22:24:52 Query info: matched=1; skipped=0; query_time=0.000872; send_time=0.000303; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:8999>; projection={}
+08/18/19 22:24:52 Number of Active Workers 0
+08/18/19 22:24:52 (Sending 3 ads in response to query)
+08/18/19 22:24:52 Query info: matched=3; skipped=4; query_time=0.000661; send_time=0.001023; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:56907>; projection={}
+08/18/19 22:25:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:25:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:25:52 Number of Active Workers 0
+08/18/19 22:25:52 (Sending 1 ads in response to query)
+08/18/19 22:25:52 Query info: matched=1; skipped=0; query_time=0.000629; send_time=0.000289; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:46857>; projection={}
+08/18/19 22:25:52 Number of Active Workers 0
+08/18/19 22:25:52 (Sending 3 ads in response to query)
+08/18/19 22:25:52 Query info: matched=3; skipped=4; query_time=0.000670; send_time=0.001084; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:26483>; projection={}
+08/18/19 22:26:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:26:52 Number of Active Workers 0
+08/18/19 22:26:52 (Sending 1 ads in response to query)
+08/18/19 22:26:52 Query info: matched=1; skipped=0; query_time=0.000675; send_time=0.000327; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:14881>; projection={}
+08/18/19 22:26:52 Number of Active Workers 0
+08/18/19 22:26:52 (Sending 3 ads in response to query)
+08/18/19 22:26:52 Query info: matched=3; skipped=4; query_time=0.000924; send_time=0.000989; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:48049>; projection={}
+08/18/19 22:27:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:27:52 Number of Active Workers 0
+08/18/19 22:27:52 (Sending 1 ads in response to query)
+08/18/19 22:27:52 Query info: matched=1; skipped=0; query_time=0.000734; send_time=0.000293; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:38923>; projection={}
+08/18/19 22:27:52 Number of Active Workers 0
+08/18/19 22:27:52 (Sending 3 ads in response to query)
+08/18/19 22:27:52 Query info: matched=3; skipped=4; query_time=0.001069; send_time=0.000864; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:9647>; projection={}
+08/18/19 22:28:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:28:52 Number of Active Workers 0
+08/18/19 22:28:52 (Sending 1 ads in response to query)
+08/18/19 22:28:52 Query info: matched=1; skipped=0; query_time=0.000672; send_time=0.000297; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:20157>; projection={}
+08/18/19 22:28:52 Number of Active Workers 0
+08/18/19 22:28:52 (Sending 3 ads in response to query)
+08/18/19 22:28:52 Query info: matched=3; skipped=4; query_time=0.001180; send_time=0.001050; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:51225>; projection={}
+08/18/19 22:29:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:29:52 Number of Active Workers 0
+08/18/19 22:29:52 (Sending 1 ads in response to query)
+08/18/19 22:29:52 Query info: matched=1; skipped=0; query_time=0.000742; send_time=0.000389; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:29437>; projection={}
+08/18/19 22:29:52 Number of Active Workers 0
+08/18/19 22:29:52 (Sending 3 ads in response to query)
+08/18/19 22:29:52 Query info: matched=3; skipped=4; query_time=0.000906; send_time=0.000911; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:16137>; projection={}
+08/18/19 22:30:00 Housekeeper:  Ready to clean old ads
+08/18/19 22:30:00 	Cleaning StartdAds ...
+08/18/19 22:30:00 	Cleaning StartdPrivateAds ...
+08/18/19 22:30:00 	Cleaning ScheddAds ...
+08/18/19 22:30:00 	Cleaning SubmittorAds ...
+08/18/19 22:30:00 	Cleaning LicenseAds ...
+08/18/19 22:30:00 	Cleaning MasterAds ...
+08/18/19 22:30:00 	Cleaning CkptServerAds ...
+08/18/19 22:30:00 	Cleaning CollectorAds ...
+08/18/19 22:30:00 	Cleaning StorageAds ...
+08/18/19 22:30:00 	Cleaning NegotiatorAds ...
+08/18/19 22:30:00 	Cleaning HadAds ...
+08/18/19 22:30:00 	Cleaning GridAds ...
+08/18/19 22:30:00 	Cleaning XferServiceAds ...
+08/18/19 22:30:00 	Cleaning LeaseManagerAds ...
+08/18/19 22:30:00 	Cleaning Generic Ads ...
+08/18/19 22:30:00 Housekeeper:  Done cleaning
+08/18/19 22:30:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/18/19 22:30:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/18/19 22:30:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:30:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:30:52 Number of Active Workers 0
+08/18/19 22:30:52 (Sending 1 ads in response to query)
+08/18/19 22:30:52 Query info: matched=1; skipped=0; query_time=0.000687; send_time=0.000344; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:16473>; projection={}
+08/18/19 22:30:52 Number of Active Workers 0
+08/18/19 22:30:52 (Sending 3 ads in response to query)
+08/18/19 22:30:52 Query info: matched=3; skipped=4; query_time=0.000723; send_time=0.000871; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:48275>; projection={}
+08/18/19 22:31:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:31:52 Number of Active Workers 0
+08/18/19 22:31:52 (Sending 1 ads in response to query)
+08/18/19 22:31:52 Query info: matched=1; skipped=0; query_time=0.000710; send_time=0.000303; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:31361>; projection={}
+08/18/19 22:31:52 Number of Active Workers 0
+08/18/19 22:31:52 (Sending 3 ads in response to query)
+08/18/19 22:31:52 Query info: matched=3; skipped=4; query_time=0.001035; send_time=0.000879; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:17413>; projection={}
+08/18/19 22:32:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:32:52 Number of Active Workers 0
+08/18/19 22:32:52 (Sending 1 ads in response to query)
+08/18/19 22:32:52 Query info: matched=1; skipped=0; query_time=0.000947; send_time=0.000293; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:27829>; projection={}
+08/18/19 22:32:52 Number of Active Workers 0
+08/18/19 22:32:52 (Sending 3 ads in response to query)
+08/18/19 22:32:52 Query info: matched=3; skipped=4; query_time=0.000698; send_time=0.001060; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:55463>; projection={}
+08/18/19 22:33:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:33:52 Number of Active Workers 0
+08/18/19 22:33:52 (Sending 1 ads in response to query)
+08/18/19 22:33:52 Query info: matched=1; skipped=0; query_time=0.001273; send_time=0.000362; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:13735>; projection={}
+08/18/19 22:33:52 Number of Active Workers 0
+08/18/19 22:33:52 (Sending 3 ads in response to query)
+08/18/19 22:33:52 Query info: matched=3; skipped=4; query_time=0.000710; send_time=0.001152; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:54113>; projection={}
+08/18/19 22:34:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:34:52 Number of Active Workers 0
+08/18/19 22:34:52 (Sending 1 ads in response to query)
+08/18/19 22:34:52 Query info: matched=1; skipped=0; query_time=0.000653; send_time=0.000294; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:26707>; projection={}
+08/18/19 22:34:52 Number of Active Workers 0
+08/18/19 22:34:52 (Sending 3 ads in response to query)
+08/18/19 22:34:52 Query info: matched=3; skipped=4; query_time=0.001426; send_time=0.001194; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:58779>; projection={}
+08/18/19 22:35:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:35:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:35:52 Number of Active Workers 0
+08/18/19 22:35:52 (Sending 1 ads in response to query)
+08/18/19 22:35:52 Query info: matched=1; skipped=0; query_time=0.000901; send_time=0.000320; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:5937>; projection={}
+08/18/19 22:35:52 Number of Active Workers 0
+08/18/19 22:35:52 (Sending 3 ads in response to query)
+08/18/19 22:35:52 Query info: matched=3; skipped=4; query_time=0.000745; send_time=0.000872; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:57671>; projection={}
+08/18/19 22:36:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:36:52 Number of Active Workers 0
+08/18/19 22:36:52 (Sending 1 ads in response to query)
+08/18/19 22:36:52 Query info: matched=1; skipped=0; query_time=0.000672; send_time=0.000334; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:51237>; projection={}
+08/18/19 22:36:52 Number of Active Workers 0
+08/18/19 22:36:52 (Sending 3 ads in response to query)
+08/18/19 22:36:52 Query info: matched=3; skipped=4; query_time=0.000750; send_time=0.001076; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:58855>; projection={}
+08/18/19 22:37:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:37:52 Number of Active Workers 0
+08/18/19 22:37:52 (Sending 1 ads in response to query)
+08/18/19 22:37:52 Query info: matched=1; skipped=0; query_time=0.000651; send_time=0.000332; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:14595>; projection={}
+08/18/19 22:37:52 Number of Active Workers 0
+08/18/19 22:37:52 (Sending 3 ads in response to query)
+08/18/19 22:37:52 Query info: matched=3; skipped=4; query_time=0.000897; send_time=0.000853; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:43433>; projection={}
+08/18/19 22:38:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:38:52 Number of Active Workers 0
+08/18/19 22:38:52 (Sending 1 ads in response to query)
+08/18/19 22:38:52 Query info: matched=1; skipped=0; query_time=0.000673; send_time=0.000324; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:39031>; projection={}
+08/18/19 22:38:52 Number of Active Workers 0
+08/18/19 22:38:52 (Sending 3 ads in response to query)
+08/18/19 22:38:52 Query info: matched=3; skipped=4; query_time=0.000677; send_time=0.001092; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:16831>; projection={}
+08/18/19 22:39:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:39:52 Number of Active Workers 0
+08/18/19 22:39:52 (Sending 1 ads in response to query)
+08/18/19 22:39:52 Query info: matched=1; skipped=0; query_time=0.000700; send_time=0.000298; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:59449>; projection={}
+08/18/19 22:39:52 Number of Active Workers 0
+08/18/19 22:39:52 (Sending 3 ads in response to query)
+08/18/19 22:39:52 Query info: matched=3; skipped=4; query_time=0.000769; send_time=0.000880; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:36225>; projection={}
+08/18/19 22:40:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:40:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:40:52 Number of Active Workers 0
+08/18/19 22:40:52 (Sending 1 ads in response to query)
+08/18/19 22:40:52 Query info: matched=1; skipped=0; query_time=0.000925; send_time=0.000297; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:1655>; projection={}
+08/18/19 22:40:52 Number of Active Workers 0
+08/18/19 22:40:52 (Sending 3 ads in response to query)
+08/18/19 22:40:52 Query info: matched=3; skipped=4; query_time=0.000703; send_time=0.001054; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:6243>; projection={}
+08/18/19 22:41:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:41:52 Number of Active Workers 0
+08/18/19 22:41:52 (Sending 1 ads in response to query)
+08/18/19 22:41:52 Query info: matched=1; skipped=0; query_time=0.000693; send_time=0.000311; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:8323>; projection={}
+08/18/19 22:41:52 Number of Active Workers 0
+08/18/19 22:41:52 (Sending 3 ads in response to query)
+08/18/19 22:41:52 Query info: matched=3; skipped=4; query_time=0.000778; send_time=0.000879; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:4525>; projection={}
+08/18/19 22:42:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:42:52 Number of Active Workers 0
+08/18/19 22:42:52 (Sending 1 ads in response to query)
+08/18/19 22:42:52 Query info: matched=1; skipped=0; query_time=0.000687; send_time=0.000301; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:40853>; projection={}
+08/18/19 22:42:52 Number of Active Workers 0
+08/18/19 22:42:52 (Sending 3 ads in response to query)
+08/18/19 22:42:52 Query info: matched=3; skipped=4; query_time=0.001076; send_time=0.001297; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:57237>; projection={}
+08/18/19 22:43:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:43:52 Number of Active Workers 0
+08/18/19 22:43:52 (Sending 1 ads in response to query)
+08/18/19 22:43:52 Query info: matched=1; skipped=0; query_time=0.001204; send_time=0.000412; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:13507>; projection={}
+08/18/19 22:43:52 Number of Active Workers 0
+08/18/19 22:43:52 (Sending 3 ads in response to query)
+08/18/19 22:43:52 Query info: matched=3; skipped=4; query_time=0.001170; send_time=0.001396; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:19287>; projection={}
+08/18/19 22:44:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:44:52 Number of Active Workers 0
+08/18/19 22:44:52 (Sending 1 ads in response to query)
+08/18/19 22:44:52 Query info: matched=1; skipped=0; query_time=0.000677; send_time=0.000293; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:54065>; projection={}
+08/18/19 22:44:52 Number of Active Workers 0
+08/18/19 22:44:52 (Sending 3 ads in response to query)
+08/18/19 22:44:52 Query info: matched=3; skipped=4; query_time=0.001015; send_time=0.000934; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:53193>; projection={}
+08/18/19 22:45:00 Housekeeper:  Ready to clean old ads
+08/18/19 22:45:00 	Cleaning StartdAds ...
+08/18/19 22:45:00 	Cleaning StartdPrivateAds ...
+08/18/19 22:45:00 	Cleaning ScheddAds ...
+08/18/19 22:45:00 	Cleaning SubmittorAds ...
+08/18/19 22:45:00 	Cleaning LicenseAds ...
+08/18/19 22:45:00 	Cleaning MasterAds ...
+08/18/19 22:45:00 	Cleaning CkptServerAds ...
+08/18/19 22:45:00 	Cleaning CollectorAds ...
+08/18/19 22:45:00 	Cleaning StorageAds ...
+08/18/19 22:45:00 	Cleaning NegotiatorAds ...
+08/18/19 22:45:00 	Cleaning HadAds ...
+08/18/19 22:45:00 	Cleaning GridAds ...
+08/18/19 22:45:00 	Cleaning XferServiceAds ...
+08/18/19 22:45:00 	Cleaning LeaseManagerAds ...
+08/18/19 22:45:00 	Cleaning Generic Ads ...
+08/18/19 22:45:00 Housekeeper:  Done cleaning
+08/18/19 22:45:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/18/19 22:45:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/18/19 22:45:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:45:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:45:52 Number of Active Workers 0
+08/18/19 22:45:52 (Sending 1 ads in response to query)
+08/18/19 22:45:52 Query info: matched=1; skipped=0; query_time=0.000697; send_time=0.000315; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:59031>; projection={}
+08/18/19 22:45:52 Number of Active Workers 0
+08/18/19 22:45:52 (Sending 3 ads in response to query)
+08/18/19 22:45:52 Query info: matched=3; skipped=4; query_time=0.001027; send_time=0.000863; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:13427>; projection={}
+08/18/19 22:46:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:46:52 Number of Active Workers 0
+08/18/19 22:46:52 (Sending 1 ads in response to query)
+08/18/19 22:46:52 Query info: matched=1; skipped=0; query_time=0.000689; send_time=0.000291; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:13351>; projection={}
+08/18/19 22:46:52 Number of Active Workers 0
+08/18/19 22:46:52 (Sending 3 ads in response to query)
+08/18/19 22:46:52 Query info: matched=3; skipped=4; query_time=0.000888; send_time=0.001464; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:59619>; projection={}
+08/18/19 22:47:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:47:52 Number of Active Workers 0
+08/18/19 22:47:52 (Sending 1 ads in response to query)
+08/18/19 22:47:52 Query info: matched=1; skipped=0; query_time=0.001199; send_time=0.000389; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:8469>; projection={}
+08/18/19 22:47:52 Number of Active Workers 0
+08/18/19 22:47:52 (Sending 3 ads in response to query)
+08/18/19 22:47:52 Query info: matched=3; skipped=4; query_time=0.001292; send_time=0.001289; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:31155>; projection={}
+08/18/19 22:48:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:48:52 Number of Active Workers 0
+08/18/19 22:48:52 (Sending 1 ads in response to query)
+08/18/19 22:48:52 Query info: matched=1; skipped=0; query_time=0.001225; send_time=0.000448; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:10387>; projection={}
+08/18/19 22:48:52 Number of Active Workers 0
+08/18/19 22:48:52 (Sending 3 ads in response to query)
+08/18/19 22:48:52 Query info: matched=3; skipped=4; query_time=0.001277; send_time=0.001367; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:26433>; projection={}
+08/18/19 22:49:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:49:52 Number of Active Workers 0
+08/18/19 22:49:52 (Sending 1 ads in response to query)
+08/18/19 22:49:52 Query info: matched=1; skipped=0; query_time=0.001094; send_time=0.000413; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:38017>; projection={}
+08/18/19 22:49:52 Number of Active Workers 0
+08/18/19 22:49:52 (Sending 3 ads in response to query)
+08/18/19 22:49:52 Query info: matched=3; skipped=4; query_time=0.001262; send_time=0.001307; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:10225>; projection={}
+08/18/19 22:50:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:50:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:50:52 Number of Active Workers 0
+08/18/19 22:50:52 (Sending 1 ads in response to query)
+08/18/19 22:50:52 Query info: matched=1; skipped=0; query_time=0.001281; send_time=0.000397; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:18851>; projection={}
+08/18/19 22:50:52 Number of Active Workers 0
+08/18/19 22:50:52 (Sending 3 ads in response to query)
+08/18/19 22:50:52 Query info: matched=3; skipped=4; query_time=0.001292; send_time=0.001303; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:52461>; projection={}
+08/18/19 22:51:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:51:52 Number of Active Workers 0
+08/18/19 22:51:52 (Sending 1 ads in response to query)
+08/18/19 22:51:52 Query info: matched=1; skipped=0; query_time=0.001234; send_time=0.000952; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:20491>; projection={}
+08/18/19 22:51:52 Number of Active Workers 0
+08/18/19 22:51:52 (Sending 3 ads in response to query)
+08/18/19 22:51:52 Query info: matched=3; skipped=4; query_time=0.001110; send_time=0.001494; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:5391>; projection={}
+08/18/19 22:52:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:52:52 Number of Active Workers 0
+08/18/19 22:52:52 (Sending 1 ads in response to query)
+08/18/19 22:52:52 Query info: matched=1; skipped=0; query_time=0.001080; send_time=0.000465; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:14525>; projection={}
+08/18/19 22:52:52 Number of Active Workers 0
+08/18/19 22:52:52 (Sending 3 ads in response to query)
+08/18/19 22:52:52 Query info: matched=3; skipped=4; query_time=0.000850; send_time=0.001473; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:55759>; projection={}
+08/18/19 22:53:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:53:52 Number of Active Workers 0
+08/18/19 22:53:52 (Sending 1 ads in response to query)
+08/18/19 22:53:52 Query info: matched=1; skipped=0; query_time=0.001258; send_time=0.000412; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:22423>; projection={}
+08/18/19 22:53:52 Number of Active Workers 0
+08/18/19 22:53:52 (Sending 3 ads in response to query)
+08/18/19 22:53:52 Query info: matched=3; skipped=4; query_time=0.001286; send_time=0.001288; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:36655>; projection={}
+08/18/19 22:54:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:54:52 Number of Active Workers 0
+08/18/19 22:54:52 (Sending 1 ads in response to query)
+08/18/19 22:54:52 Query info: matched=1; skipped=0; query_time=0.000853; send_time=0.000513; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:21023>; projection={}
+08/18/19 22:54:52 Number of Active Workers 0
+08/18/19 22:54:52 (Sending 3 ads in response to query)
+08/18/19 22:54:52 Query info: matched=3; skipped=4; query_time=0.001359; send_time=0.007323; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:15907>; projection={}
+08/18/19 22:55:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 22:55:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:55:52 Number of Active Workers 0
+08/18/19 22:55:52 (Sending 1 ads in response to query)
+08/18/19 22:55:52 Query info: matched=1; skipped=0; query_time=0.001246; send_time=0.000386; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:40757>; projection={}
+08/18/19 22:55:52 Number of Active Workers 0
+08/18/19 22:55:52 (Sending 3 ads in response to query)
+08/18/19 22:55:52 Query info: matched=3; skipped=4; query_time=0.001334; send_time=0.001740; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:21285>; projection={}
+08/18/19 22:56:44 ScheddAd     : Inserting ** "< edier-master-1.cloud.univalle.edu.co , 45.5.164.207 >"
+08/18/19 22:56:44 stats: Inserting new hashent for 'Schedd':'edier-master-1.cloud.univalle.edu.co':'45.5.164.207'
+08/18/19 22:56:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:56:52 Number of Active Workers 0
+08/18/19 22:56:52 (Sending 1 ads in response to query)
+08/18/19 22:56:52 Query info: matched=1; skipped=0; query_time=0.001067; send_time=0.000322; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:46687>; projection={}
+08/18/19 22:56:52 Number of Active Workers 0
+08/18/19 22:56:52 (Sending 4 ads in response to query)
+08/18/19 22:56:52 Query info: matched=4; skipped=4; query_time=0.000962; send_time=0.002095; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:38739>; projection={}
+08/18/19 22:56:58 SubmittorAd  : Inserting ** "< condor1@cloud.univalle.edu.coedier-master-1.cloud.univalle.edu.co , 45.5.164.207 >"
+08/18/19 22:56:58 stats: Inserting new hashent for 'Submittor':'condor1@cloud.univalle.edu.co':'45.5.164.207'
+08/18/19 22:57:13 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:57:13 (Sending 2 ads in response to query)
+08/18/19 22:57:13 Query info: matched=2; skipped=0; query_time=0.000045; send_time=0.000554; type=Submitter; requirements={true}; peer=<45.5.164.207:56609>; projection={}
+08/18/19 22:57:31 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:57:31 (Sending 2 ads in response to query)
+08/18/19 22:57:31 Query info: matched=2; skipped=0; query_time=0.000044; send_time=0.000532; type=Submitter; requirements={true}; peer=<45.5.164.207:4665>; projection={}
+08/18/19 22:57:32 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:57:32 (Sending 2 ads in response to query)
+08/18/19 22:57:32 Query info: matched=2; skipped=0; query_time=0.000041; send_time=0.000512; type=Submitter; requirements={true}; peer=<45.5.164.207:47011>; projection={}
+08/18/19 22:57:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:57:52 Number of Active Workers 0
+08/18/19 22:57:52 (Sending 1 ads in response to query)
+08/18/19 22:57:52 Query info: matched=1; skipped=0; query_time=0.001534; send_time=0.000366; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:45477>; projection={}
+08/18/19 22:57:52 Number of Active Workers 0
+08/18/19 22:57:52 (Sending 5 ads in response to query)
+08/18/19 22:57:52 Query info: matched=5; skipped=4; query_time=0.000827; send_time=0.005702; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:24701>; projection={}
+08/18/19 22:58:15 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:58:15 (Sending 2 ads in response to query)
+08/18/19 22:58:15 Query info: matched=2; skipped=0; query_time=0.000045; send_time=0.000602; type=Submitter; requirements={true}; peer=<45.5.164.207:53143>; projection={}
+08/18/19 22:58:15 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:58:15 (Sending 2 ads in response to query)
+08/18/19 22:58:15 Query info: matched=2; skipped=0; query_time=0.000042; send_time=0.000506; type=Submitter; requirements={true}; peer=<45.5.164.207:3295>; projection={}
+08/18/19 22:58:16 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:58:16 (Sending 2 ads in response to query)
+08/18/19 22:58:16 Query info: matched=2; skipped=0; query_time=0.000040; send_time=0.000510; type=Submitter; requirements={true}; peer=<45.5.164.207:59081>; projection={}
+08/18/19 22:58:17 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:58:17 (Sending 2 ads in response to query)
+08/18/19 22:58:17 Query info: matched=2; skipped=0; query_time=0.000040; send_time=0.000527; type=Submitter; requirements={true}; peer=<45.5.164.207:63709>; projection={}
+08/18/19 22:58:17 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:58:17 (Sending 2 ads in response to query)
+08/18/19 22:58:17 Query info: matched=2; skipped=0; query_time=0.000040; send_time=0.000503; type=Submitter; requirements={true}; peer=<45.5.164.207:30637>; projection={}
+08/18/19 22:58:18 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:58:18 (Sending 2 ads in response to query)
+08/18/19 22:58:18 Query info: matched=2; skipped=0; query_time=0.000039; send_time=0.000501; type=Submitter; requirements={true}; peer=<45.5.164.207:47361>; projection={}
+08/18/19 22:58:18 Got QUERY_SUBMITTOR_ADS
+08/18/19 22:58:18 (Sending 2 ads in response to query)
+08/18/19 22:58:18 Query info: matched=2; skipped=0; query_time=0.000040; send_time=0.000598; type=Submitter; requirements={true}; peer=<45.5.164.207:36639>; projection={}
+08/18/19 22:58:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:58:52 Number of Active Workers 0
+08/18/19 22:58:52 (Sending 1 ads in response to query)
+08/18/19 22:58:52 Query info: matched=1; skipped=0; query_time=0.000750; send_time=0.000346; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:30815>; projection={}
+08/18/19 22:58:52 Number of Active Workers 1
+08/18/19 22:58:52 (Sending 5 ads in response to query)
+08/18/19 22:58:52 Query info: matched=5; skipped=4; query_time=0.001386; send_time=0.005852; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:50639>; projection={}
+08/18/19 22:59:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 22:59:52 Number of Active Workers 0
+08/18/19 22:59:52 (Sending 1 ads in response to query)
+08/18/19 22:59:52 Query info: matched=1; skipped=0; query_time=0.000804; send_time=0.000428; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:61131>; projection={}
+08/18/19 22:59:52 Number of Active Workers 1
+08/18/19 22:59:52 (Sending 5 ads in response to query)
+08/18/19 22:59:52 Query info: matched=5; skipped=4; query_time=0.000861; send_time=0.002162; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:21251>; projection={}
+08/18/19 22:59:59 Got QUERY_STARTD_ADS
+08/18/19 22:59:59 Number of Active Workers 0
+08/18/19 22:59:59 (Sending 0 ads in response to query)
+08/18/19 22:59:59 Query info: matched=0; skipped=1; query_time=0.001163; send_time=0.000624; type=Machine; requirements={( ( Machine == "edier-master-2.cloud.uniandes.edu.co" ) )}; peer=<157.253.205.92:54559>; projection={}
+08/18/19 23:00:00 Housekeeper:  Ready to clean old ads
+08/18/19 23:00:00 	Cleaning StartdAds ...
+08/18/19 23:00:00 	Cleaning StartdPrivateAds ...
+08/18/19 23:00:00 	Cleaning ScheddAds ...
+08/18/19 23:00:00 	Cleaning SubmittorAds ...
+08/18/19 23:00:00 	Cleaning LicenseAds ...
+08/18/19 23:00:00 	Cleaning MasterAds ...
+08/18/19 23:00:00 	Cleaning CkptServerAds ...
+08/18/19 23:00:00 	Cleaning CollectorAds ...
+08/18/19 23:00:00 	Cleaning StorageAds ...
+08/18/19 23:00:00 	Cleaning NegotiatorAds ...
+08/18/19 23:00:00 	Cleaning HadAds ...
+08/18/19 23:00:00 	Cleaning GridAds ...
+08/18/19 23:00:00 	Cleaning XferServiceAds ...
+08/18/19 23:00:00 	Cleaning LeaseManagerAds ...
+08/18/19 23:00:00 	Cleaning Generic Ads ...
+08/18/19 23:00:00 Housekeeper:  Done cleaning
+08/18/19 23:00:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/18/19 23:00:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/18/19 23:00:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:00:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:00:52 Number of Active Workers 0
+08/18/19 23:00:52 (Sending 1 ads in response to query)
+08/18/19 23:00:52 Query info: matched=1; skipped=0; query_time=0.001031; send_time=0.000415; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:26395>; projection={}
+08/18/19 23:00:52 Number of Active Workers 1
+08/18/19 23:00:52 (Sending 5 ads in response to query)
+08/18/19 23:00:52 Query info: matched=5; skipped=4; query_time=0.001270; send_time=0.002037; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:32745>; projection={}
+08/18/19 23:01:52 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:01:52 Number of Active Workers 0
+08/18/19 23:01:52 (Sending 1 ads in response to query)
+08/18/19 23:01:52 Query info: matched=1; skipped=0; query_time=0.001315; send_time=0.000421; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:26583>; projection={}
+08/18/19 23:01:52 Number of Active Workers 0
+08/18/19 23:01:52 (Sending 5 ads in response to query)
+08/18/19 23:01:52 Query info: matched=5; skipped=4; query_time=0.001335; send_time=0.002030; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:57237>; projection={}
+08/18/19 23:02:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:02:53 Number of Active Workers 0
+08/18/19 23:02:53 (Sending 1 ads in response to query)
+08/18/19 23:02:53 Query info: matched=1; skipped=0; query_time=0.001239; send_time=0.000407; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:33825>; projection={}
+08/18/19 23:02:53 Number of Active Workers 0
+08/18/19 23:02:53 (Sending 5 ads in response to query)
+08/18/19 23:02:53 Query info: matched=5; skipped=4; query_time=0.001282; send_time=0.002036; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:13591>; projection={}
+08/18/19 23:03:42 Got QUERY_SCHEDD_ADS
+08/18/19 23:03:42 (Sending 0 ads in response to query)
+08/18/19 23:03:42 Query info: matched=0; skipped=2; query_time=0.000052; send_time=0.000025; type=Scheduler; requirements={( ( Name == "edier-worker-3.cloud.uniandes.edu.co" ) )}; peer=<157.253.205.93:64023>; projection={}
+08/18/19 23:03:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:03:53 Number of Active Workers 0
+08/18/19 23:03:53 (Sending 1 ads in response to query)
+08/18/19 23:03:53 Query info: matched=1; skipped=0; query_time=0.001118; send_time=0.000373; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:55135>; projection={}
+08/18/19 23:03:53 Number of Active Workers 1
+08/18/19 23:03:53 (Sending 5 ads in response to query)
+08/18/19 23:03:53 Query info: matched=5; skipped=4; query_time=0.001339; send_time=0.002038; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:59847>; projection={}
+08/18/19 23:04:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:04:53 Number of Active Workers 0
+08/18/19 23:04:53 (Sending 1 ads in response to query)
+08/18/19 23:04:53 Query info: matched=1; skipped=0; query_time=0.001242; send_time=0.000395; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:51231>; projection={}
+08/18/19 23:04:53 Number of Active Workers 0
+08/18/19 23:04:53 (Sending 5 ads in response to query)
+08/18/19 23:04:53 Query info: matched=5; skipped=4; query_time=0.001301; send_time=0.002080; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:4081>; projection={}
+08/18/19 23:05:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:05:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:05:53 Number of Active Workers 0
+08/18/19 23:05:53 (Sending 1 ads in response to query)
+08/18/19 23:05:53 Query info: matched=1; skipped=0; query_time=0.000919; send_time=0.000449; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:38037>; projection={}
+08/18/19 23:05:53 Number of Active Workers 0
+08/18/19 23:05:53 (Sending 5 ads in response to query)
+08/18/19 23:05:53 Query info: matched=5; skipped=4; query_time=0.001344; send_time=0.002023; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:51863>; projection={}
+08/18/19 23:06:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:06:53 Number of Active Workers 0
+08/18/19 23:06:53 (Sending 1 ads in response to query)
+08/18/19 23:06:53 Query info: matched=1; skipped=0; query_time=0.001125; send_time=0.000427; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:51599>; projection={}
+08/18/19 23:06:53 Number of Active Workers 0
+08/18/19 23:06:53 (Sending 5 ads in response to query)
+08/18/19 23:06:53 Query info: matched=5; skipped=4; query_time=0.001207; send_time=0.002121; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:42831>; projection={}
+08/18/19 23:07:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:07:53 Number of Active Workers 0
+08/18/19 23:07:53 (Sending 1 ads in response to query)
+08/18/19 23:07:53 Query info: matched=1; skipped=0; query_time=0.000986; send_time=0.000465; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:43205>; projection={}
+08/18/19 23:07:53 Number of Active Workers 0
+08/18/19 23:07:53 (Sending 5 ads in response to query)
+08/18/19 23:07:53 Query info: matched=5; skipped=4; query_time=0.001352; send_time=0.002052; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:43397>; projection={}
+08/18/19 23:08:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:08:53 Number of Active Workers 0
+08/18/19 23:08:53 (Sending 1 ads in response to query)
+08/18/19 23:08:53 Query info: matched=1; skipped=0; query_time=0.001130; send_time=0.000395; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:33393>; projection={}
+08/18/19 23:08:53 Number of Active Workers 0
+08/18/19 23:08:53 (Sending 5 ads in response to query)
+08/18/19 23:08:53 Query info: matched=5; skipped=4; query_time=0.001177; send_time=0.002084; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:9527>; projection={}
+08/18/19 23:09:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:09:53 Number of Active Workers 0
+08/18/19 23:09:53 (Sending 1 ads in response to query)
+08/18/19 23:09:53 Query info: matched=1; skipped=0; query_time=0.001187; send_time=0.000395; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:34399>; projection={}
+08/18/19 23:09:53 Number of Active Workers 0
+08/18/19 23:09:53 (Sending 5 ads in response to query)
+08/18/19 23:09:53 Query info: matched=5; skipped=4; query_time=0.001156; send_time=0.002121; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:36285>; projection={}
+08/18/19 23:10:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:10:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:10:53 Number of Active Workers 0
+08/18/19 23:10:53 (Sending 1 ads in response to query)
+08/18/19 23:10:53 Query info: matched=1; skipped=0; query_time=0.001250; send_time=0.000407; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:63093>; projection={}
+08/18/19 23:10:53 Number of Active Workers 0
+08/18/19 23:10:53 (Sending 5 ads in response to query)
+08/18/19 23:10:53 Query info: matched=5; skipped=4; query_time=0.001370; send_time=0.002041; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:60125>; projection={}
+08/18/19 23:11:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:11:53 Number of Active Workers 0
+08/18/19 23:11:53 (Sending 1 ads in response to query)
+08/18/19 23:11:53 Query info: matched=1; skipped=0; query_time=0.001027; send_time=0.001293; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:58433>; projection={}
+08/18/19 23:11:53 Number of Active Workers 1
+08/18/19 23:11:53 (Sending 5 ads in response to query)
+08/18/19 23:11:53 Query info: matched=5; skipped=4; query_time=0.000847; send_time=0.002194; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:9637>; projection={}
+08/18/19 23:12:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:12:53 Number of Active Workers 0
+08/18/19 23:12:53 (Sending 1 ads in response to query)
+08/18/19 23:12:53 Query info: matched=1; skipped=0; query_time=0.001188; send_time=0.000389; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:60515>; projection={}
+08/18/19 23:12:53 Number of Active Workers 0
+08/18/19 23:12:53 (Sending 5 ads in response to query)
+08/18/19 23:12:53 Query info: matched=5; skipped=4; query_time=0.001331; send_time=0.002140; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:63867>; projection={}
+08/18/19 23:13:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:13:53 Number of Active Workers 0
+08/18/19 23:13:53 (Sending 1 ads in response to query)
+08/18/19 23:13:53 Query info: matched=1; skipped=0; query_time=0.000774; send_time=0.000487; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:18855>; projection={}
+08/18/19 23:13:53 Number of Active Workers 0
+08/18/19 23:13:53 (Sending 5 ads in response to query)
+08/18/19 23:13:53 Query info: matched=5; skipped=4; query_time=0.001262; send_time=0.006593; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:7021>; projection={}
+08/18/19 23:14:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:14:53 Number of Active Workers 0
+08/18/19 23:14:53 (Sending 1 ads in response to query)
+08/18/19 23:14:53 Query info: matched=1; skipped=0; query_time=0.001186; send_time=0.000432; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:18691>; projection={}
+08/18/19 23:14:53 Number of Active Workers 0
+08/18/19 23:14:53 (Sending 5 ads in response to query)
+08/18/19 23:14:53 Query info: matched=5; skipped=4; query_time=0.001248; send_time=0.001914; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:54327>; projection={}
+08/18/19 23:15:00 Housekeeper:  Ready to clean old ads
+08/18/19 23:15:00 	Cleaning StartdAds ...
+08/18/19 23:15:00 	Cleaning StartdPrivateAds ...
+08/18/19 23:15:00 	Cleaning ScheddAds ...
+08/18/19 23:15:00 	Cleaning SubmittorAds ...
+08/18/19 23:15:00 	Cleaning LicenseAds ...
+08/18/19 23:15:00 	Cleaning MasterAds ...
+08/18/19 23:15:00 	Cleaning CkptServerAds ...
+08/18/19 23:15:00 	Cleaning CollectorAds ...
+08/18/19 23:15:00 	Cleaning StorageAds ...
+08/18/19 23:15:00 	Cleaning NegotiatorAds ...
+08/18/19 23:15:00 	Cleaning HadAds ...
+08/18/19 23:15:00 	Cleaning GridAds ...
+08/18/19 23:15:00 	Cleaning XferServiceAds ...
+08/18/19 23:15:00 	Cleaning LeaseManagerAds ...
+08/18/19 23:15:00 	Cleaning Generic Ads ...
+08/18/19 23:15:00 Housekeeper:  Done cleaning
+08/18/19 23:15:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/18/19 23:15:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/18/19 23:15:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:15:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:15:53 Number of Active Workers 0
+08/18/19 23:15:53 (Sending 1 ads in response to query)
+08/18/19 23:15:53 Query info: matched=1; skipped=0; query_time=0.001173; send_time=0.000415; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:64751>; projection={}
+08/18/19 23:15:53 Number of Active Workers 0
+08/18/19 23:15:53 (Sending 5 ads in response to query)
+08/18/19 23:15:53 Query info: matched=5; skipped=4; query_time=0.001274; send_time=0.002289; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:58237>; projection={}
+08/18/19 23:16:00 StartdAd     : Inserting ** "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:16:00 StartdPvtAd  : Inserting ** "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:16:00 StartdAd     : Inserting ** "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:16:00 StartdPvtAd  : Inserting ** "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:16:00 StartdAd     : Inserting ** "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:16:00 StartdPvtAd  : Inserting ** "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:16:01 StartdAd     : Inserting ** "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:16:01 StartdPvtAd  : Inserting ** "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:16:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:16:53 Number of Active Workers 0
+08/18/19 23:16:53 (Sending 5 ads in response to query)
+08/18/19 23:16:53 Query info: matched=5; skipped=0; query_time=0.000951; send_time=0.000660; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:8053>; projection={}
+08/18/19 23:16:53 Number of Active Workers 0
+08/18/19 23:16:53 (Sending 9 ads in response to query)
+08/18/19 23:16:53 Query info: matched=9; skipped=4; query_time=0.000988; send_time=0.003823; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:50845>; projection={}
+08/18/19 23:17:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:17:53 Number of Active Workers 0
+08/18/19 23:17:53 (Sending 5 ads in response to query)
+08/18/19 23:17:53 Query info: matched=5; skipped=0; query_time=0.000998; send_time=0.000659; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:24397>; projection={}
+08/18/19 23:17:53 Number of Active Workers 0
+08/18/19 23:17:53 (Sending 9 ads in response to query)
+08/18/19 23:17:53 Query info: matched=9; skipped=4; query_time=0.001032; send_time=0.003936; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:43029>; projection={}
+08/18/19 23:18:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:18:53 Number of Active Workers 0
+08/18/19 23:18:53 (Sending 5 ads in response to query)
+08/18/19 23:18:53 Query info: matched=5; skipped=0; query_time=0.001184; send_time=0.000628; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:61681>; projection={}
+08/18/19 23:18:53 Number of Active Workers 0
+08/18/19 23:18:53 (Sending 9 ads in response to query)
+08/18/19 23:18:53 Query info: matched=9; skipped=4; query_time=0.001183; send_time=0.003735; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:56721>; projection={}
+08/18/19 23:19:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:19:53 Number of Active Workers 0
+08/18/19 23:19:53 (Sending 5 ads in response to query)
+08/18/19 23:19:53 Query info: matched=5; skipped=0; query_time=0.001252; send_time=0.000769; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:63483>; projection={}
+08/18/19 23:19:53 Number of Active Workers 0
+08/18/19 23:19:53 (Sending 9 ads in response to query)
+08/18/19 23:19:53 Query info: matched=9; skipped=4; query_time=0.001021; send_time=0.004278; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:2055>; projection={}
+08/18/19 23:20:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:20:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:20:53 Number of Active Workers 0
+08/18/19 23:20:53 (Sending 5 ads in response to query)
+08/18/19 23:20:53 Query info: matched=5; skipped=0; query_time=0.000842; send_time=0.000713; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:41467>; projection={}
+08/18/19 23:20:53 Number of Active Workers 0
+08/18/19 23:20:53 (Sending 9 ads in response to query)
+08/18/19 23:20:53 Query info: matched=9; skipped=4; query_time=0.001375; send_time=0.003610; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:1149>; projection={}
+08/18/19 23:21:09 Got QUERY_SUBMITTOR_ADS
+08/18/19 23:21:09 (Sending 2 ads in response to query)
+08/18/19 23:21:09 Query info: matched=2; skipped=0; query_time=0.000041; send_time=0.000527; type=Submitter; requirements={true}; peer=<45.5.164.207:50501>; projection={}
+08/18/19 23:21:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:21:53 Number of Active Workers 0
+08/18/19 23:21:53 (Sending 5 ads in response to query)
+08/18/19 23:21:53 Query info: matched=5; skipped=0; query_time=0.001236; send_time=0.000697; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:62111>; projection={}
+08/18/19 23:21:53 Number of Active Workers 0
+08/18/19 23:21:53 (Sending 9 ads in response to query)
+08/18/19 23:21:53 Query info: matched=9; skipped=4; query_time=0.001099; send_time=0.003581; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:40123>; projection={}
+08/18/19 23:22:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:22:53 Number of Active Workers 0
+08/18/19 23:22:53 (Sending 5 ads in response to query)
+08/18/19 23:22:53 Number of Active Workers 1
+08/18/19 23:22:53 Query info: matched=5; skipped=0; query_time=0.001153; send_time=0.003772; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:13869>; projection={}
+08/18/19 23:22:53 (Sending 9 ads in response to query)
+08/18/19 23:22:53 Query info: matched=9; skipped=4; query_time=0.002354; send_time=0.009662; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:23745>; projection={}
+08/18/19 23:23:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:23:53 Number of Active Workers 0
+08/18/19 23:23:53 (Sending 5 ads in response to query)
+08/18/19 23:23:53 Query info: matched=5; skipped=0; query_time=0.000876; send_time=0.000704; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:23241>; projection={}
+08/18/19 23:23:53 Number of Active Workers 0
+08/18/19 23:23:53 (Sending 9 ads in response to query)
+08/18/19 23:23:53 Query info: matched=9; skipped=4; query_time=0.001196; send_time=0.003743; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:59759>; projection={}
+08/18/19 23:24:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:24:53 Number of Active Workers 0
+08/18/19 23:24:53 (Sending 5 ads in response to query)
+08/18/19 23:24:53 Query info: matched=5; skipped=0; query_time=0.001198; send_time=0.000714; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:2687>; projection={}
+08/18/19 23:24:53 Number of Active Workers 0
+08/18/19 23:24:53 (Sending 9 ads in response to query)
+08/18/19 23:24:53 Query info: matched=9; skipped=4; query_time=0.001414; send_time=0.003612; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:12355>; projection={}
+08/18/19 23:25:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:25:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:25:53 Number of Active Workers 0
+08/18/19 23:25:53 (Sending 5 ads in response to query)
+08/18/19 23:25:53 Query info: matched=5; skipped=0; query_time=0.001025; send_time=0.000773; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:1895>; projection={}
+08/18/19 23:25:53 Number of Active Workers 0
+08/18/19 23:25:53 (Sending 9 ads in response to query)
+08/18/19 23:25:53 Query info: matched=9; skipped=4; query_time=0.001415; send_time=0.003674; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:39325>; projection={}
+08/18/19 23:26:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:26:53 Number of Active Workers 0
+08/18/19 23:26:53 (Sending 5 ads in response to query)
+08/18/19 23:26:53 Query info: matched=5; skipped=0; query_time=0.001268; send_time=0.000717; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:59493>; projection={}
+08/18/19 23:26:53 Number of Active Workers 0
+08/18/19 23:26:53 (Sending 9 ads in response to query)
+08/18/19 23:26:53 Query info: matched=9; skipped=4; query_time=0.001380; send_time=0.003637; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:43769>; projection={}
+08/18/19 23:27:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:27:53 Number of Active Workers 0
+08/18/19 23:27:53 (Sending 5 ads in response to query)
+08/18/19 23:27:53 Query info: matched=5; skipped=0; query_time=0.001407; send_time=0.000821; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:12875>; projection={}
+08/18/19 23:27:53 Number of Active Workers 0
+08/18/19 23:27:53 (Sending 9 ads in response to query)
+08/18/19 23:27:53 Query info: matched=9; skipped=4; query_time=0.001015; send_time=0.005830; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:38757>; projection={}
+08/18/19 23:28:53 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:28:53 Number of Active Workers 0
+08/18/19 23:28:53 (Sending 5 ads in response to query)
+08/18/19 23:28:53 Query info: matched=5; skipped=0; query_time=0.001256; send_time=0.000759; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:56749>; projection={}
+08/18/19 23:28:53 Number of Active Workers 0
+08/18/19 23:28:53 (Sending 9 ads in response to query)
+08/18/19 23:28:53 Query info: matched=9; skipped=4; query_time=0.000851; send_time=0.003641; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:22537>; projection={}
+08/18/19 23:29:30 Got INVALIDATE_STARTD_ADS
+08/18/19 23:29:30 		**** Removed(1) ad(s): "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:29:30 (Invalidated 1 ads)
+08/18/19 23:29:30 		**** Removed(1) ad(s): "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:29:30 (Invalidated 1 ads)
+08/18/19 23:29:32 Got INVALIDATE_STARTD_ADS
+08/18/19 23:29:32 		**** Removed(1) ad(s): "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:29:32 (Invalidated 1 ads)
+08/18/19 23:29:32 		**** Removed(1) ad(s): "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:29:32 (Invalidated 1 ads)
+08/18/19 23:29:34 Got INVALIDATE_STARTD_ADS
+08/18/19 23:29:34 		**** Removed(1) ad(s): "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:29:34 (Invalidated 1 ads)
+08/18/19 23:29:34 		**** Removed(1) ad(s): "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:29:34 (Invalidated 1 ads)
+08/18/19 23:29:36 Got INVALIDATE_STARTD_ADS
+08/18/19 23:29:36 		**** Removed(1) ad(s): "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:29:36 (Invalidated 1 ads)
+08/18/19 23:29:36 		**** Removed(1) ad(s): "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/18/19 23:29:36 (Invalidated 1 ads)
+08/18/19 23:29:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:29:54 Number of Active Workers 0
+08/18/19 23:29:54 (Sending 1 ads in response to query)
+08/18/19 23:29:54 Query info: matched=1; skipped=0; query_time=0.001190; send_time=0.000407; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:21749>; projection={}
+08/18/19 23:29:54 Number of Active Workers 0
+08/18/19 23:29:54 (Sending 5 ads in response to query)
+08/18/19 23:29:54 Query info: matched=5; skipped=4; query_time=0.000998; send_time=0.002333; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:54451>; projection={}
+08/18/19 23:30:00 Housekeeper:  Ready to clean old ads
+08/18/19 23:30:00 	Cleaning StartdAds ...
+08/18/19 23:30:00 	Cleaning StartdPrivateAds ...
+08/18/19 23:30:00 	Cleaning ScheddAds ...
+08/18/19 23:30:00 	Cleaning SubmittorAds ...
+08/18/19 23:30:00 	Cleaning LicenseAds ...
+08/18/19 23:30:00 	Cleaning MasterAds ...
+08/18/19 23:30:00 	Cleaning CkptServerAds ...
+08/18/19 23:30:00 	Cleaning CollectorAds ...
+08/18/19 23:30:00 	Cleaning StorageAds ...
+08/18/19 23:30:00 	Cleaning NegotiatorAds ...
+08/18/19 23:30:00 	Cleaning HadAds ...
+08/18/19 23:30:00 	Cleaning GridAds ...
+08/18/19 23:30:00 	Cleaning XferServiceAds ...
+08/18/19 23:30:00 	Cleaning LeaseManagerAds ...
+08/18/19 23:30:00 	Cleaning Generic Ads ...
+08/18/19 23:30:00 Housekeeper:  Done cleaning
+08/18/19 23:30:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/18/19 23:30:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/18/19 23:30:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:30:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:30:54 Number of Active Workers 0
+08/18/19 23:30:54 (Sending 1 ads in response to query)
+08/18/19 23:30:54 Query info: matched=1; skipped=0; query_time=0.001271; send_time=0.000423; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:16873>; projection={}
+08/18/19 23:30:54 Number of Active Workers 0
+08/18/19 23:30:54 (Sending 5 ads in response to query)
+08/18/19 23:30:54 Query info: matched=5; skipped=4; query_time=0.000987; send_time=0.002172; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:8693>; projection={}
+08/18/19 23:31:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:31:54 Number of Active Workers 0
+08/18/19 23:31:54 (Sending 1 ads in response to query)
+08/18/19 23:31:54 Query info: matched=1; skipped=0; query_time=0.001118; send_time=0.000438; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:8851>; projection={}
+08/18/19 23:31:54 Number of Active Workers 0
+08/18/19 23:31:54 (Sending 5 ads in response to query)
+08/18/19 23:31:54 Query info: matched=5; skipped=4; query_time=0.000851; send_time=0.005656; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:18411>; projection={}
+08/18/19 23:32:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:32:54 Number of Active Workers 0
+08/18/19 23:32:54 (Sending 1 ads in response to query)
+08/18/19 23:32:54 Query info: matched=1; skipped=0; query_time=0.001278; send_time=0.000437; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:50877>; projection={}
+08/18/19 23:32:54 Number of Active Workers 0
+08/18/19 23:32:54 (Sending 5 ads in response to query)
+08/18/19 23:32:54 Query info: matched=5; skipped=4; query_time=0.000902; send_time=0.002319; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:65431>; projection={}
+08/18/19 23:33:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:33:54 Number of Active Workers 0
+08/18/19 23:33:54 (Sending 1 ads in response to query)
+08/18/19 23:33:54 Query info: matched=1; skipped=0; query_time=0.001292; send_time=0.000423; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:2083>; projection={}
+08/18/19 23:33:54 Number of Active Workers 0
+08/18/19 23:33:54 (Sending 5 ads in response to query)
+08/18/19 23:33:54 Query info: matched=5; skipped=4; query_time=0.001325; send_time=0.002214; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:2855>; projection={}
+08/18/19 23:34:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:34:54 Number of Active Workers 0
+08/18/19 23:34:54 (Sending 1 ads in response to query)
+08/18/19 23:34:54 Query info: matched=1; skipped=0; query_time=0.001017; send_time=0.000397; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:41367>; projection={}
+08/18/19 23:34:54 Number of Active Workers 0
+08/18/19 23:34:54 (Sending 5 ads in response to query)
+08/18/19 23:34:54 Query info: matched=5; skipped=4; query_time=0.001348; send_time=0.002220; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:54337>; projection={}
+08/18/19 23:35:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:35:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:35:54 Number of Active Workers 0
+08/18/19 23:35:54 (Sending 1 ads in response to query)
+08/18/19 23:35:54 Query info: matched=1; skipped=0; query_time=0.001154; send_time=0.000471; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:25849>; projection={}
+08/18/19 23:35:54 Number of Active Workers 0
+08/18/19 23:35:54 (Sending 5 ads in response to query)
+08/18/19 23:35:54 Query info: matched=5; skipped=4; query_time=0.001000; send_time=0.002543; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:38115>; projection={}
+08/18/19 23:36:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:36:54 Number of Active Workers 0
+08/18/19 23:36:54 (Sending 1 ads in response to query)
+08/18/19 23:36:54 Query info: matched=1; skipped=0; query_time=0.000859; send_time=0.000401; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:5189>; projection={}
+08/18/19 23:36:54 Number of Active Workers 0
+08/18/19 23:36:54 (Sending 5 ads in response to query)
+08/18/19 23:36:54 Query info: matched=5; skipped=4; query_time=0.001404; send_time=0.002259; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:4559>; projection={}
+08/18/19 23:37:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:37:54 Number of Active Workers 0
+08/18/19 23:37:54 (Sending 1 ads in response to query)
+08/18/19 23:37:54 Query info: matched=1; skipped=0; query_time=0.002616; send_time=0.000443; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:54251>; projection={}
+08/18/19 23:37:54 Number of Active Workers 0
+08/18/19 23:37:55 (Sending 5 ads in response to query)
+08/18/19 23:37:55 Query info: matched=5; skipped=4; query_time=0.001318; send_time=0.007193; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:47309>; projection={}
+08/18/19 23:38:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:38:54 Number of Active Workers 0
+08/18/19 23:38:54 (Sending 1 ads in response to query)
+08/18/19 23:38:54 Query info: matched=1; skipped=0; query_time=0.001323; send_time=0.000473; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:29325>; projection={}
+08/18/19 23:38:54 Number of Active Workers 0
+08/18/19 23:38:54 (Sending 5 ads in response to query)
+08/18/19 23:38:54 Query info: matched=5; skipped=4; query_time=0.001312; send_time=0.002107; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:10437>; projection={}
+08/18/19 23:39:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:39:54 Number of Active Workers 0
+08/18/19 23:39:54 (Sending 1 ads in response to query)
+08/18/19 23:39:54 Query info: matched=1; skipped=0; query_time=0.001156; send_time=0.000483; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:42997>; projection={}
+08/18/19 23:39:54 Number of Active Workers 0
+08/18/19 23:39:54 (Sending 5 ads in response to query)
+08/18/19 23:39:54 Query info: matched=5; skipped=4; query_time=0.001297; send_time=0.002134; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:59907>; projection={}
+08/18/19 23:40:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:40:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:40:54 Number of Active Workers 0
+08/18/19 23:40:54 (Sending 1 ads in response to query)
+08/18/19 23:40:54 Number of Active Workers 1
+08/18/19 23:40:54 Query info: matched=1; skipped=0; query_time=0.001109; send_time=0.003189; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:22241>; projection={}
+08/18/19 23:40:54 (Sending 5 ads in response to query)
+08/18/19 23:40:54 Query info: matched=5; skipped=4; query_time=0.001147; send_time=0.006658; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:2553>; projection={}
+08/18/19 23:41:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:41:54 Number of Active Workers 0
+08/18/19 23:41:54 (Sending 1 ads in response to query)
+08/18/19 23:41:54 Query info: matched=1; skipped=0; query_time=0.001251; send_time=0.000438; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:35189>; projection={}
+08/18/19 23:41:54 Number of Active Workers 0
+08/18/19 23:41:54 (Sending 5 ads in response to query)
+08/18/19 23:41:54 Query info: matched=5; skipped=4; query_time=0.000858; send_time=0.002149; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:10859>; projection={}
+08/18/19 23:42:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:42:54 Number of Active Workers 0
+08/18/19 23:42:54 (Sending 1 ads in response to query)
+08/18/19 23:42:54 Query info: matched=1; skipped=0; query_time=0.000957; send_time=0.000453; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:7403>; projection={}
+08/18/19 23:42:54 Number of Active Workers 0
+08/18/19 23:42:54 (Sending 5 ads in response to query)
+08/18/19 23:42:54 Query info: matched=5; skipped=4; query_time=0.001347; send_time=0.002186; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:42731>; projection={}
+08/18/19 23:43:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:43:54 Number of Active Workers 0
+08/18/19 23:43:54 (Sending 1 ads in response to query)
+08/18/19 23:43:54 Query info: matched=1; skipped=0; query_time=0.000792; send_time=0.000417; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:45881>; projection={}
+08/18/19 23:43:54 Number of Active Workers 0
+08/18/19 23:43:54 (Sending 5 ads in response to query)
+08/18/19 23:43:54 Query info: matched=5; skipped=4; query_time=0.001206; send_time=0.002324; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:2947>; projection={}
+08/18/19 23:44:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:44:54 Number of Active Workers 0
+08/18/19 23:44:54 (Sending 1 ads in response to query)
+08/18/19 23:44:54 Query info: matched=1; skipped=0; query_time=0.001249; send_time=0.000405; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:39193>; projection={}
+08/18/19 23:44:54 Number of Active Workers 1
+08/18/19 23:44:54 (Sending 5 ads in response to query)
+08/18/19 23:44:54 Query info: matched=5; skipped=4; query_time=0.001434; send_time=0.002075; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:24587>; projection={}
+08/18/19 23:45:00 Housekeeper:  Ready to clean old ads
+08/18/19 23:45:00 	Cleaning StartdAds ...
+08/18/19 23:45:00 	Cleaning StartdPrivateAds ...
+08/18/19 23:45:00 	Cleaning ScheddAds ...
+08/18/19 23:45:00 	Cleaning SubmittorAds ...
+08/18/19 23:45:00 	Cleaning LicenseAds ...
+08/18/19 23:45:00 	Cleaning MasterAds ...
+08/18/19 23:45:00 	Cleaning CkptServerAds ...
+08/18/19 23:45:00 	Cleaning CollectorAds ...
+08/18/19 23:45:00 	Cleaning StorageAds ...
+08/18/19 23:45:00 	Cleaning NegotiatorAds ...
+08/18/19 23:45:00 	Cleaning HadAds ...
+08/18/19 23:45:00 	Cleaning GridAds ...
+08/18/19 23:45:00 	Cleaning XferServiceAds ...
+08/18/19 23:45:00 	Cleaning LeaseManagerAds ...
+08/18/19 23:45:00 	Cleaning Generic Ads ...
+08/18/19 23:45:00 Housekeeper:  Done cleaning
+08/18/19 23:45:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/18/19 23:45:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/18/19 23:45:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:45:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:45:54 Number of Active Workers 0
+08/18/19 23:45:54 (Sending 1 ads in response to query)
+08/18/19 23:45:54 Query info: matched=1; skipped=0; query_time=0.001135; send_time=0.002403; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:27137>; projection={}
+08/18/19 23:45:54 Number of Active Workers 1
+08/18/19 23:45:54 (Sending 5 ads in response to query)
+08/18/19 23:45:54 Query info: matched=5; skipped=4; query_time=0.001347; send_time=0.002156; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:8053>; projection={}
+08/18/19 23:46:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:46:54 Number of Active Workers 0
+08/18/19 23:46:54 (Sending 1 ads in response to query)
+08/18/19 23:46:54 Query info: matched=1; skipped=0; query_time=0.000857; send_time=0.000383; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:28009>; projection={}
+08/18/19 23:46:54 Number of Active Workers 0
+08/18/19 23:46:54 (Sending 5 ads in response to query)
+08/18/19 23:46:54 Query info: matched=5; skipped=4; query_time=0.001317; send_time=0.002109; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:19817>; projection={}
+08/18/19 23:47:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:47:54 Number of Active Workers 0
+08/18/19 23:47:54 (Sending 1 ads in response to query)
+08/18/19 23:47:54 Query info: matched=1; skipped=0; query_time=0.001212; send_time=0.000441; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:15387>; projection={}
+08/18/19 23:47:54 Number of Active Workers 0
+08/18/19 23:47:54 (Sending 5 ads in response to query)
+08/18/19 23:47:54 Query info: matched=5; skipped=4; query_time=0.001307; send_time=0.002931; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:48771>; projection={}
+08/18/19 23:48:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:48:54 Number of Active Workers 0
+08/18/19 23:48:54 (Sending 1 ads in response to query)
+08/18/19 23:48:54 Query info: matched=1; skipped=0; query_time=0.001039; send_time=0.000461; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:28785>; projection={}
+08/18/19 23:48:54 Number of Active Workers 0
+08/18/19 23:48:54 (Sending 5 ads in response to query)
+08/18/19 23:48:54 Query info: matched=5; skipped=4; query_time=0.001359; send_time=0.002136; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:26239>; projection={}
+08/18/19 23:49:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:49:54 Number of Active Workers 0
+08/18/19 23:49:54 (Sending 1 ads in response to query)
+08/18/19 23:49:54 Query info: matched=1; skipped=0; query_time=0.001232; send_time=0.001477; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:32865>; projection={}
+08/18/19 23:49:54 Number of Active Workers 1
+08/18/19 23:49:54 (Sending 5 ads in response to query)
+08/18/19 23:49:54 Query info: matched=5; skipped=4; query_time=0.001004; send_time=0.002391; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:60283>; projection={}
+08/18/19 23:50:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:50:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:50:54 Number of Active Workers 0
+08/18/19 23:50:54 (Sending 1 ads in response to query)
+08/18/19 23:50:54 Query info: matched=1; skipped=0; query_time=0.001027; send_time=0.000409; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:59925>; projection={}
+08/18/19 23:50:54 Number of Active Workers 0
+08/18/19 23:50:54 (Sending 5 ads in response to query)
+08/18/19 23:50:54 Query info: matched=5; skipped=4; query_time=0.001457; send_time=0.002087; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:32775>; projection={}
+08/18/19 23:51:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:51:54 Number of Active Workers 0
+08/18/19 23:51:54 (Sending 1 ads in response to query)
+08/18/19 23:51:54 Query info: matched=1; skipped=0; query_time=0.001028; send_time=0.000379; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:5489>; projection={}
+08/18/19 23:51:54 Number of Active Workers 0
+08/18/19 23:51:54 (Sending 5 ads in response to query)
+08/18/19 23:51:54 Query info: matched=5; skipped=4; query_time=0.001229; send_time=0.007411; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:24497>; projection={}
+08/18/19 23:52:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:52:54 Number of Active Workers 0
+08/18/19 23:52:54 (Sending 1 ads in response to query)
+08/18/19 23:52:54 Query info: matched=1; skipped=0; query_time=0.001318; send_time=0.000409; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:8651>; projection={}
+08/18/19 23:52:54 Number of Active Workers 0
+08/18/19 23:52:54 (Sending 5 ads in response to query)
+08/18/19 23:52:54 Query info: matched=5; skipped=4; query_time=0.001036; send_time=0.006222; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:7853>; projection={}
+08/18/19 23:53:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:53:54 Number of Active Workers 0
+08/18/19 23:53:54 (Sending 1 ads in response to query)
+08/18/19 23:53:54 Query info: matched=1; skipped=0; query_time=0.001107; send_time=0.000420; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:13173>; projection={}
+08/18/19 23:53:54 Number of Active Workers 0
+08/18/19 23:53:54 (Sending 5 ads in response to query)
+08/18/19 23:53:54 Query info: matched=5; skipped=4; query_time=0.001302; send_time=0.002152; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:25267>; projection={}
+08/18/19 23:54:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:54:54 Number of Active Workers 0
+08/18/19 23:54:54 (Sending 1 ads in response to query)
+08/18/19 23:54:54 Query info: matched=1; skipped=0; query_time=0.000936; send_time=0.001171; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:11845>; projection={}
+08/18/19 23:54:54 Number of Active Workers 1
+08/18/19 23:54:54 (Sending 5 ads in response to query)
+08/18/19 23:54:54 Query info: matched=5; skipped=4; query_time=0.001512; send_time=0.002060; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:44673>; projection={}
+08/18/19 23:55:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/18/19 23:55:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:55:54 Number of Active Workers 0
+08/18/19 23:55:54 (Sending 1 ads in response to query)
+08/18/19 23:55:54 Query info: matched=1; skipped=0; query_time=0.001142; send_time=0.001244; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:42949>; projection={}
+08/18/19 23:55:54 Number of Active Workers 1
+08/18/19 23:55:54 (Sending 5 ads in response to query)
+08/18/19 23:55:54 Query info: matched=5; skipped=4; query_time=0.001558; send_time=0.002279; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:43347>; projection={}
+08/18/19 23:56:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:56:54 Number of Active Workers 0
+08/18/19 23:56:54 (Sending 1 ads in response to query)
+08/18/19 23:56:54 Query info: matched=1; skipped=0; query_time=0.001290; send_time=0.000398; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:19497>; projection={}
+08/18/19 23:56:54 Number of Active Workers 0
+08/18/19 23:56:54 (Sending 5 ads in response to query)
+08/18/19 23:56:54 Query info: matched=5; skipped=4; query_time=0.000793; send_time=0.002124; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:31785>; projection={}
+08/18/19 23:57:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:57:54 Number of Active Workers 0
+08/18/19 23:57:54 (Sending 1 ads in response to query)
+08/18/19 23:57:54 Query info: matched=1; skipped=0; query_time=0.001353; send_time=0.000436; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:40417>; projection={}
+08/18/19 23:57:54 Number of Active Workers 0
+08/18/19 23:57:54 (Sending 5 ads in response to query)
+08/18/19 23:57:54 Query info: matched=5; skipped=4; query_time=0.001335; send_time=0.002037; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:54721>; projection={}
+08/18/19 23:58:54 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:58:54 Number of Active Workers 0
+08/18/19 23:58:54 (Sending 1 ads in response to query)
+08/18/19 23:58:54 Query info: matched=1; skipped=0; query_time=0.000820; send_time=0.000470; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:1459>; projection={}
+08/18/19 23:58:54 Number of Active Workers 0
+08/18/19 23:58:54 (Sending 5 ads in response to query)
+08/18/19 23:58:54 Query info: matched=5; skipped=4; query_time=0.001280; send_time=0.006871; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:7581>; projection={}
+08/18/19 23:59:55 Got QUERY_STARTD_PVT_ADS
+08/18/19 23:59:55 Number of Active Workers 0
+08/18/19 23:59:55 (Sending 1 ads in response to query)
+08/18/19 23:59:55 Query info: matched=1; skipped=0; query_time=0.001252; send_time=0.000413; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:63443>; projection={}
+08/18/19 23:59:55 Number of Active Workers 0
+08/18/19 23:59:55 (Sending 5 ads in response to query)
+08/18/19 23:59:55 Query info: matched=5; skipped=4; query_time=0.000886; send_time=0.002314; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:41951>; projection={}
+08/19/19 00:00:00 Housekeeper:  Ready to clean old ads
+08/19/19 00:00:00 	Cleaning StartdAds ...
+08/19/19 00:00:00 	Cleaning StartdPrivateAds ...
+08/19/19 00:00:00 	Cleaning ScheddAds ...
+08/19/19 00:00:00 	Cleaning SubmittorAds ...
+08/19/19 00:00:00 		**** Removing stale ad: "< condor1@cloud.univalle.edu.coedier-master-1.cloud.univalle.edu.co , 45.5.164.207 >"
+08/19/19 00:00:00 		**** Removing stale ad: "< condor1@cloud.univalle.edu.coedier-master-1.cloud.univalle.edu.co , 45.5.164.207 >"
+08/19/19 00:00:00 	Cleaning LicenseAds ...
+08/19/19 00:00:00 	Cleaning MasterAds ...
+08/19/19 00:00:00 	Cleaning CkptServerAds ...
+08/19/19 00:00:00 	Cleaning CollectorAds ...
+08/19/19 00:00:00 	Cleaning StorageAds ...
+08/19/19 00:00:00 	Cleaning NegotiatorAds ...
+08/19/19 00:00:00 	Cleaning HadAds ...
+08/19/19 00:00:00 	Cleaning GridAds ...
+08/19/19 00:00:00 	Cleaning XferServiceAds ...
+08/19/19 00:00:00 	Cleaning LeaseManagerAds ...
+08/19/19 00:00:00 	Cleaning Generic Ads ...
+08/19/19 00:00:00 Housekeeper:  Done cleaning
+08/19/19 00:00:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/19/19 00:00:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/19/19 00:00:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/19/19 00:00:40 (Sending 1 ads in response to query)
+08/19/19 00:00:40 Query info: matched=1; skipped=0; query_time=0.000064; send_time=0.000250; type=Negotiator; requirements={true}; peer=<157.253.205.92:26573>; projection={}
+08/19/19 00:00:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:00:40 Number of Active Workers 0
+08/19/19 00:00:40 (Sending 1 ads in response to query)
+08/19/19 00:00:40 Query info: matched=1; skipped=0; query_time=0.000772; send_time=0.001980; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:6949>; projection={}
+08/19/19 00:00:40 Number of Active Workers 1
+08/19/19 00:00:40 (Sending 4 ads in response to query)
+08/19/19 00:00:40 Query info: matched=4; skipped=4; query_time=0.001432; send_time=0.007940; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:13045>; projection={}
+08/19/19 00:00:45 StartdAd     : Inserting ** "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:00:45 StartdPvtAd  : Inserting ** "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:00:45 StartdAd     : Inserting ** "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:00:45 StartdPvtAd  : Inserting ** "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:00:45 StartdAd     : Inserting ** "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:00:45 StartdPvtAd  : Inserting ** "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:00:47 StartdAd     : Inserting ** "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:00:47 StartdPvtAd  : Inserting ** "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:01:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:01:40 Number of Active Workers 0
+08/19/19 00:01:40 (Sending 5 ads in response to query)
+08/19/19 00:01:40 Query info: matched=5; skipped=0; query_time=0.000842; send_time=0.000673; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:63203>; projection={}
+08/19/19 00:01:40 Number of Active Workers 1
+08/19/19 00:01:40 (Sending 8 ads in response to query)
+08/19/19 00:01:40 Query info: matched=8; skipped=4; query_time=0.000809; send_time=0.004178; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:24105>; projection={}
+08/19/19 00:02:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:02:40 Number of Active Workers 0
+08/19/19 00:02:40 (Sending 5 ads in response to query)
+08/19/19 00:02:40 Query info: matched=5; skipped=0; query_time=0.000767; send_time=0.000699; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:21789>; projection={}
+08/19/19 00:02:40 Number of Active Workers 1
+08/19/19 00:02:40 (Sending 8 ads in response to query)
+08/19/19 00:02:40 Query info: matched=8; skipped=4; query_time=0.000887; send_time=0.003642; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:40607>; projection={}
+08/19/19 00:03:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:03:40 Number of Active Workers 0
+08/19/19 00:03:40 (Sending 5 ads in response to query)
+08/19/19 00:03:40 Query info: matched=5; skipped=0; query_time=0.001066; send_time=0.000680; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:16163>; projection={}
+08/19/19 00:03:40 Number of Active Workers 0
+08/19/19 00:03:40 (Sending 8 ads in response to query)
+08/19/19 00:03:40 Query info: matched=8; skipped=4; query_time=0.001062; send_time=0.003564; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:14453>; projection={}
+08/19/19 00:04:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:04:40 Number of Active Workers 0
+08/19/19 00:04:40 (Sending 5 ads in response to query)
+08/19/19 00:04:40 Query info: matched=5; skipped=0; query_time=0.001206; send_time=0.000700; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:28759>; projection={}
+08/19/19 00:04:40 Number of Active Workers 0
+08/19/19 00:04:40 (Sending 8 ads in response to query)
+08/19/19 00:04:40 Query info: matched=8; skipped=4; query_time=0.001435; send_time=0.003522; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:7865>; projection={}
+08/19/19 00:05:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/19/19 00:05:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:05:40 Number of Active Workers 0
+08/19/19 00:05:40 (Sending 5 ads in response to query)
+08/19/19 00:05:40 Query info: matched=5; skipped=0; query_time=0.001221; send_time=0.000713; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:20775>; projection={}
+08/19/19 00:05:40 Number of Active Workers 0
+08/19/19 00:05:40 (Sending 8 ads in response to query)
+08/19/19 00:05:40 Query info: matched=8; skipped=4; query_time=0.001387; send_time=0.003432; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:50883>; projection={}
+08/19/19 00:06:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:06:40 Number of Active Workers 0
+08/19/19 00:06:40 (Sending 5 ads in response to query)
+08/19/19 00:06:40 Query info: matched=5; skipped=0; query_time=0.001070; send_time=0.000702; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:54315>; projection={}
+08/19/19 00:06:40 Number of Active Workers 0
+08/19/19 00:06:40 (Sending 8 ads in response to query)
+08/19/19 00:06:40 Query info: matched=8; skipped=4; query_time=0.001379; send_time=0.003551; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:28809>; projection={}
+08/19/19 00:07:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:07:40 Number of Active Workers 0
+08/19/19 00:07:40 (Sending 5 ads in response to query)
+08/19/19 00:07:40 Query info: matched=5; skipped=0; query_time=0.000919; send_time=0.000743; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:31341>; projection={}
+08/19/19 00:07:40 Number of Active Workers 0
+08/19/19 00:07:40 (Sending 8 ads in response to query)
+08/19/19 00:07:40 Query info: matched=8; skipped=4; query_time=0.002059; send_time=0.020268; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:32649>; projection={}
+08/19/19 00:08:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:08:40 Number of Active Workers 0
+08/19/19 00:08:40 (Sending 5 ads in response to query)
+08/19/19 00:08:40 Query info: matched=5; skipped=0; query_time=0.001217; send_time=0.000723; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:50953>; projection={}
+08/19/19 00:08:40 Number of Active Workers 0
+08/19/19 00:08:40 (Sending 8 ads in response to query)
+08/19/19 00:08:40 Query info: matched=8; skipped=4; query_time=0.000853; send_time=0.003465; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:3237>; projection={}
+08/19/19 00:09:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:09:40 Number of Active Workers 0
+08/19/19 00:09:40 (Sending 5 ads in response to query)
+08/19/19 00:09:40 Query info: matched=5; skipped=0; query_time=0.001226; send_time=0.000772; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:45419>; projection={}
+08/19/19 00:09:40 Number of Active Workers 0
+08/19/19 00:09:40 (Sending 8 ads in response to query)
+08/19/19 00:09:40 Query info: matched=8; skipped=4; query_time=0.001363; send_time=0.003525; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:62849>; projection={}
+08/19/19 00:10:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/19/19 00:10:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:10:40 Number of Active Workers 0
+08/19/19 00:10:40 (Sending 5 ads in response to query)
+08/19/19 00:10:40 Query info: matched=5; skipped=0; query_time=0.001135; send_time=0.002122; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:29757>; projection={}
+08/19/19 00:10:40 Number of Active Workers 0
+08/19/19 00:10:40 (Sending 8 ads in response to query)
+08/19/19 00:10:40 Query info: matched=8; skipped=4; query_time=0.001254; send_time=0.003517; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:33317>; projection={}
+08/19/19 00:11:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:11:40 Number of Active Workers 0
+08/19/19 00:11:40 (Sending 5 ads in response to query)
+08/19/19 00:11:40 Query info: matched=5; skipped=0; query_time=0.001354; send_time=0.000728; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:7617>; projection={}
+08/19/19 00:11:40 Number of Active Workers 0
+08/19/19 00:11:40 (Sending 8 ads in response to query)
+08/19/19 00:11:40 Query info: matched=8; skipped=4; query_time=0.000842; send_time=0.003518; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:28143>; projection={}
+08/19/19 00:12:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:12:40 Number of Active Workers 0
+08/19/19 00:12:40 (Sending 5 ads in response to query)
+08/19/19 00:12:40 Query info: matched=5; skipped=0; query_time=0.000791; send_time=0.001271; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:41687>; projection={}
+08/19/19 00:12:40 Number of Active Workers 1
+08/19/19 00:12:40 (Sending 8 ads in response to query)
+08/19/19 00:12:40 Query info: matched=8; skipped=4; query_time=0.001464; send_time=0.003446; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:15317>; projection={}
+08/19/19 00:13:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:13:40 Number of Active Workers 0
+08/19/19 00:13:40 (Sending 5 ads in response to query)
+08/19/19 00:13:40 Query info: matched=5; skipped=0; query_time=0.001219; send_time=0.000723; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:17865>; projection={}
+08/19/19 00:13:40 Number of Active Workers 0
+08/19/19 00:13:40 (Sending 8 ads in response to query)
+08/19/19 00:13:40 Query info: matched=8; skipped=4; query_time=0.001349; send_time=0.003480; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:32359>; projection={}
+08/19/19 00:14:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:14:40 Number of Active Workers 0
+08/19/19 00:14:40 (Sending 5 ads in response to query)
+08/19/19 00:14:40 Query info: matched=5; skipped=0; query_time=0.001211; send_time=0.000734; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:28891>; projection={}
+08/19/19 00:14:40 Number of Active Workers 0
+08/19/19 00:14:40 (Sending 8 ads in response to query)
+08/19/19 00:14:40 Query info: matched=8; skipped=4; query_time=0.001357; send_time=0.003522; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:50481>; projection={}
+08/19/19 00:15:00 Housekeeper:  Ready to clean old ads
+08/19/19 00:15:00 	Cleaning StartdAds ...
+08/19/19 00:15:00 	Cleaning StartdPrivateAds ...
+08/19/19 00:15:00 	Cleaning ScheddAds ...
+08/19/19 00:15:00 	Cleaning SubmittorAds ...
+08/19/19 00:15:00 	Cleaning LicenseAds ...
+08/19/19 00:15:00 	Cleaning MasterAds ...
+08/19/19 00:15:00 	Cleaning CkptServerAds ...
+08/19/19 00:15:00 	Cleaning CollectorAds ...
+08/19/19 00:15:00 	Cleaning StorageAds ...
+08/19/19 00:15:00 	Cleaning NegotiatorAds ...
+08/19/19 00:15:00 	Cleaning HadAds ...
+08/19/19 00:15:00 	Cleaning GridAds ...
+08/19/19 00:15:00 	Cleaning XferServiceAds ...
+08/19/19 00:15:00 	Cleaning LeaseManagerAds ...
+08/19/19 00:15:00 	Cleaning Generic Ads ...
+08/19/19 00:15:00 Housekeeper:  Done cleaning
+08/19/19 00:15:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/19/19 00:15:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/19/19 00:15:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/19/19 00:15:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:15:40 Number of Active Workers 0
+08/19/19 00:15:40 (Sending 5 ads in response to query)
+08/19/19 00:15:40 Query info: matched=5; skipped=0; query_time=0.001204; send_time=0.000760; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:60247>; projection={}
+08/19/19 00:15:40 Number of Active Workers 0
+08/19/19 00:15:40 (Sending 8 ads in response to query)
+08/19/19 00:15:40 Query info: matched=8; skipped=4; query_time=0.001197; send_time=0.003757; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:13357>; projection={}
+08/19/19 00:16:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:16:40 Number of Active Workers 0
+08/19/19 00:16:40 (Sending 5 ads in response to query)
+08/19/19 00:16:40 Query info: matched=5; skipped=0; query_time=0.001209; send_time=0.000738; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:27969>; projection={}
+08/19/19 00:16:40 Number of Active Workers 0
+08/19/19 00:16:40 (Sending 8 ads in response to query)
+08/19/19 00:16:40 Query info: matched=8; skipped=4; query_time=0.000967; send_time=0.003575; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:35167>; projection={}
+08/19/19 00:17:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:17:40 Number of Active Workers 0
+08/19/19 00:17:40 (Sending 5 ads in response to query)
+08/19/19 00:17:40 Query info: matched=5; skipped=0; query_time=0.001243; send_time=0.000709; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:57043>; projection={}
+08/19/19 00:17:40 Number of Active Workers 0
+08/19/19 00:17:40 (Sending 8 ads in response to query)
+08/19/19 00:17:40 Query info: matched=8; skipped=4; query_time=0.001179; send_time=0.003546; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:62353>; projection={}
+08/19/19 00:18:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:18:40 Number of Active Workers 0
+08/19/19 00:18:40 (Sending 5 ads in response to query)
+08/19/19 00:18:40 Query info: matched=5; skipped=0; query_time=0.001383; send_time=0.000792; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:34731>; projection={}
+08/19/19 00:18:40 Number of Active Workers 0
+08/19/19 00:18:40 (Sending 8 ads in response to query)
+08/19/19 00:18:40 Query info: matched=8; skipped=4; query_time=0.001021; send_time=0.004316; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:62381>; projection={}
+08/19/19 00:19:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:19:40 Number of Active Workers 0
+08/19/19 00:19:40 (Sending 5 ads in response to query)
+08/19/19 00:19:40 Query info: matched=5; skipped=0; query_time=0.001037; send_time=0.000735; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:33727>; projection={}
+08/19/19 00:19:40 Number of Active Workers 1
+08/19/19 00:19:40 (Sending 8 ads in response to query)
+08/19/19 00:19:40 Query info: matched=8; skipped=4; query_time=0.000839; send_time=0.003579; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:20209>; projection={}
+08/19/19 00:20:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/19/19 00:20:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:20:40 Number of Active Workers 0
+08/19/19 00:20:40 (Sending 5 ads in response to query)
+08/19/19 00:20:40 Query info: matched=5; skipped=0; query_time=0.000897; send_time=0.001012; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:51249>; projection={}
+08/19/19 00:20:40 Number of Active Workers 0
+08/19/19 00:20:40 (Sending 8 ads in response to query)
+08/19/19 00:20:40 Query info: matched=8; skipped=4; query_time=0.000930; send_time=0.002895; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:45013>; projection={}
+08/19/19 00:21:06 Got INVALIDATE_STARTD_ADS
+08/19/19 00:21:06 		**** Removed(1) ad(s): "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:21:06 (Invalidated 1 ads)
+08/19/19 00:21:06 		**** Removed(1) ad(s): "< slot1_2@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:21:06 (Invalidated 1 ads)
+08/19/19 00:21:08 Got INVALIDATE_STARTD_ADS
+08/19/19 00:21:08 		**** Removed(1) ad(s): "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:21:08 (Invalidated 1 ads)
+08/19/19 00:21:08 		**** Removed(1) ad(s): "< slot1_3@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:21:08 (Invalidated 1 ads)
+08/19/19 00:21:09 Got INVALIDATE_STARTD_ADS
+08/19/19 00:21:09 		**** Removed(1) ad(s): "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:21:09 (Invalidated 1 ads)
+08/19/19 00:21:09 		**** Removed(1) ad(s): "< slot1_4@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:21:09 (Invalidated 1 ads)
+08/19/19 00:21:11 Got INVALIDATE_STARTD_ADS
+08/19/19 00:21:11 		**** Removed(1) ad(s): "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:21:11 (Invalidated 1 ads)
+08/19/19 00:21:11 		**** Removed(1) ad(s): "< slot1_1@edier-worker-3.cloud.uniandes.edu.co , 157.253.205.93 >"
+08/19/19 00:21:11 (Invalidated 1 ads)
+08/19/19 00:21:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:21:40 Number of Active Workers 0
+08/19/19 00:21:40 (Sending 1 ads in response to query)
+08/19/19 00:21:40 Query info: matched=1; skipped=0; query_time=0.001335; send_time=0.000490; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:1243>; projection={}
+08/19/19 00:21:40 Number of Active Workers 0
+08/19/19 00:21:40 (Sending 4 ads in response to query)
+08/19/19 00:21:40 Query info: matched=4; skipped=4; query_time=0.000936; send_time=0.007036; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:14409>; projection={}
+08/19/19 00:22:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:22:40 Number of Active Workers 0
+08/19/19 00:22:40 (Sending 1 ads in response to query)
+08/19/19 00:22:40 Query info: matched=1; skipped=0; query_time=0.000784; send_time=0.000499; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:7037>; projection={}
+08/19/19 00:22:40 Number of Active Workers 0
+08/19/19 00:22:40 (Sending 4 ads in response to query)
+08/19/19 00:22:40 Query info: matched=4; skipped=4; query_time=0.001446; send_time=0.002111; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:39817>; projection={}
+08/19/19 00:23:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:23:40 Number of Active Workers 0
+08/19/19 00:23:40 (Sending 1 ads in response to query)
+08/19/19 00:23:40 Number of Active Workers 1
+08/19/19 00:23:40 Query info: matched=1; skipped=0; query_time=0.001162; send_time=0.003388; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:3109>; projection={}
+08/19/19 00:23:40 (Sending 4 ads in response to query)
+08/19/19 00:23:40 Query info: matched=4; skipped=4; query_time=0.001538; send_time=0.002185; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:60211>; projection={}
+08/19/19 00:24:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:24:40 Number of Active Workers 0
+08/19/19 00:24:40 (Sending 1 ads in response to query)
+08/19/19 00:24:40 Query info: matched=1; skipped=0; query_time=0.001232; send_time=0.000415; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:24923>; projection={}
+08/19/19 00:24:40 Number of Active Workers 0
+08/19/19 00:24:40 (Sending 4 ads in response to query)
+08/19/19 00:24:40 Query info: matched=4; skipped=4; query_time=0.001329; send_time=0.001948; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:21247>; projection={}
+08/19/19 00:25:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/19/19 00:25:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:25:40 Number of Active Workers 0
+08/19/19 00:25:40 (Sending 1 ads in response to query)
+08/19/19 00:25:40 Query info: matched=1; skipped=0; query_time=0.001413; send_time=0.000404; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:65315>; projection={}
+08/19/19 00:25:40 Number of Active Workers 0
+08/19/19 00:25:40 (Sending 4 ads in response to query)
+08/19/19 00:25:40 Query info: matched=4; skipped=4; query_time=0.000828; send_time=0.002046; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:45945>; projection={}
+08/19/19 00:26:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:26:40 Number of Active Workers 0
+08/19/19 00:26:40 (Sending 1 ads in response to query)
+08/19/19 00:26:40 Query info: matched=1; skipped=0; query_time=0.001382; send_time=0.000429; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:64013>; projection={}
+08/19/19 00:26:40 Number of Active Workers 0
+08/19/19 00:26:40 (Sending 4 ads in response to query)
+08/19/19 00:26:40 Query info: matched=4; skipped=4; query_time=0.001346; send_time=0.001822; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:18455>; projection={}
+08/19/19 00:27:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:27:40 Number of Active Workers 0
+08/19/19 00:27:40 (Sending 1 ads in response to query)
+08/19/19 00:27:40 Query info: matched=1; skipped=0; query_time=0.001326; send_time=0.000440; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:49763>; projection={}
+08/19/19 00:27:40 Number of Active Workers 0
+08/19/19 00:27:40 (Sending 4 ads in response to query)
+08/19/19 00:27:40 Query info: matched=4; skipped=4; query_time=0.001178; send_time=0.001903; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:47853>; projection={}
+08/19/19 00:28:40 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:28:40 Number of Active Workers 0
+08/19/19 00:28:40 (Sending 1 ads in response to query)
+08/19/19 00:28:40 Query info: matched=1; skipped=0; query_time=0.000991; send_time=0.000409; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:3389>; projection={}
+08/19/19 00:28:40 Number of Active Workers 0
+08/19/19 00:28:40 (Sending 4 ads in response to query)
+08/19/19 00:28:40 Query info: matched=4; skipped=4; query_time=0.001419; send_time=0.002188; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:16629>; projection={}
+08/19/19 00:29:41 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:29:41 Number of Active Workers 0
+08/19/19 00:29:41 (Sending 1 ads in response to query)
+08/19/19 00:29:41 Query info: matched=1; skipped=0; query_time=0.000786; send_time=0.000411; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:4753>; projection={}
+08/19/19 00:29:41 Number of Active Workers 0
+08/19/19 00:29:41 (Sending 4 ads in response to query)
+08/19/19 00:29:41 Query info: matched=4; skipped=4; query_time=0.001283; send_time=0.001788; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:64741>; projection={}
+08/19/19 00:30:00 Housekeeper:  Ready to clean old ads
+08/19/19 00:30:00 	Cleaning StartdAds ...
+08/19/19 00:30:00 	Cleaning StartdPrivateAds ...
+08/19/19 00:30:00 	Cleaning ScheddAds ...
+08/19/19 00:30:00 	Cleaning SubmittorAds ...
+08/19/19 00:30:00 	Cleaning LicenseAds ...
+08/19/19 00:30:00 	Cleaning MasterAds ...
+08/19/19 00:30:00 	Cleaning CkptServerAds ...
+08/19/19 00:30:00 	Cleaning CollectorAds ...
+08/19/19 00:30:00 	Cleaning StorageAds ...
+08/19/19 00:30:00 	Cleaning NegotiatorAds ...
+08/19/19 00:30:00 	Cleaning HadAds ...
+08/19/19 00:30:00 	Cleaning GridAds ...
+08/19/19 00:30:00 	Cleaning XferServiceAds ...
+08/19/19 00:30:00 	Cleaning LeaseManagerAds ...
+08/19/19 00:30:00 	Cleaning Generic Ads ...
+08/19/19 00:30:00 Housekeeper:  Done cleaning
+08/19/19 00:30:01 Failing attempt to update or invalidate collector ad because of missing daemon address (probably an unresolved hostname; daemon name is 'condor.cs.wisc.edu').
+08/19/19 00:30:01 Can't send UPDATE_COLLECTOR_AD to collector ((null)): unknown host condor.cs.wisc.edu
+08/19/19 00:30:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/19/19 00:30:41 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:30:41 Number of Active Workers 0
+08/19/19 00:30:41 (Sending 1 ads in response to query)
+08/19/19 00:30:41 Query info: matched=1; skipped=0; query_time=0.001252; send_time=0.000407; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:44595>; projection={}
+08/19/19 00:30:41 Number of Active Workers 0
+08/19/19 00:30:41 (Sending 4 ads in response to query)
+08/19/19 00:30:41 Query info: matched=4; skipped=4; query_time=0.001079; send_time=0.002153; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:20031>; projection={}
+08/19/19 00:31:41 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:31:41 Number of Active Workers 0
+08/19/19 00:31:41 (Sending 1 ads in response to query)
+08/19/19 00:31:41 Query info: matched=1; skipped=0; query_time=0.001208; send_time=0.000429; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:17603>; projection={}
+08/19/19 00:31:41 Number of Active Workers 0
+08/19/19 00:31:41 (Sending 4 ads in response to query)
+08/19/19 00:31:41 Query info: matched=4; skipped=4; query_time=0.000836; send_time=0.001862; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:20633>; projection={}
+08/19/19 00:32:41 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:32:41 Number of Active Workers 0
+08/19/19 00:32:41 (Sending 1 ads in response to query)
+08/19/19 00:32:41 Query info: matched=1; skipped=0; query_time=0.001321; send_time=0.000403; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:15567>; projection={}
+08/19/19 00:32:41 Number of Active Workers 0
+08/19/19 00:32:41 (Sending 4 ads in response to query)
+08/19/19 00:32:41 Query info: matched=4; skipped=4; query_time=0.001399; send_time=0.001784; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:63253>; projection={}
+08/19/19 00:33:41 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:33:41 Number of Active Workers 0
+08/19/19 00:33:41 (Sending 1 ads in response to query)
+08/19/19 00:33:41 Number of Active Workers 1
+08/19/19 00:33:41 Query info: matched=1; skipped=0; query_time=0.001086; send_time=0.002935; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:45125>; projection={}
+08/19/19 00:33:41 (Sending 4 ads in response to query)
+08/19/19 00:33:41 Query info: matched=4; skipped=4; query_time=0.001301; send_time=0.006255; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:61955>; projection={}
+08/19/19 00:34:41 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:34:41 Number of Active Workers 0
+08/19/19 00:34:41 (Sending 1 ads in response to query)
+08/19/19 00:34:41 Query info: matched=1; skipped=0; query_time=0.000993; send_time=0.000458; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:31977>; projection={}
+08/19/19 00:34:41 Number of Active Workers 0
+08/19/19 00:34:41 (Sending 4 ads in response to query)
+08/19/19 00:34:41 Query info: matched=4; skipped=4; query_time=0.000810; send_time=0.001862; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:12743>; projection={}
+08/19/19 00:35:02 NegotiatorAd  : Inserting ** "< edier-master-2.cloud.uniandes.edu.co >"
+08/19/19 00:35:41 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:35:41 Number of Active Workers 0
+08/19/19 00:35:41 (Sending 1 ads in response to query)
+08/19/19 00:35:41 Query info: matched=1; skipped=0; query_time=0.001286; send_time=0.000388; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:19275>; projection={}
+08/19/19 00:35:41 Number of Active Workers 0
+08/19/19 00:35:41 (Sending 4 ads in response to query)
+08/19/19 00:35:41 Query info: matched=4; skipped=4; query_time=0.000843; send_time=0.001786; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:18015>; projection={}
+08/19/19 00:36:41 Got QUERY_STARTD_PVT_ADS
+08/19/19 00:36:41 Number of Active Workers 0
+08/19/19 00:36:41 (Sending 1 ads in response to query)
+08/19/19 00:36:41 Number of Active Workers 1
+08/19/19 00:36:41 (Sending 4 ads in response to query)
+08/19/19 00:36:41 Query info: matched=1; skipped=0; query_time=0.001104; send_time=0.003003; type=MachinePrivate; requirements={true}; peer=<157.253.205.92:44681>; projection={}
+08/19/19 00:36:41 Query info: matched=4; skipped=4; query_time=0.000947; send_time=0.002060; type=Any; requirements={( ( ( MyType == "Scheduler" ) || ( MyType == "Submitter" ) ) || ( ( MyType == "Machine" ) ) )}; peer=<157.253.205.92:17463>; projection={}

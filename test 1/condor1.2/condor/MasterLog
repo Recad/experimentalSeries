@@ -1,0 +1,150 @@
+07/22/19 05:58:48 ******************************************************
+07/22/19 05:58:48 ** condor_master (CONDOR_MASTER) STARTING UP
+07/22/19 05:58:48 ** /usr/sbin/condor_master
+07/22/19 05:58:48 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+07/22/19 05:58:48 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+07/22/19 05:58:48 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+07/22/19 05:58:48 ** $CondorPlatform: x86_64_Ubuntu14 $
+07/22/19 05:58:48 ** PID = 38
+07/22/19 05:58:48 ** Log last touched time unavailable (No such file or directory)
+07/22/19 05:58:48 ******************************************************
+07/22/19 05:58:48 Using config source: /etc/condor/condor_config
+07/22/19 05:58:48 Using local config sources: 
+07/22/19 05:58:48    /etc/condor/condor_config.local
+07/22/19 05:58:48 config Macros = 61, Sorted = 61, StringBytes = 1562, TablesBytes = 2244
+07/22/19 05:58:48 CLASSAD_CACHING is OFF
+07/22/19 05:58:48 Daemon Log is logging: D_ALWAYS D_ERROR
+07/22/19 05:58:49 SharedPortEndpoint: waiting for connections to named socket 38_f518
+07/22/19 05:58:49 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+07/22/19 05:58:49 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+07/22/19 05:58:49 DaemonCore: private command socket at <172.17.0.2:0?sock=38_f518>
+07/22/19 05:58:49 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1499374997)
+07/22/19 05:58:51 Started DaemonCore process "/usr/lib/condor/libexec/condor_shared_port", pid and pgroup = 69
+07/22/19 05:58:51 Waiting for /var/lock/condor/shared_port_ad to appear.
+07/22/19 05:58:52 Found /var/lock/condor/shared_port_ad.
+07/22/19 05:58:52 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 70
+07/22/19 05:58:52 Waiting for /var/log/condor/.collector_address to appear.
+07/22/19 05:58:53 Found /var/log/condor/.collector_address.
+07/22/19 05:58:54 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 71
+07/22/19 05:58:54 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 72
+08/07/19 22:36:26 ******************************************************
+08/07/19 22:36:26 ** condor_master (CONDOR_MASTER) STARTING UP
+08/07/19 22:36:26 ** /usr/sbin/condor_master
+08/07/19 22:36:26 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+08/07/19 22:36:26 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+08/07/19 22:36:26 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/07/19 22:36:26 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/07/19 22:36:26 ** PID = 38
+08/07/19 22:36:26 ** Log last touched 7/22 06:06:01
+08/07/19 22:36:26 ******************************************************
+08/07/19 22:36:26 Using config source: /etc/condor/condor_config
+08/07/19 22:36:26 Using local config sources: 
+08/07/19 22:36:26    /etc/condor/condor_config.local
+08/07/19 22:36:26 config Macros = 61, Sorted = 61, StringBytes = 1562, TablesBytes = 2244
+08/07/19 22:36:26 CLASSAD_CACHING is OFF
+08/07/19 22:36:26 Daemon Log is logging: D_ALWAYS D_ERROR
+08/07/19 22:36:27 Removed /var/lock/condor/shared_port_ad (assuming it is left over from previous run)
+08/07/19 22:36:27 SharedPortEndpoint: waiting for connections to named socket 38_f518
+08/07/19 22:36:27 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+08/07/19 22:36:27 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+08/07/19 22:36:27 DaemonCore: private command socket at <172.17.0.2:0?sock=38_f518>
+08/07/19 22:36:27 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1499374997)
+08/07/19 22:36:29 Started DaemonCore process "/usr/lib/condor/libexec/condor_shared_port", pid and pgroup = 69
+08/07/19 22:36:29 Waiting for /var/lock/condor/shared_port_ad to appear.
+08/07/19 22:36:30 Found /var/lock/condor/shared_port_ad.
+08/07/19 22:36:31 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 70
+08/07/19 22:36:31 Waiting for /var/log/condor/.collector_address to appear.
+08/07/19 22:36:32 Found /var/log/condor/.collector_address.
+08/07/19 22:36:33 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 71
+08/07/19 22:36:33 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 72
+08/07/19 23:34:15 ******************************************************
+08/07/19 23:34:15 ** condor_master (CONDOR_MASTER) STARTING UP
+08/07/19 23:34:15 ** /usr/sbin/condor_master
+08/07/19 23:34:15 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+08/07/19 23:34:15 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+08/07/19 23:34:15 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/07/19 23:34:15 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/07/19 23:34:15 ** PID = 38
+08/07/19 23:34:15 ** Log last touched 8/7 22:56:48
+08/07/19 23:34:15 ******************************************************
+08/07/19 23:34:15 Using config source: /etc/condor/condor_config
+08/07/19 23:34:15 Using local config sources: 
+08/07/19 23:34:15    /etc/condor/condor_config.local
+08/07/19 23:34:15 config Macros = 61, Sorted = 61, StringBytes = 1562, TablesBytes = 2244
+08/07/19 23:34:15 CLASSAD_CACHING is OFF
+08/07/19 23:34:15 Daemon Log is logging: D_ALWAYS D_ERROR
+08/07/19 23:34:16 Removed /var/lock/condor/shared_port_ad (assuming it is left over from previous run)
+08/07/19 23:34:16 SharedPortEndpoint: waiting for connections to named socket 38_f518
+08/07/19 23:34:16 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+08/07/19 23:34:16 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+08/07/19 23:34:16 DaemonCore: private command socket at <172.17.0.2:0?sock=38_f518>
+08/07/19 23:34:16 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1499374997)
+08/07/19 23:34:17 Started DaemonCore process "/usr/lib/condor/libexec/condor_shared_port", pid and pgroup = 69
+08/07/19 23:34:17 Waiting for /var/lock/condor/shared_port_ad to appear.
+08/07/19 23:34:18 Found /var/lock/condor/shared_port_ad.
+08/07/19 23:34:19 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 70
+08/07/19 23:34:19 Waiting for /var/log/condor/.collector_address to appear.
+08/07/19 23:34:20 Found /var/log/condor/.collector_address.
+08/07/19 23:34:21 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 71
+08/07/19 23:34:22 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 72
+08/18/19 21:31:17 ******************************************************
+08/18/19 21:31:17 ** condor_master (CONDOR_MASTER) STARTING UP
+08/18/19 21:31:17 ** /usr/sbin/condor_master
+08/18/19 21:31:17 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+08/18/19 21:31:17 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+08/18/19 21:31:17 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 21:31:17 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 21:31:17 ** PID = 84
+08/18/19 21:31:17 ** Log last touched 8/7 23:36:35
+08/18/19 21:31:17 ******************************************************
+08/18/19 21:31:17 Using config source: /etc/condor/condor_config
+08/18/19 21:31:17 Using local config sources: 
+08/18/19 21:31:17    /etc/condor/condor_config.local
+08/18/19 21:31:17 config Macros = 61, Sorted = 61, StringBytes = 1573, TablesBytes = 2244
+08/18/19 21:31:17 CLASSAD_CACHING is OFF
+08/18/19 21:31:17 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 21:31:18 Removed /var/lock/condor/shared_port_ad (assuming it is left over from previous run)
+08/18/19 21:31:18 SharedPortEndpoint: waiting for connections to named socket 84_8273
+08/18/19 21:31:18 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+08/18/19 21:31:18 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+08/18/19 21:31:18 DaemonCore: private command socket at <157.253.205.92:0?sock=84_8273>
+08/18/19 21:31:18 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1499374997)
+08/18/19 21:31:19 Started DaemonCore process "/usr/lib/condor/libexec/condor_shared_port", pid and pgroup = 115
+08/18/19 21:31:19 Waiting for /var/lock/condor/shared_port_ad to appear.
+08/18/19 21:31:20 Found /var/lock/condor/shared_port_ad.
+08/18/19 21:31:21 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 116
+08/18/19 21:31:21 Waiting for /var/log/condor/.collector_address to appear.
+08/18/19 21:31:22 Found /var/log/condor/.collector_address.
+08/18/19 21:31:23 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 117
+08/18/19 21:31:23 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 118
+08/18/19 21:59:56 ******************************************************
+08/18/19 21:59:56 ** condor_master (CONDOR_MASTER) STARTING UP
+08/18/19 21:59:56 ** /usr/sbin/condor_master
+08/18/19 21:59:56 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+08/18/19 21:59:56 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+08/18/19 21:59:56 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 21:59:56 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 21:59:56 ** PID = 79
+08/18/19 21:59:56 ** Log last touched 8/18 21:46:20
+08/18/19 21:59:56 ******************************************************
+08/18/19 21:59:56 Using config source: /etc/condor/condor_config
+08/18/19 21:59:56 Using local config sources: 
+08/18/19 21:59:56    /etc/condor/condor_config.local
+08/18/19 21:59:56 config Macros = 76, Sorted = 76, StringBytes = 2485, TablesBytes = 2784
+08/18/19 21:59:56 CLASSAD_CACHING is OFF
+08/18/19 21:59:56 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 21:59:57 Removed /var/lock/condor/shared_port_ad (assuming it is left over from previous run)
+08/18/19 21:59:57 Daemoncore: Listening at <0.0.0.0:29477> on TCP (ReliSock) and UDP (SafeSock).
+08/18/19 21:59:57 DaemonCore: command socket at <157.253.205.92:29477?addrs=157.253.205.92-29477>
+08/18/19 21:59:57 DaemonCore: private command socket at <157.253.205.92:29477?addrs=157.253.205.92-29477>
+08/18/19 21:59:57 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1499374997)
+08/18/19 21:59:58 Started DaemonCore process "/usr/lib/condor/libexec/condor_shared_port", pid and pgroup = 110
+08/18/19 21:59:58 Waiting for /var/lock/condor/shared_port_ad to appear.
+08/18/19 21:59:59 Found /var/lock/condor/shared_port_ad.
+08/18/19 22:00:00 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 111
+08/18/19 22:00:00 Waiting for /var/log/condor/.collector_address to appear.
+08/18/19 22:00:01 Found /var/log/condor/.collector_address.
+08/18/19 22:00:02 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 112
+08/18/19 22:00:02 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 113
+08/18/19 22:59:58 Preen pid is 761
+08/18/19 22:59:59 DefaultReaper unexpectedly called on pid 761, status 0.

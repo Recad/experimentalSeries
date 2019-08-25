@@ -1,0 +1,996 @@
+07/22/19 05:58:54 (pid:72) Setting maximum file descriptors to 4096.
+07/22/19 05:58:54 (pid:72) ******************************************************
+07/22/19 05:58:54 (pid:72) ** condor_schedd (CONDOR_SCHEDD) STARTING UP
+07/22/19 05:58:54 (pid:72) ** /usr/sbin/condor_schedd
+07/22/19 05:58:54 (pid:72) ** SubsystemInfo: name=SCHEDD type=SCHEDD(5) class=DAEMON(1)
+07/22/19 05:58:54 (pid:72) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+07/22/19 05:58:54 (pid:72) ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+07/22/19 05:58:54 (pid:72) ** $CondorPlatform: x86_64_Ubuntu14 $
+07/22/19 05:58:54 (pid:72) ** PID = 72
+07/22/19 05:58:54 (pid:72) ** Log last touched time unavailable (No such file or directory)
+07/22/19 05:58:54 (pid:72) ******************************************************
+07/22/19 05:58:54 (pid:72) Using config source: /etc/condor/condor_config
+07/22/19 05:58:54 (pid:72) Using local config sources: 
+07/22/19 05:58:54 (pid:72)    /etc/condor/condor_config.local
+07/22/19 05:58:54 (pid:72) config Macros = 62, Sorted = 62, StringBytes = 1600, TablesBytes = 2280
+07/22/19 05:58:54 (pid:72) CLASSAD_CACHING is ENABLED
+07/22/19 05:58:54 (pid:72) Daemon Log is logging: D_ALWAYS D_ERROR
+07/22/19 05:58:54 (pid:72) SharedPortEndpoint: waiting for connections to named socket 38_f518_4
+07/22/19 05:58:54 (pid:72) DaemonCore: command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=38_f518_4>
+07/22/19 05:58:54 (pid:72) DaemonCore: private command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=38_f518_4>
+07/22/19 05:58:54 (pid:72) History file rotation is enabled.
+07/22/19 05:58:54 (pid:72)   Maximum history file size is: 20971520 bytes
+07/22/19 05:58:54 (pid:72)   Number of rotated history files is: 2
+07/22/19 05:59:00 (pid:72) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+07/22/19 05:59:00 (pid:72) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/22/19 05:59:00 (pid:72) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/22/19 06:04:00 (pid:72) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+07/22/19 06:04:00 (pid:72) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/22/19 06:04:00 (pid:72) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:36:34 (pid:72) Setting maximum file descriptors to 4096.
+08/07/19 22:36:34 (pid:72) ******************************************************
+08/07/19 22:36:34 (pid:72) ** condor_schedd (CONDOR_SCHEDD) STARTING UP
+08/07/19 22:36:34 (pid:72) ** /usr/sbin/condor_schedd
+08/07/19 22:36:34 (pid:72) ** SubsystemInfo: name=SCHEDD type=SCHEDD(5) class=DAEMON(1)
+08/07/19 22:36:34 (pid:72) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+08/07/19 22:36:34 (pid:72) ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/07/19 22:36:34 (pid:72) ** $CondorPlatform: x86_64_Ubuntu14 $
+08/07/19 22:36:34 (pid:72) ** PID = 72
+08/07/19 22:36:34 (pid:72) ** Log last touched 7/22 06:06:01
+08/07/19 22:36:34 (pid:72) ******************************************************
+08/07/19 22:36:34 (pid:72) Using config source: /etc/condor/condor_config
+08/07/19 22:36:34 (pid:72) Using local config sources: 
+08/07/19 22:36:34 (pid:72)    /etc/condor/condor_config.local
+08/07/19 22:36:34 (pid:72) config Macros = 62, Sorted = 62, StringBytes = 1600, TablesBytes = 2280
+08/07/19 22:36:34 (pid:72) CLASSAD_CACHING is ENABLED
+08/07/19 22:36:34 (pid:72) Daemon Log is logging: D_ALWAYS D_ERROR
+08/07/19 22:36:34 (pid:72) SharedPortEndpoint: waiting for connections to named socket 38_f518_4
+08/07/19 22:36:34 (pid:72) DaemonCore: command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=38_f518_4>
+08/07/19 22:36:34 (pid:72) DaemonCore: private command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=38_f518_4>
+08/07/19 22:36:34 (pid:72) History file rotation is enabled.
+08/07/19 22:36:34 (pid:72)   Maximum history file size is: 20971520 bytes
+08/07/19 22:36:34 (pid:72)   Number of rotated history files is: 2
+08/07/19 22:36:39 (pid:72) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/07/19 22:36:39 (pid:72) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:36:39 (pid:72) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:41:39 (pid:72) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/07/19 22:41:39 (pid:72) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:41:39 (pid:72) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:46:41 (pid:72) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/07/19 22:46:41 (pid:72) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:46:41 (pid:72) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:51:41 (pid:72) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/07/19 22:51:41 (pid:72) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:51:41 (pid:72) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:56:20 (pid:72) Number of Active Workers 0
+08/07/19 22:56:41 (pid:72) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/07/19 22:56:41 (pid:72) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 22:56:41 (pid:72) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 23:34:22 (pid:72) Setting maximum file descriptors to 4096.
+08/07/19 23:34:22 (pid:72) ******************************************************
+08/07/19 23:34:22 (pid:72) ** condor_schedd (CONDOR_SCHEDD) STARTING UP
+08/07/19 23:34:22 (pid:72) ** /usr/sbin/condor_schedd
+08/07/19 23:34:22 (pid:72) ** SubsystemInfo: name=SCHEDD type=SCHEDD(5) class=DAEMON(1)
+08/07/19 23:34:22 (pid:72) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+08/07/19 23:34:22 (pid:72) ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/07/19 23:34:22 (pid:72) ** $CondorPlatform: x86_64_Ubuntu14 $
+08/07/19 23:34:22 (pid:72) ** PID = 72
+08/07/19 23:34:22 (pid:72) ** Log last touched 8/7 22:56:48
+08/07/19 23:34:22 (pid:72) ******************************************************
+08/07/19 23:34:22 (pid:72) Using config source: /etc/condor/condor_config
+08/07/19 23:34:22 (pid:72) Using local config sources: 
+08/07/19 23:34:22 (pid:72)    /etc/condor/condor_config.local
+08/07/19 23:34:22 (pid:72) config Macros = 62, Sorted = 62, StringBytes = 1600, TablesBytes = 2280
+08/07/19 23:34:22 (pid:72) CLASSAD_CACHING is ENABLED
+08/07/19 23:34:22 (pid:72) Daemon Log is logging: D_ALWAYS D_ERROR
+08/07/19 23:34:22 (pid:72) SharedPortEndpoint: waiting for connections to named socket 38_f518_4
+08/07/19 23:34:22 (pid:72) DaemonCore: command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=38_f518_4>
+08/07/19 23:34:22 (pid:72) DaemonCore: private command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP&sock=38_f518_4>
+08/07/19 23:34:22 (pid:72) History file rotation is enabled.
+08/07/19 23:34:22 (pid:72)   Maximum history file size is: 20971520 bytes
+08/07/19 23:34:22 (pid:72)   Number of rotated history files is: 2
+08/07/19 23:34:27 (pid:72) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/07/19 23:34:27 (pid:72) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/07/19 23:34:27 (pid:72) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 21:31:23 (pid:118) Setting maximum file descriptors to 4096.
+08/18/19 21:31:23 (pid:118) ******************************************************
+08/18/19 21:31:23 (pid:118) ** condor_schedd (CONDOR_SCHEDD) STARTING UP
+08/18/19 21:31:23 (pid:118) ** /usr/sbin/condor_schedd
+08/18/19 21:31:23 (pid:118) ** SubsystemInfo: name=SCHEDD type=SCHEDD(5) class=DAEMON(1)
+08/18/19 21:31:23 (pid:118) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+08/18/19 21:31:23 (pid:118) ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 21:31:23 (pid:118) ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 21:31:23 (pid:118) ** PID = 118
+08/18/19 21:31:23 (pid:118) ** Log last touched 8/7 23:36:35
+08/18/19 21:31:23 (pid:118) ******************************************************
+08/18/19 21:31:23 (pid:118) Using config source: /etc/condor/condor_config
+08/18/19 21:31:23 (pid:118) Using local config sources: 
+08/18/19 21:31:23 (pid:118)    /etc/condor/condor_config.local
+08/18/19 21:31:23 (pid:118) config Macros = 62, Sorted = 62, StringBytes = 1610, TablesBytes = 2280
+08/18/19 21:31:23 (pid:118) CLASSAD_CACHING is ENABLED
+08/18/19 21:31:23 (pid:118) Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 21:31:23 (pid:118) SharedPortEndpoint: waiting for connections to named socket 84_8273_4
+08/18/19 21:31:23 (pid:118) DaemonCore: command socket at <157.253.205.92:9618?addrs=157.253.205.92-9618&noUDP&sock=84_8273_4>
+08/18/19 21:31:23 (pid:118) DaemonCore: private command socket at <157.253.205.92:9618?addrs=157.253.205.92-9618&noUDP&sock=84_8273_4>
+08/18/19 21:31:23 (pid:118) History file rotation is enabled.
+08/18/19 21:31:23 (pid:118)   Maximum history file size is: 20971520 bytes
+08/18/19 21:31:23 (pid:118)   Number of rotated history files is: 2
+08/18/19 21:31:29 (pid:118) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 21:31:29 (pid:118) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 21:31:29 (pid:118) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 21:36:29 (pid:118) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 21:36:29 (pid:118) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 21:36:29 (pid:118) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 21:41:29 (pid:118) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 21:41:29 (pid:118) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 21:41:29 (pid:118) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 21:46:30 (pid:118) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 21:46:30 (pid:118) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 21:46:30 (pid:118) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:00:03 (pid:113) Setting maximum file descriptors to 4096.
+08/18/19 22:00:03 (pid:113) ******************************************************
+08/18/19 22:00:03 (pid:113) ** condor_schedd (CONDOR_SCHEDD) STARTING UP
+08/18/19 22:00:03 (pid:113) ** /usr/sbin/condor_schedd
+08/18/19 22:00:03 (pid:113) ** SubsystemInfo: name=SCHEDD type=SCHEDD(5) class=DAEMON(1)
+08/18/19 22:00:03 (pid:113) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+08/18/19 22:00:03 (pid:113) ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 22:00:03 (pid:113) ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 22:00:03 (pid:113) ** PID = 113
+08/18/19 22:00:03 (pid:113) ** Log last touched 8/18 21:46:30
+08/18/19 22:00:03 (pid:113) ******************************************************
+08/18/19 22:00:03 (pid:113) Using config source: /etc/condor/condor_config
+08/18/19 22:00:03 (pid:113) Using local config sources: 
+08/18/19 22:00:03 (pid:113)    /etc/condor/condor_config.local
+08/18/19 22:00:03 (pid:113) config Macros = 77, Sorted = 77, StringBytes = 2524, TablesBytes = 2820
+08/18/19 22:00:03 (pid:113) CLASSAD_CACHING is ENABLED
+08/18/19 22:00:03 (pid:113) Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 22:00:03 (pid:113) Daemoncore: Listening at <0.0.0.0:60403> on TCP (ReliSock) and UDP (SafeSock).
+08/18/19 22:00:03 (pid:113) DaemonCore: command socket at <157.253.205.92:60403?addrs=157.253.205.92-60403>
+08/18/19 22:00:03 (pid:113) DaemonCore: private command socket at <157.253.205.92:60403?addrs=157.253.205.92-60403>
+08/18/19 22:00:03 (pid:113) History file rotation is enabled.
+08/18/19 22:00:03 (pid:113)   Maximum history file size is: 20971520 bytes
+08/18/19 22:00:03 (pid:113)   Number of rotated history files is: 2
+08/18/19 22:00:08 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:00:08 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:00:08 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:04:53 (pid:113) Increasing flock level for condor1 to 1 from 0. (Due to lack of activity from negotiator)
+08/18/19 22:04:53 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:04:53 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:04:53 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:04:53 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:04:53 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:04:53 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:04:53 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:04:53 (pid:113) AutoCluster:config() significant attributes changed to _condor_RequestCpus _condor_RequestDisk _condor_RequestMemory JobUniverse LastCheckpointPlatform NumCkpts RequestCpus RequestDisk RequestMemory MachineLastMatchTime ConcurrencyLimits NiceUser Rank Requirements
+08/18/19 22:04:53 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:04:53 (pid:113) Tables are consistent
+08/18/19 22:04:53 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:04:53 (pid:113) Finished negotiating for condor1 in local pool: 1 matched, 0 rejected
+08/18/19 22:04:53 (pid:113) Decreasing flock level for condor1 to 0 from 1.
+08/18/19 22:04:53 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:04:53 (pid:113) Tables are consistent
+08/18/19 22:04:53 (pid:113) Rebuilt prioritized runnable job list in 0.000s.  (Expedited rebuild because no match was found)
+08/18/19 22:04:53 (pid:113) Starting add_shadow_birthdate(1.0)
+08/18/19 22:04:54 (pid:113) Started shadow for job 1.0 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 146)
+08/18/19 22:04:57 (pid:113) Number of Active Workers 0
+08/18/19 22:04:58 (pid:113) Number of Active Workers 0
+08/18/19 22:04:59 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:04:59 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:04:59 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:04:59 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:04:59 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:04:59 (pid:113) Number of Active Workers 0
+08/18/19 22:05:00 (pid:113) Number of Active Workers 0
+08/18/19 22:05:00 (pid:113) Number of Active Workers 0
+08/18/19 22:05:01 (pid:113) Number of Active Workers 0
+08/18/19 22:05:01 (pid:113) Number of Active Workers 0
+08/18/19 22:05:02 (pid:113) Number of Active Workers 0
+08/18/19 22:05:02 (pid:113) Number of Active Workers 0
+08/18/19 22:05:03 (pid:113) Number of Active Workers 0
+08/18/19 22:05:03 (pid:113) Number of Active Workers 0
+08/18/19 22:05:04 (pid:113) Number of Active Workers 0
+08/18/19 22:05:04 (pid:113) Number of Active Workers 0
+08/18/19 22:05:04 (pid:113) Number of Active Workers 0
+08/18/19 22:05:05 (pid:113) Number of Active Workers 0
+08/18/19 22:05:05 (pid:113) Number of Active Workers 0
+08/18/19 22:05:06 (pid:113) Number of Active Workers 0
+08/18/19 22:05:06 (pid:113) Number of Active Workers 0
+08/18/19 22:05:06 (pid:113) Number of Active Workers 0
+08/18/19 22:05:07 (pid:113) Number of Active Workers 0
+08/18/19 22:05:07 (pid:113) Number of Active Workers 0
+08/18/19 22:05:08 (pid:113) Number of Active Workers 0
+08/18/19 22:05:08 (pid:113) Number of Active Workers 0
+08/18/19 22:05:08 (pid:113) Number of Active Workers 0
+08/18/19 22:05:09 (pid:113) Number of Active Workers 0
+08/18/19 22:05:10 (pid:113) Number of Active Workers 0
+08/18/19 22:05:11 (pid:113) Number of Active Workers 0
+08/18/19 22:05:11 (pid:113) Number of Active Workers 0
+08/18/19 22:05:12 (pid:113) Number of Active Workers 0
+08/18/19 22:05:13 (pid:113) Number of Active Workers 0
+08/18/19 22:05:13 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:05:13 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:05:13 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:05:13 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:05:13 (pid:113) Tables are consistent
+08/18/19 22:05:13 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:05:13 (pid:113) Finished negotiating for condor1 in local pool: 1 matched, 1 rejected
+08/18/19 22:05:13 (pid:113) Increasing flock level for condor1 to 1 from 0.
+08/18/19 22:05:13 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:05:13 (pid:113) TransferQueueManager upload 1m I/O load: 4 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:05:13 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:05:13 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:05:13 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:05:13 (pid:113) Starting add_shadow_birthdate(2.0)
+08/18/19 22:05:13 (pid:113) Started shadow for job 2.0 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 214)
+08/18/19 22:05:13 (pid:113) Number of Active Workers 0
+08/18/19 22:05:13 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:05:13 (pid:113) Tables are consistent
+08/18/19 22:05:13 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:05:13 (pid:113) Starting add_shadow_birthdate(3.0)
+08/18/19 22:05:13 (pid:113) Started shadow for job 3.0 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 217)
+08/18/19 22:05:14 (pid:113) Number of Active Workers 0
+08/18/19 22:05:14 (pid:113) Number of Active Workers 0
+08/18/19 22:05:15 (pid:113) Number of Active Workers 0
+08/18/19 22:05:16 (pid:113) Number of Active Workers 0
+08/18/19 22:05:17 (pid:113) Number of Active Workers 0
+08/18/19 22:05:17 (pid:113) Number of Active Workers 0
+08/18/19 22:05:18 (pid:113) Number of Active Workers 0
+08/18/19 22:05:18 (pid:113) Number of Active Workers 0
+08/18/19 22:05:19 (pid:113) Number of Active Workers 0
+08/18/19 22:05:20 (pid:113) Number of Active Workers 0
+08/18/19 22:05:20 (pid:113) Shadow pid 146 for job 1.0 reports job exit reason 100.
+08/18/19 22:05:20 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:05:20 (pid:113) Tables are consistent
+08/18/19 22:05:20 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:05:20 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) out of jobs; relinquishing
+08/18/19 22:05:20 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 1.0) deleted
+08/18/19 22:05:20 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1
+08/18/19 22:05:20 (pid:113) Number of Active Workers 0
+08/18/19 22:05:21 (pid:113) Number of Active Workers 0
+08/18/19 22:05:22 (pid:113) Number of Active Workers 0
+08/18/19 22:05:39 (pid:113) Shadow pid 214 for job 2.0 reports job exit reason 100.
+08/18/19 22:05:39 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) out of jobs; relinquishing
+08/18/19 22:05:39 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 2.0) deleted
+08/18/19 22:05:39 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1
+08/18/19 22:05:40 (pid:113) Shadow pid 217 for job 3.0 reports job exit reason 100.
+08/18/19 22:05:40 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) out of jobs; relinquishing
+08/18/19 22:05:40 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 3.0) deleted
+08/18/19 22:05:40 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1
+08/18/19 22:06:13 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:06:13 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:06:13 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:06:13 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 0 rejected
+08/18/19 22:06:13 (pid:113) Decreasing flock level for condor1 to 0 from 1.
+08/18/19 22:06:13 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:06:13 (pid:113) TransferQueueManager upload 1m I/O load: 5 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:06:13 (pid:113) TransferQueueManager download 1m I/O load: 6 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:06:13 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:06:13 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:06:13 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:06:52 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:06:52 (pid:113) TransferQueueManager upload 1m I/O load: 3 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:06:52 (pid:113) TransferQueueManager download 1m I/O load: 4 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:06:52 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:06:52 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:06:52 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:06:52 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:06:52 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:06:52 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:06:52 (pid:113) Tables are consistent
+08/18/19 22:06:52 (pid:113) Rebuilt prioritized runnable job list in 0.001s.
+08/18/19 22:06:52 (pid:113) Finished negotiating for condor1 in local pool: 1 matched, 1 rejected
+08/18/19 22:06:52 (pid:113) Increasing flock level for condor1 to 1 from 0.
+08/18/19 22:06:52 (pid:113) Starting add_shadow_birthdate(4.0)
+08/18/19 22:06:52 (pid:113) Started shadow for job 4.0 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 263)
+08/18/19 22:06:52 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:06:52 (pid:113) Tables are consistent
+08/18/19 22:06:52 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:06:52 (pid:113) Starting add_shadow_birthdate(4.1)
+08/18/19 22:06:52 (pid:113) Started shadow for job 4.1 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 264)
+08/18/19 22:06:53 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:06:53 (pid:113) Tables are consistent
+08/18/19 22:06:53 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:06:53 (pid:113) Starting add_shadow_birthdate(4.2)
+08/18/19 22:06:53 (pid:113) Started shadow for job 4.2 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 267)
+08/18/19 22:06:53 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:06:53 (pid:113) Tables are consistent
+08/18/19 22:06:53 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:06:53 (pid:113) Starting add_shadow_birthdate(4.3)
+08/18/19 22:06:54 (pid:113) Started shadow for job 4.3 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 270)
+08/18/19 22:06:57 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:06:57 (pid:113) TransferQueueManager upload 1m I/O load: 3 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:06:57 (pid:113) TransferQueueManager download 1m I/O load: 3 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:06:57 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:06:57 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:06:59 (pid:113) Number of Active Workers 0
+08/18/19 22:07:00 (pid:113) Number of Active Workers 0
+08/18/19 22:07:01 (pid:113) Number of Active Workers 0
+08/18/19 22:07:20 (pid:113) Number of Active Workers 0
+08/18/19 22:07:21 (pid:113) Number of Active Workers 0
+08/18/19 22:07:22 (pid:113) Number of Active Workers 0
+08/18/19 22:07:22 (pid:113) Number of Active Workers 0
+08/18/19 22:07:23 (pid:113) Number of Active Workers 0
+08/18/19 22:07:23 (pid:113) Number of Active Workers 0
+08/18/19 22:07:24 (pid:113) Number of Active Workers 0
+08/18/19 22:07:24 (pid:113) Number of Active Workers 0
+08/18/19 22:07:25 (pid:113) Number of Active Workers 0
+08/18/19 22:07:25 (pid:113) Number of Active Workers 0
+08/18/19 22:07:26 (pid:113) Number of Active Workers 0
+08/18/19 22:07:26 (pid:113) Number of Active Workers 0
+08/18/19 22:07:27 (pid:113) Number of Active Workers 0
+08/18/19 22:07:27 (pid:113) Number of Active Workers 0
+08/18/19 22:07:28 (pid:113) Number of Active Workers 0
+08/18/19 22:07:28 (pid:113) Number of Active Workers 0
+08/18/19 22:07:29 (pid:113) Number of Active Workers 0
+08/18/19 22:07:29 (pid:113) Number of Active Workers 0
+08/18/19 22:07:29 (pid:113) Number of Active Workers 0
+08/18/19 22:07:30 (pid:113) Number of Active Workers 0
+08/18/19 22:07:30 (pid:113) Number of Active Workers 0
+08/18/19 22:07:30 (pid:113) Number of Active Workers 0
+08/18/19 22:07:31 (pid:113) Number of Active Workers 0
+08/18/19 22:07:31 (pid:113) Number of Active Workers 0
+08/18/19 22:07:31 (pid:113) Number of Active Workers 0
+08/18/19 22:07:32 (pid:113) Number of Active Workers 0
+08/18/19 22:07:32 (pid:113) Number of Active Workers 0
+08/18/19 22:07:33 (pid:113) Number of Active Workers 0
+08/18/19 22:07:33 (pid:113) Number of Active Workers 0
+08/18/19 22:07:33 (pid:113) Number of Active Workers 0
+08/18/19 22:07:34 (pid:113) Number of Active Workers 0
+08/18/19 22:07:34 (pid:113) Number of Active Workers 0
+08/18/19 22:07:35 (pid:113) Number of Active Workers 0
+08/18/19 22:07:35 (pid:113) Number of Active Workers 0
+08/18/19 22:07:35 (pid:113) Number of Active Workers 0
+08/18/19 22:07:36 (pid:113) Number of Active Workers 0
+08/18/19 22:07:36 (pid:113) Number of Active Workers 0
+08/18/19 22:07:36 (pid:113) Number of Active Workers 0
+08/18/19 22:07:37 (pid:113) Number of Active Workers 0
+08/18/19 22:07:37 (pid:113) Number of Active Workers 0
+08/18/19 22:07:38 (pid:113) Number of Active Workers 0
+08/18/19 22:07:38 (pid:113) Number of Active Workers 0
+08/18/19 22:07:38 (pid:113) Number of Active Workers 0
+08/18/19 22:07:39 (pid:113) Number of Active Workers 0
+08/18/19 22:07:39 (pid:113) Number of Active Workers 0
+08/18/19 22:07:40 (pid:113) Number of Active Workers 0
+08/18/19 22:07:40 (pid:113) Number of Active Workers 0
+08/18/19 22:07:40 (pid:113) Number of Active Workers 0
+08/18/19 22:07:41 (pid:113) Number of Active Workers 0
+08/18/19 22:07:42 (pid:113) Number of Active Workers 0
+08/18/19 22:07:43 (pid:113) Number of Active Workers 0
+08/18/19 22:07:43 (pid:113) Number of Active Workers 0
+08/18/19 22:07:44 (pid:113) Number of Active Workers 0
+08/18/19 22:07:44 (pid:113) Number of Active Workers 0
+08/18/19 22:07:45 (pid:113) Number of Active Workers 0
+08/18/19 22:07:46 (pid:113) Number of Active Workers 0
+08/18/19 22:07:46 (pid:113) Number of Active Workers 0
+08/18/19 22:07:47 (pid:113) Number of Active Workers 0
+08/18/19 22:07:47 (pid:113) Number of Active Workers 0
+08/18/19 22:07:48 (pid:113) Number of Active Workers 0
+08/18/19 22:07:48 (pid:113) Number of Active Workers 0
+08/18/19 22:07:49 (pid:113) Number of Active Workers 0
+08/18/19 22:07:49 (pid:113) Number of Active Workers 0
+08/18/19 22:07:49 (pid:113) Number of Active Workers 0
+08/18/19 22:07:50 (pid:113) Number of Active Workers 0
+08/18/19 22:07:50 (pid:113) Number of Active Workers 0
+08/18/19 22:07:50 (pid:113) Number of Active Workers 0
+08/18/19 22:07:51 (pid:113) Number of Active Workers 0
+08/18/19 22:07:51 (pid:113) Number of Active Workers 0
+08/18/19 22:07:52 (pid:113) Number of Active Workers 0
+08/18/19 22:07:52 (pid:113) Number of Active Workers 0
+08/18/19 22:07:52 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:07:52 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:07:52 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:07:52 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:07:52 (pid:113) Tables are consistent
+08/18/19 22:07:52 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:07:52 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/18/19 22:07:52 (pid:113) Number of Active Workers 0
+08/18/19 22:07:53 (pid:113) Number of Active Workers 0
+08/18/19 22:07:53 (pid:113) Number of Active Workers 0
+08/18/19 22:07:53 (pid:113) Number of Active Workers 0
+08/18/19 22:07:54 (pid:113) Number of Active Workers 0
+08/18/19 22:07:54 (pid:113) Number of Active Workers 0
+08/18/19 22:07:55 (pid:113) Number of Active Workers 0
+08/18/19 22:07:55 (pid:113) Number of Active Workers 0
+08/18/19 22:07:55 (pid:113) Number of Active Workers 0
+08/18/19 22:07:56 (pid:113) Number of Active Workers 0
+08/18/19 22:07:56 (pid:113) Number of Active Workers 0
+08/18/19 22:07:56 (pid:113) Number of Active Workers 0
+08/18/19 22:07:57 (pid:113) Number of Active Workers 0
+08/18/19 22:07:57 (pid:113) Number of Active Workers 0
+08/18/19 22:07:58 (pid:113) Number of Active Workers 0
+08/18/19 22:07:58 (pid:113) Number of Active Workers 0
+08/18/19 22:07:58 (pid:113) Number of Active Workers 0
+08/18/19 22:08:24 (pid:113) Number of Active Workers 0
+08/18/19 22:08:29 (pid:113) Number of Active Workers 0
+08/18/19 22:08:30 (pid:113) Number of Active Workers 0
+08/18/19 22:08:31 (pid:113) Number of Active Workers 0
+08/18/19 22:08:31 (pid:113) Number of Active Workers 0
+08/18/19 22:08:32 (pid:113) Number of Active Workers 0
+08/18/19 22:08:52 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:08:52 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:08:52 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:08:52 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/18/19 22:09:52 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:09:52 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:09:52 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:09:52 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/18/19 22:10:18 (pid:113) Shadow pid 263 for job 4.0 reports job exit reason 100.
+08/18/19 22:10:18 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 4.4
+08/18/19 22:10:18 (pid:113) Shadow pid 263 switching to job 4.4.
+08/18/19 22:10:18 (pid:113) Starting add_shadow_birthdate(4.4)
+08/18/19 22:10:20 (pid:113) Shadow pid 264 for job 4.1 reports job exit reason 100.
+08/18/19 22:10:20 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 4.5
+08/18/19 22:10:20 (pid:113) Shadow pid 264 switching to job 4.5.
+08/18/19 22:10:20 (pid:113) Starting add_shadow_birthdate(4.5)
+08/18/19 22:10:21 (pid:113) Shadow pid 267 for job 4.2 reports job exit reason 100.
+08/18/19 22:10:21 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:10:21 (pid:113) Tables are consistent
+08/18/19 22:10:21 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:10:21 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 4.6
+08/18/19 22:10:21 (pid:113) Shadow pid 267 switching to job 4.6.
+08/18/19 22:10:21 (pid:113) Starting add_shadow_birthdate(4.6)
+08/18/19 22:10:23 (pid:113) Shadow pid 270 for job 4.3 reports job exit reason 100.
+08/18/19 22:10:23 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 4.7
+08/18/19 22:10:23 (pid:113) Shadow pid 270 switching to job 4.7.
+08/18/19 22:10:23 (pid:113) Starting add_shadow_birthdate(4.7)
+08/18/19 22:10:30 (pid:113) Number of Active Workers 0
+08/18/19 22:10:31 (pid:113) Number of Active Workers 0
+08/18/19 22:10:32 (pid:113) Number of Active Workers 0
+08/18/19 22:10:33 (pid:113) Number of Active Workers 0
+08/18/19 22:10:34 (pid:113) Number of Active Workers 0
+08/18/19 22:10:34 (pid:113) Number of Active Workers 0
+08/18/19 22:10:52 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:10:52 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:10:52 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:10:52 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:10:52 (pid:113) Tables are consistent
+08/18/19 22:10:52 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:10:52 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/18/19 22:11:53 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:11:53 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:11:53 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:11:53 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/18/19 22:11:57 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:11:57 (pid:113) TransferQueueManager upload 1m I/O load: 5 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:11:57 (pid:113) TransferQueueManager download 1m I/O load: 3 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:11:57 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:11:57 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:12:52 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:12:52 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:12:52 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:12:52 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/18/19 22:13:45 (pid:113) Shadow pid 263 for job 4.4 reports job exit reason 100.
+08/18/19 22:13:45 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 4.8
+08/18/19 22:13:45 (pid:113) Shadow pid 263 switching to job 4.8.
+08/18/19 22:13:45 (pid:113) Starting add_shadow_birthdate(4.8)
+08/18/19 22:13:47 (pid:113) Shadow pid 264 for job 4.5 reports job exit reason 100.
+08/18/19 22:13:47 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 4.9
+08/18/19 22:13:47 (pid:113) Shadow pid 264 switching to job 4.9.
+08/18/19 22:13:47 (pid:113) Starting add_shadow_birthdate(4.9)
+08/18/19 22:13:49 (pid:113) Shadow pid 267 for job 4.6 reports job exit reason 100.
+08/18/19 22:13:49 (pid:113) Checking consistency running and runnable jobs
+08/18/19 22:13:49 (pid:113) Tables are consistent
+08/18/19 22:13:49 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/18/19 22:13:49 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) out of jobs; relinquishing
+08/18/19 22:13:49 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 4.6) deleted
+08/18/19 22:13:49 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1
+08/18/19 22:13:49 (pid:113) Shadow pid 270 for job 4.7 reports job exit reason 100.
+08/18/19 22:13:49 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) out of jobs; relinquishing
+08/18/19 22:13:49 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 4.7) deleted
+08/18/19 22:13:49 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1
+08/18/19 22:13:52 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/18/19 22:13:52 (pid:113) Using negotiation protocol: NEGOTIATE
+08/18/19 22:13:52 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/18/19 22:13:52 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 0 rejected
+08/18/19 22:13:52 (pid:113) Decreasing flock level for condor1 to 0 from 1.
+08/18/19 22:13:52 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:13:52 (pid:113) TransferQueueManager upload 1m I/O load: 1 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:13:52 (pid:113) TransferQueueManager download 1m I/O load: 1 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:13:52 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:13:52 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:13:53 (pid:113) Number of Active Workers 0
+08/18/19 22:13:55 (pid:113) Number of Active Workers 0
+08/18/19 22:13:56 (pid:113) Number of Active Workers 0
+08/18/19 22:13:56 (pid:113) Number of Active Workers 0
+08/18/19 22:13:57 (pid:113) Number of Active Workers 0
+08/18/19 22:13:57 (pid:113) Number of Active Workers 0
+08/18/19 22:13:57 (pid:113) Number of Active Workers 0
+08/18/19 22:13:57 (pid:113) Number of Active Workers 0
+08/18/19 22:13:58 (pid:113) Number of Active Workers 0
+08/18/19 22:13:58 (pid:113) Number of Active Workers 0
+08/18/19 22:13:58 (pid:113) Number of Active Workers 0
+08/18/19 22:13:59 (pid:113) Number of Active Workers 0
+08/18/19 22:15:16 (pid:113) Number of Active Workers 0
+08/18/19 22:15:17 (pid:113) Number of Active Workers 0
+08/18/19 22:15:18 (pid:113) Number of Active Workers 0
+08/18/19 22:15:19 (pid:113) Number of Active Workers 0
+08/18/19 22:15:20 (pid:113) Number of Active Workers 0
+08/18/19 22:15:20 (pid:113) Number of Active Workers 0
+08/18/19 22:15:21 (pid:113) Number of Active Workers 0
+08/18/19 22:15:21 (pid:113) Number of Active Workers 0
+08/18/19 22:15:21 (pid:113) Number of Active Workers 0
+08/18/19 22:15:22 (pid:113) Number of Active Workers 0
+08/18/19 22:15:22 (pid:113) Number of Active Workers 0
+08/18/19 22:15:22 (pid:113) Number of Active Workers 0
+08/18/19 22:15:23 (pid:113) Number of Active Workers 0
+08/18/19 22:15:23 (pid:113) Number of Active Workers 0
+08/18/19 22:15:24 (pid:113) Number of Active Workers 0
+08/18/19 22:15:24 (pid:113) Number of Active Workers 0
+08/18/19 22:15:24 (pid:113) Number of Active Workers 0
+08/18/19 22:15:25 (pid:113) Number of Active Workers 0
+08/18/19 22:15:25 (pid:113) Number of Active Workers 0
+08/18/19 22:15:25 (pid:113) Number of Active Workers 0
+08/18/19 22:15:26 (pid:113) Number of Active Workers 0
+08/18/19 22:15:26 (pid:113) Number of Active Workers 0
+08/18/19 22:15:26 (pid:113) Number of Active Workers 0
+08/18/19 22:15:56 (pid:113) Number of Active Workers 0
+08/18/19 22:15:57 (pid:113) Number of Active Workers 0
+08/18/19 22:15:58 (pid:113) Number of Active Workers 0
+08/18/19 22:15:58 (pid:113) Number of Active Workers 0
+08/18/19 22:15:59 (pid:113) Number of Active Workers 0
+08/18/19 22:15:59 (pid:113) Number of Active Workers 0
+08/18/19 22:16:00 (pid:113) Number of Active Workers 0
+08/18/19 22:16:00 (pid:113) Number of Active Workers 0
+08/18/19 22:16:01 (pid:113) Number of Active Workers 0
+08/18/19 22:17:11 (pid:113) Shadow pid 263 for job 4.8 reports job exit reason 100.
+08/18/19 22:17:11 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) out of jobs; relinquishing
+08/18/19 22:17:11 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 4.8) deleted
+08/18/19 22:17:11 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1
+08/18/19 22:17:13 (pid:113) Shadow pid 264 for job 4.9 reports job exit reason 100.
+08/18/19 22:17:13 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) out of jobs; relinquishing
+08/18/19 22:17:13 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 4.9) deleted
+08/18/19 22:17:13 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1
+08/18/19 22:17:43 (pid:113) Number of Active Workers 0
+08/18/19 22:18:52 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:18:52 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:18:52 (pid:113) TransferQueueManager download 1m I/O load: 2 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:18:52 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:18:52 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:18:52 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:23:53 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:23:53 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:23:53 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:23:53 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:23:53 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:23:53 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:24:01 (pid:113) Number of Active Workers 0
+08/18/19 22:28:54 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:28:54 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:28:54 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:28:54 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:28:54 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:28:54 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:33:55 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:33:55 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:33:55 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:33:55 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:33:55 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:33:55 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:34:25 (pid:113) Number of Active Workers 0
+08/18/19 22:38:55 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:38:55 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:38:55 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:38:55 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:38:55 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:38:55 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:43:55 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:43:55 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:43:55 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:43:55 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:43:55 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:43:55 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:48:55 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:48:55 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:48:55 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:48:55 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:48:55 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:48:55 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:53:56 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:53:56 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:53:56 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:53:56 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:53:56 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:53:56 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:58:57 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 22:58:57 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:58:57 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 22:58:57 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 22:58:57 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 22:58:57 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 22:59:59 (pid:113) Received a superuser command
+08/18/19 23:00:38 (pid:113) Number of Active Workers 0
+08/18/19 23:01:09 (pid:113) Number of Active Workers 0
+08/18/19 23:03:01 (pid:113) Number of Active Workers 0
+08/18/19 23:03:57 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:03:57 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:03:57 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:03:57 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:03:57 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:03:57 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:08:57 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:08:57 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:08:57 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:08:57 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:08:57 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:08:57 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:13:58 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:13:58 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:13:58 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:13:58 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:13:58 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:13:58 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:14:49 (pid:113) Number of Active Workers 0
+08/18/19 23:18:59 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:18:59 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:18:59 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:18:59 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:18:59 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:18:59 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:23:59 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:23:59 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:23:59 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:23:59 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:23:59 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:23:59 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:28:59 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:28:59 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:28:59 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:28:59 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:28:59 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:28:59 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:34:00 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:34:00 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:34:00 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:34:00 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:34:00 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:34:00 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:39:01 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:39:01 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:39:01 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:39:01 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:39:01 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:39:01 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:44:01 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:44:01 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:44:01 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:44:01 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:44:01 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:44:01 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:49:01 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:49:01 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:49:01 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:49:01 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:49:01 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:49:01 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:54:02 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:54:02 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:54:02 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:54:02 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:54:02 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:54:02 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/18/19 23:59:03 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/18/19 23:59:03 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:59:03 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/18/19 23:59:03 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/18/19 23:59:03 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/18/19 23:59:03 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/19/19 00:00:40 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/19/19 00:00:40 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:00:40 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:00:40 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/19/19 00:00:40 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/19/19 00:00:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:00:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:00:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:00:40 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:00:40 (pid:113) Tables are consistent
+08/19/19 00:00:40 (pid:113) Rebuilt prioritized runnable job list in 0.002s.
+08/19/19 00:00:40 (pid:113) Finished negotiating for condor1 in local pool: 1 matched, 1 rejected
+08/19/19 00:00:40 (pid:113) Increasing flock level for condor1 to 1 from 0.
+08/19/19 00:00:40 (pid:113) Starting add_shadow_birthdate(5.0)
+08/19/19 00:00:40 (pid:113) Started shadow for job 5.0 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 900)
+08/19/19 00:00:40 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:00:40 (pid:113) Tables are consistent
+08/19/19 00:00:40 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:00:40 (pid:113) Starting add_shadow_birthdate(5.1)
+08/19/19 00:00:41 (pid:113) Started shadow for job 5.1 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 901)
+08/19/19 00:00:41 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:00:41 (pid:113) Tables are consistent
+08/19/19 00:00:41 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:00:41 (pid:113) Starting add_shadow_birthdate(5.2)
+08/19/19 00:00:41 (pid:113) Started shadow for job 5.2 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 902)
+08/19/19 00:00:42 (pid:113) Number of Active Workers 0
+08/19/19 00:00:43 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:00:43 (pid:113) Tables are consistent
+08/19/19 00:00:43 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:00:43 (pid:113) Starting add_shadow_birthdate(5.3)
+08/19/19 00:00:43 (pid:113) Started shadow for job 5.3 on slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, (shadow pid = 911)
+08/19/19 00:00:44 (pid:113) Number of Active Workers 0
+08/19/19 00:00:45 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/19/19 00:00:45 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:00:45 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:00:45 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/19/19 00:00:45 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/19/19 00:00:45 (pid:113) Number of Active Workers 0
+08/19/19 00:00:47 (pid:113) Number of Active Workers 0
+08/19/19 00:00:47 (pid:113) Number of Active Workers 0
+08/19/19 00:00:48 (pid:113) Number of Active Workers 0
+08/19/19 00:00:49 (pid:113) Number of Active Workers 0
+08/19/19 00:00:49 (pid:113) Number of Active Workers 0
+08/19/19 00:00:50 (pid:113) Number of Active Workers 0
+08/19/19 00:00:51 (pid:113) Number of Active Workers 0
+08/19/19 00:00:51 (pid:113) Number of Active Workers 0
+08/19/19 00:00:52 (pid:113) Number of Active Workers 0
+08/19/19 00:00:52 (pid:113) Number of Active Workers 0
+08/19/19 00:00:52 (pid:113) Number of Active Workers 0
+08/19/19 00:00:53 (pid:113) Number of Active Workers 0
+08/19/19 00:00:53 (pid:113) Number of Active Workers 0
+08/19/19 00:00:54 (pid:113) Number of Active Workers 0
+08/19/19 00:00:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:00:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:00:54 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:00:54 (pid:113) Tables are consistent
+08/19/19 00:00:54 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:00:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 1 matched, 1 rejected
+08/19/19 00:00:54 (pid:113) Number of Active Workers 0
+08/19/19 00:00:54 (pid:113) Starting add_shadow_birthdate(5.4)
+08/19/19 00:00:54 (pid:113) Started shadow for job 5.4 on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1, (shadow pid = 952)
+08/19/19 00:00:54 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:00:54 (pid:113) Tables are consistent
+08/19/19 00:00:54 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:00:54 (pid:113) Starting add_shadow_birthdate(5.5)
+08/19/19 00:00:55 (pid:113) Started shadow for job 5.5 on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1, (shadow pid = 954)
+08/19/19 00:00:55 (pid:113) Number of Active Workers 0
+08/19/19 00:00:56 (pid:113) Number of Active Workers 0
+08/19/19 00:00:57 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:00:57 (pid:113) Tables are consistent
+08/19/19 00:00:57 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:00:57 (pid:113) Starting add_shadow_birthdate(5.6)
+08/19/19 00:00:57 (pid:113) Started shadow for job 5.6 on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1, (shadow pid = 962)
+08/19/19 00:00:59 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:00:59 (pid:113) Tables are consistent
+08/19/19 00:00:59 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:00:59 (pid:113) Starting add_shadow_birthdate(5.7)
+08/19/19 00:00:59 (pid:113) Started shadow for job 5.7 on slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1, (shadow pid = 963)
+08/19/19 00:01:05 (pid:113) Number of Active Workers 0
+08/19/19 00:01:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:01:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:01:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:01:40 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:01:40 (pid:113) Tables are consistent
+08/19/19 00:01:40 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:01:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:01:55 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:01:55 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:01:55 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:01:55 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:02:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:02:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:02:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:02:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:02:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:02:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:02:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:02:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:03:34 (pid:113) Number of Active Workers 0
+08/19/19 00:03:41 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:03:41 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:03:41 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:03:41 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:03:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:03:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:03:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:03:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:04:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:04:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:04:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:04:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:04:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:04:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:04:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:04:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:05:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:05:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:05:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:05:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:05:45 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/19/19 00:05:45 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:05:45 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:05:45 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/19/19 00:05:45 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/19/19 00:05:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:05:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:05:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:05:55 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:06:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:06:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:06:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:06:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:06:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:06:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:06:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:06:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:07:31 (pid:113) Shadow pid 901 for job 5.1 reports job exit reason 100.
+08/19/19 00:07:31 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 5.8
+08/19/19 00:07:31 (pid:113) Shadow pid 901 switching to job 5.8.
+08/19/19 00:07:31 (pid:113) Starting add_shadow_birthdate(5.8)
+08/19/19 00:07:32 (pid:113) Shadow pid 902 for job 5.2 reports job exit reason 100.
+08/19/19 00:07:32 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 5.9
+08/19/19 00:07:32 (pid:113) Shadow pid 902 switching to job 5.9.
+08/19/19 00:07:32 (pid:113) Starting add_shadow_birthdate(5.9)
+08/19/19 00:07:32 (pid:113) Shadow pid 911 for job 5.3 reports job exit reason 100.
+08/19/19 00:07:32 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:07:32 (pid:113) Tables are consistent
+08/19/19 00:07:32 (pid:113) Rebuilt prioritized runnable job list in 0.001s.
+08/19/19 00:07:32 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 5.10
+08/19/19 00:07:32 (pid:113) Shadow pid 911 switching to job 5.10.
+08/19/19 00:07:32 (pid:113) Starting add_shadow_birthdate(5.10)
+08/19/19 00:07:33 (pid:113) Shadow pid 900 for job 5.0 reports job exit reason 100.
+08/19/19 00:07:33 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 5.11
+08/19/19 00:07:33 (pid:113) Shadow pid 900 switching to job 5.11.
+08/19/19 00:07:33 (pid:113) Starting add_shadow_birthdate(5.11)
+08/19/19 00:07:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:07:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:07:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:07:40 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:07:40 (pid:113) Tables are consistent
+08/19/19 00:07:40 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:07:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:07:43 (pid:113) Shadow pid 952 for job 5.4 reports job exit reason 100.
+08/19/19 00:07:43 (pid:113) match (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1) switching to job 5.12
+08/19/19 00:07:43 (pid:113) Shadow pid 952 switching to job 5.12.
+08/19/19 00:07:43 (pid:113) Starting add_shadow_birthdate(5.12)
+08/19/19 00:07:44 (pid:113) Shadow pid 954 for job 5.5 reports job exit reason 100.
+08/19/19 00:07:44 (pid:113) match (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1) switching to job 5.13
+08/19/19 00:07:44 (pid:113) Shadow pid 954 switching to job 5.13.
+08/19/19 00:07:44 (pid:113) Starting add_shadow_birthdate(5.13)
+08/19/19 00:07:47 (pid:113) Shadow pid 962 for job 5.6 reports job exit reason 100.
+08/19/19 00:07:47 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:07:47 (pid:113) Tables are consistent
+08/19/19 00:07:47 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:07:47 (pid:113) match (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1) switching to job 5.14
+08/19/19 00:07:47 (pid:113) Shadow pid 962 switching to job 5.14.
+08/19/19 00:07:47 (pid:113) Starting add_shadow_birthdate(5.14)
+08/19/19 00:07:48 (pid:113) Shadow pid 963 for job 5.7 reports job exit reason 100.
+08/19/19 00:07:48 (pid:113) match (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1) switching to job 5.15
+08/19/19 00:07:48 (pid:113) Shadow pid 963 switching to job 5.15.
+08/19/19 00:07:48 (pid:113) Starting add_shadow_birthdate(5.15)
+08/19/19 00:07:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:07:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:07:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:07:54 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:07:54 (pid:113) Tables are consistent
+08/19/19 00:07:54 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:07:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:08:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:08:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:08:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:08:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:08:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:08:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:08:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:08:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:09:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:09:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:09:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:09:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:09:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:09:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:09:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:09:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:10:41 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:10:41 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:10:41 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:10:41 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:10:45 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/19/19 00:10:45 (pid:113) TransferQueueManager upload 1m I/O load: 2 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:10:45 (pid:113) TransferQueueManager download 1m I/O load: 2 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:10:45 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/19/19 00:10:45 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/19/19 00:10:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:10:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:10:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:10:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:11:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:11:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:11:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:11:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:11:55 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:11:55 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:11:55 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:11:55 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:12:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:12:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:12:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:12:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:12:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:12:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:12:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:12:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:13:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:13:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:13:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:13:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 1 rejected
+08/19/19 00:13:54 (pid:113) Activity on stashed negotiator socket: <45.5.164.207:30013>
+08/19/19 00:13:54 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:13:54 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co (flock level 1, pool edier-master-1.cloud.univalle.edu.co)
+08/19/19 00:13:54 (pid:113) Finished negotiating for condor1 in pool edier-master-1.cloud.univalle.edu.co: 0 matched, 1 rejected
+08/19/19 00:14:18 (pid:113) Shadow pid 901 for job 5.8 reports job exit reason 100.
+08/19/19 00:14:18 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 5.16
+08/19/19 00:14:18 (pid:113) Shadow pid 901 switching to job 5.16.
+08/19/19 00:14:18 (pid:113) Starting add_shadow_birthdate(5.16)
+08/19/19 00:14:20 (pid:113) Shadow pid 902 for job 5.9 reports job exit reason 100.
+08/19/19 00:14:20 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 5.17
+08/19/19 00:14:20 (pid:113) Shadow pid 902 switching to job 5.17.
+08/19/19 00:14:20 (pid:113) Starting add_shadow_birthdate(5.17)
+08/19/19 00:14:21 (pid:113) Shadow pid 911 for job 5.10 reports job exit reason 100.
+08/19/19 00:14:21 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:14:21 (pid:113) Tables are consistent
+08/19/19 00:14:21 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:14:21 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 5.18
+08/19/19 00:14:21 (pid:113) Shadow pid 911 switching to job 5.18.
+08/19/19 00:14:21 (pid:113) Starting add_shadow_birthdate(5.18)
+08/19/19 00:14:23 (pid:113) Shadow pid 900 for job 5.11 reports job exit reason 100.
+08/19/19 00:14:23 (pid:113) match (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1) switching to job 5.19
+08/19/19 00:14:23 (pid:113) Shadow pid 900 switching to job 5.19.
+08/19/19 00:14:23 (pid:113) Starting add_shadow_birthdate(5.19)
+08/19/19 00:14:31 (pid:113) Shadow pid 952 for job 5.12 reports job exit reason 100.
+08/19/19 00:14:31 (pid:113) Checking consistency running and runnable jobs
+08/19/19 00:14:31 (pid:113) Tables are consistent
+08/19/19 00:14:31 (pid:113) Rebuilt prioritized runnable job list in 0.000s.
+08/19/19 00:14:31 (pid:113) match (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1) out of jobs; relinquishing
+08/19/19 00:14:31 (pid:113) Match record (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1, 5.12) deleted
+08/19/19 00:14:31 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1
+08/19/19 00:14:32 (pid:113) Shadow pid 954 for job 5.13 reports job exit reason 100.
+08/19/19 00:14:32 (pid:113) match (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1) out of jobs; relinquishing
+08/19/19 00:14:32 (pid:113) Match record (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1, 5.13) deleted
+08/19/19 00:14:32 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1
+08/19/19 00:14:34 (pid:113) Shadow pid 962 for job 5.14 reports job exit reason 100.
+08/19/19 00:14:34 (pid:113) match (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1) out of jobs; relinquishing
+08/19/19 00:14:34 (pid:113) Match record (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1, 5.14) deleted
+08/19/19 00:14:34 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1
+08/19/19 00:14:35 (pid:113) Shadow pid 963 for job 5.15 reports job exit reason 100.
+08/19/19 00:14:35 (pid:113) match (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1) out of jobs; relinquishing
+08/19/19 00:14:35 (pid:113) Match record (slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1, 5.15) deleted
+08/19/19 00:14:35 (pid:113) Completed RELEASE_CLAIM to startd slot1@edier-worker-1.cloud.univalle.edu.co <45.5.164.207:9620?addrs=45.5.164.207-9620&noUDP&sock=77_b549_3> for condor1
+08/19/19 00:14:40 (pid:113) Activity on stashed negotiator socket: <157.253.205.92:33949>
+08/19/19 00:14:40 (pid:113) Using negotiation protocol: NEGOTIATE
+08/19/19 00:14:40 (pid:113) Negotiating for owner: condor1@cloud.uniandes.edu.co
+08/19/19 00:14:40 (pid:113) Finished negotiating for condor1 in local pool: 0 matched, 0 rejected
+08/19/19 00:14:40 (pid:113) Decreasing flock level for condor1 to 0 from 1.
+08/19/19 00:14:40 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/19/19 00:14:40 (pid:113) TransferQueueManager upload 1m I/O load: 15 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:14:40 (pid:113) TransferQueueManager download 1m I/O load: 28 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:14:40 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/19/19 00:14:40 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/19/19 00:19:41 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/19/19 00:19:41 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:19:41 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:19:41 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/19/19 00:19:41 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/19/19 00:21:06 (pid:113) Shadow pid 901 for job 5.16 exited with status 115
+08/19/19 00:21:06 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 5.16) deleted
+08/19/19 00:21:08 (pid:113) Shadow pid 902 for job 5.17 exited with status 115
+08/19/19 00:21:08 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 5.17) deleted
+08/19/19 00:21:10 (pid:113) Shadow pid 911 for job 5.18 exited with status 115
+08/19/19 00:21:10 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 5.18) deleted
+08/19/19 00:21:11 (pid:113) Shadow pid 900 for job 5.19 exited with status 115
+08/19/19 00:21:11 (pid:113) Match record (slot1@edier-worker-3.cloud.uniandes.edu.co <157.253.205.93:46151?addrs=157.253.205.93-46151> for condor1, 5.19) deleted
+08/19/19 00:24:42 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/19/19 00:24:42 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:24:42 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:24:42 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/19/19 00:24:42 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/19/19 00:24:42 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/19/19 00:29:42 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/19/19 00:29:42 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:29:42 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:29:42 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/19/19 00:29:42 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/19/19 00:29:42 (pid:113) Sent owner (0 jobs) ad to 1 collectors
+08/19/19 00:34:43 (pid:113) TransferQueueManager stats: active up=0/10 down=0/10; waiting up=0 down=0; wait time up=0s down=0s
+08/19/19 00:34:43 (pid:113) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:34:43 (pid:113) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+08/19/19 00:34:43 (pid:113) Sent ad to central manager for condor1@cloud.uniandes.edu.co
+08/19/19 00:34:43 (pid:113) Sent ad to 1 collectors for condor1@cloud.uniandes.edu.co
+08/19/19 00:34:43 (pid:113) Sent owner (0 jobs) ad to 1 collectors

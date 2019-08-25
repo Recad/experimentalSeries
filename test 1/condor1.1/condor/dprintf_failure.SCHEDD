@@ -1,0 +1,3 @@
+dprintf() had a fatal error in pid 116
+Error writing debug log
+ errno: 9 (Bad file descriptor) euid: 105, ruid: 105

@@ -1,0 +1,657 @@
+07/22/19 05:58:51 Setting maximum file descriptors to 4096.
+07/22/19 05:58:51 ******************************************************
+07/22/19 05:58:51 ** condor_shared_port (CONDOR_SHARED_PORT) STARTING UP
+07/22/19 05:58:51 ** /usr/lib/condor/libexec/condor_shared_port
+07/22/19 05:58:51 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(11) class=DAEMON(1)
+07/22/19 05:58:51 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+07/22/19 05:58:51 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+07/22/19 05:58:51 ** $CondorPlatform: x86_64_Ubuntu14 $
+07/22/19 05:58:51 ** PID = 69
+07/22/19 05:58:51 ** Log last touched time unavailable (No such file or directory)
+07/22/19 05:58:51 ******************************************************
+07/22/19 05:58:51 Using config source: /etc/condor/condor_config
+07/22/19 05:58:51 Using local config sources: 
+07/22/19 05:58:51    /etc/condor/condor_config.local
+07/22/19 05:58:51 config Macros = 62, Sorted = 62, StringBytes = 1605, TablesBytes = 2280
+07/22/19 05:58:51 CLASSAD_CACHING is ENABLED
+07/22/19 05:58:51 Daemon Log is logging: D_ALWAYS D_ERROR
+07/22/19 05:58:51 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+07/22/19 05:58:51 DaemonCore: command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>
+07/22/19 05:58:51 DaemonCore: private command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618>
+07/22/19 05:58:51 main_init() called
+07/22/19 05:58:51 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 0
+RequestsPendingPeak = 0
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<172.17.0.2:9618>"
+MyAddress = "<172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>"
+07/22/19 06:03:51 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 17
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<172.17.0.2:9618>"
+MyAddress = "<172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>"
+08/07/19 22:36:29 Setting maximum file descriptors to 4096.
+08/07/19 22:36:29 ******************************************************
+08/07/19 22:36:29 ** condor_shared_port (CONDOR_SHARED_PORT) STARTING UP
+08/07/19 22:36:29 ** /usr/lib/condor/libexec/condor_shared_port
+08/07/19 22:36:29 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(11) class=DAEMON(1)
+08/07/19 22:36:29 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+08/07/19 22:36:29 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/07/19 22:36:29 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/07/19 22:36:29 ** PID = 69
+08/07/19 22:36:29 ** Log last touched 7/22 06:06:01
+08/07/19 22:36:29 ******************************************************
+08/07/19 22:36:29 Using config source: /etc/condor/condor_config
+08/07/19 22:36:29 Using local config sources: 
+08/07/19 22:36:29    /etc/condor/condor_config.local
+08/07/19 22:36:29 config Macros = 62, Sorted = 62, StringBytes = 1605, TablesBytes = 2280
+08/07/19 22:36:29 CLASSAD_CACHING is ENABLED
+08/07/19 22:36:29 Daemon Log is logging: D_ALWAYS D_ERROR
+08/07/19 22:36:29 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+08/07/19 22:36:29 DaemonCore: command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>
+08/07/19 22:36:29 DaemonCore: private command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618>
+08/07/19 22:36:29 main_init() called
+08/07/19 22:36:29 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 0
+RequestsPendingPeak = 0
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<172.17.0.2:9618>"
+MyAddress = "<172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>"
+08/07/19 22:41:29 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 17
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<172.17.0.2:9618>"
+MyAddress = "<172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>"
+08/07/19 22:46:29 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 27
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<172.17.0.2:9618>"
+MyAddress = "<172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>"
+08/07/19 22:51:29 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 37
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<172.17.0.2:9618>"
+MyAddress = "<172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>"
+08/07/19 22:56:29 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 50
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<172.17.0.2:9618>"
+MyAddress = "<172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>"
+08/07/19 23:34:17 Setting maximum file descriptors to 4096.
+08/07/19 23:34:17 ******************************************************
+08/07/19 23:34:17 ** condor_shared_port (CONDOR_SHARED_PORT) STARTING UP
+08/07/19 23:34:17 ** /usr/lib/condor/libexec/condor_shared_port
+08/07/19 23:34:17 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(11) class=DAEMON(1)
+08/07/19 23:34:17 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+08/07/19 23:34:17 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/07/19 23:34:17 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/07/19 23:34:17 ** PID = 69
+08/07/19 23:34:17 ** Log last touched 8/7 22:56:48
+08/07/19 23:34:17 ******************************************************
+08/07/19 23:34:17 Using config source: /etc/condor/condor_config
+08/07/19 23:34:17 Using local config sources: 
+08/07/19 23:34:17    /etc/condor/condor_config.local
+08/07/19 23:34:17 config Macros = 62, Sorted = 62, StringBytes = 1605, TablesBytes = 2280
+08/07/19 23:34:17 CLASSAD_CACHING is ENABLED
+08/07/19 23:34:17 Daemon Log is logging: D_ALWAYS D_ERROR
+08/07/19 23:34:17 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+08/07/19 23:34:17 DaemonCore: command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>
+08/07/19 23:34:17 DaemonCore: private command socket at <172.17.0.2:9618?addrs=172.17.0.2-9618>
+08/07/19 23:34:17 main_init() called
+08/07/19 23:34:17 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 0
+RequestsPendingPeak = 0
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<172.17.0.2:9618>"
+MyAddress = "<172.17.0.2:9618?addrs=172.17.0.2-9618&noUDP>"
+08/18/19 20:40:14 Setting maximum file descriptors to 4096.
+08/18/19 20:40:14 ******************************************************
+08/18/19 20:40:14 ** condor_shared_port (CONDOR_SHARED_PORT) STARTING UP
+08/18/19 20:40:14 ** /usr/lib/condor/libexec/condor_shared_port
+08/18/19 20:40:14 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(11) class=DAEMON(1)
+08/18/19 20:40:14 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+08/18/19 20:40:14 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 20:40:14 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 20:40:14 ** PID = 109
+08/18/19 20:40:14 ** Log last touched 8/7 23:36:35
+08/18/19 20:40:14 ******************************************************
+08/18/19 20:40:14 Using config source: /etc/condor/condor_config
+08/18/19 20:40:14 Using local config sources: 
+08/18/19 20:40:14    /etc/condor/condor_config.local
+08/18/19 20:40:14 config Macros = 62, Sorted = 62, StringBytes = 1616, TablesBytes = 2280
+08/18/19 20:40:14 CLASSAD_CACHING is ENABLED
+08/18/19 20:40:14 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 20:40:14 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+08/18/19 20:40:14 DaemonCore: command socket at <192.168.28.55:9618?addrs=192.168.28.55-9618&noUDP>
+08/18/19 20:40:14 DaemonCore: private command socket at <192.168.28.55:9618?addrs=192.168.28.55-9618>
+08/18/19 20:40:14 main_init() called
+08/18/19 20:40:14 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 0
+RequestsPendingPeak = 0
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<192.168.28.55:9618>"
+MyAddress = "<192.168.28.55:9618?addrs=192.168.28.55-9618&noUDP>"
+08/18/19 20:45:14 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 12
+RequestsPendingPeak = 1
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<192.168.28.55:9618>"
+MyAddress = "<192.168.28.55:9618?addrs=192.168.28.55-9618&noUDP>"
+08/18/19 20:50:14 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 18
+RequestsPendingPeak = 1
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<192.168.28.55:9618>"
+MyAddress = "<192.168.28.55:9618?addrs=192.168.28.55-9618&noUDP>"
+08/18/19 20:55:14 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 24
+RequestsPendingPeak = 1
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<192.168.28.55:9618>"
+MyAddress = "<192.168.28.55:9618?addrs=192.168.28.55-9618&noUDP>"
+08/18/19 21:00:14 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 33
+RequestsPendingPeak = 1
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<192.168.28.55:9618>"
+MyAddress = "<192.168.28.55:9618?addrs=192.168.28.55-9618&noUDP>"
+08/18/19 21:05:14 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 40
+RequestsPendingPeak = 1
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<192.168.28.55:9618>"
+MyAddress = "<192.168.28.55:9618?addrs=192.168.28.55-9618&noUDP>"
+08/18/19 21:10:15 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 46
+RequestsPendingPeak = 1
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<192.168.28.55:9618>"
+MyAddress = "<192.168.28.55:9618?addrs=192.168.28.55-9618&noUDP>"
+08/18/19 21:16:26 Setting maximum file descriptors to 4096.
+08/18/19 21:16:26 ******************************************************
+08/18/19 21:16:26 ** condor_shared_port (CONDOR_SHARED_PORT) STARTING UP
+08/18/19 21:16:26 ** /usr/lib/condor/libexec/condor_shared_port
+08/18/19 21:16:26 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(11) class=DAEMON(1)
+08/18/19 21:16:26 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+08/18/19 21:16:26 ** $CondorVersion: 8.4.12 Jul 06 2017 BuildID: 409562 $
+08/18/19 21:16:26 ** $CondorPlatform: x86_64_Ubuntu14 $
+08/18/19 21:16:26 ** PID = 110
+08/18/19 21:16:26 ** Log last touched 8/18 21:10:15
+08/18/19 21:16:26 ******************************************************
+08/18/19 21:16:26 Using config source: /etc/condor/condor_config
+08/18/19 21:16:26 Using local config sources: 
+08/18/19 21:16:26    /etc/condor/condor_config.local
+08/18/19 21:16:26 config Macros = 83, Sorted = 83, StringBytes = 2606, TablesBytes = 3036
+08/18/19 21:16:26 CLASSAD_CACHING is ENABLED
+08/18/19 21:16:26 Daemon Log is logging: D_ALWAYS D_ERROR
+08/18/19 21:16:26 Daemoncore: Listening at <0.0.0.0:443> on TCP (ReliSock).
+08/18/19 21:16:26 DaemonCore: command socket at <45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>
+08/18/19 21:16:26 DaemonCore: private command socket at <192.168.28.55:443?addrs=192.168.28.55-443>
+08/18/19 21:16:26 main_init() called
+08/18/19 21:16:26 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 0
+RequestsPendingPeak = 0
+RequestsPendingCurrent = 0
+RequestsFailed = 0
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 21:19:13 SharedPortClient - server response deadline has passed for 79_147a_5 as requested by TOOL on <192.168.28.55:57967>
+08/18/19 21:19:43 SharedPortClient - server response deadline has passed for 79_147a_5 as requested by TOOL on <192.168.28.55:41869>
+08/18/19 21:21:26 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 13
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 21:26:26 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 13
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 21:31:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 13
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 21:36:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 16
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 21:41:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 17
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 21:46:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 17
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 21:51:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 17
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 21:56:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 20
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:01:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 21
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:06:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 23
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:11:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 24
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:16:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 27
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:21:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 28
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:26:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 68
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:31:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 104
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:36:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 110
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:41:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 124
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:46:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 124
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:51:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 126
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 22:56:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 127
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:01:27 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 158
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:06:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 180
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:11:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 184
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:16:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 202
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:21:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 208
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:26:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 224
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:31:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 241
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:36:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 250
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:41:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 251
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:46:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 251
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:51:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 254
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/18/19 23:56:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 254
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/19/19 00:01:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 256
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/19/19 00:06:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 257
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/19/19 00:11:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 259
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/19/19 00:16:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 259
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/19/19 00:21:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 260
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/19/19 00:26:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 262
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
+08/19/19 00:31:28 About to update statistics in shared_port daemon ad file at /var/lock/condor/shared_port_ad :
+ForkedChildrenPeak = 0
+RequestsBlocked = 0
+ForkedChildrenCurrent = 0
+RequestsSucceeded = 263
+RequestsPendingPeak = 2
+RequestsPendingCurrent = 0
+RequestsFailed = 2
+SharedPortCommandSinfuls = "<45.5.164.207:443>"
+MyAddress = "<45.5.164.207:443?PrivAddr=%3c192.168.28.55:443%3e&PrivNet=univalle.edu.co&addrs=45.5.164.207-443&noUDP>"
