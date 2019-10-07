@@ -1,0 +1,22 @@
+Oct 02 00:25:31.862 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Oct 02 00:25:31.862 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49835.
+Oct 02 00:25:31.872 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 02 00:25:31.872 HYPERVISOR: exec_cmd: hypervisor working_dir /home/dacer/GNS3/projects/firewall/project-files/dynamips 
+Oct 02 00:25:31.872 GENERAL: working_dir=/home/dacer/GNS3/projects/firewall/project-files/dynamips
+Oct 02 00:25:31.872 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Oct 02 00:25:32.074 HYPERVISOR: exec_cmd: nio create_udp udp-25e9245c-6180-42bb-80c3-0f97c7b75cf3 10003 127.0.0.1 10002 
+Oct 02 00:25:32.074 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-25e9245c-6180-42bb-80c3-0f97c7b75cf3 
+Oct 02 00:25:32.082 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-25e9245c-6180-42bb-80c3-0f97c7b75cf3 1 
+Oct 02 00:25:32.161 HYPERVISOR: exec_cmd: nio create_udp udp-a29a7182-63a9-4231-8f70-df041c9a6853 10004 127.0.0.1 10005 
+Oct 02 00:25:32.162 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-a29a7182-63a9-4231-8f70-df041c9a6853 
+Oct 02 00:25:32.168 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a29a7182-63a9-4231-8f70-df041c9a6853 1 
+Oct 02 00:25:32.240 HYPERVISOR: exec_cmd: nio create_udp udp-acdbd338-cc3c-4e2d-ac88-bb9360f67faf 10006 127.0.0.1 10007 
+Oct 02 00:25:32.241 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-acdbd338-cc3c-4e2d-ac88-bb9360f67faf 
+Oct 02 00:25:32.248 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-acdbd338-cc3c-4e2d-ac88-bb9360f67faf 1 
+Oct 02 00:25:32.292 HYPERVISOR: exec_cmd: nio create_udp udp-14d1f703-9c12-465c-90f4-4a9f7c7cc7fd 10008 127.0.0.1 10009 
+Oct 02 00:25:32.293 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-14d1f703-9c12-465c-90f4-4a9f7c7cc7fd 
+Oct 02 00:25:32.309 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-14d1f703-9c12-465c-90f4-4a9f7c7cc7fd 1 
+Oct 02 02:08:23.768 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-1 
+Oct 02 02:08:23.878 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 02 02:08:24.360 HYPERVISOR: Stopped.
+Oct 02 02:08:24.360 GENERAL: reset done.

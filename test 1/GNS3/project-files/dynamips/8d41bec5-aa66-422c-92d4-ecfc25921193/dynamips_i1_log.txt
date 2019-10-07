@@ -1,0 +1,27 @@
+Aug 18 19:33:28.410 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Aug 18 19:33:28.411 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40015.
+Aug 18 19:33:28.414 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 18 19:33:28.415 HYPERVISOR: exec_cmd: hypervisor working_dir /home/dacer/GNS3/projects/firewall/project-files/dynamips 
+Aug 18 19:33:28.415 GENERAL: working_dir=/home/dacer/GNS3/projects/firewall/project-files/dynamips
+Aug 18 19:33:28.415 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Aug 18 19:33:28.641 HYPERVISOR: exec_cmd: nio create_udp udp-7910a92a-ef7c-4bf1-b978-8ac5b7d0e8ef 10003 127.0.0.1 10002 
+Aug 18 19:33:28.641 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-7910a92a-ef7c-4bf1-b978-8ac5b7d0e8ef 
+Aug 18 19:33:28.649 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-7910a92a-ef7c-4bf1-b978-8ac5b7d0e8ef 1 
+Aug 18 19:33:28.678 HYPERVISOR: exec_cmd: nio create_udp udp-2e885cf5-5569-4f33-be73-4dfb4519b526 10004 127.0.0.1 10005 
+Aug 18 19:33:28.678 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-2e885cf5-5569-4f33-be73-4dfb4519b526 
+Aug 18 19:33:28.689 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-2e885cf5-5569-4f33-be73-4dfb4519b526 1 
+Aug 18 19:33:28.736 HYPERVISOR: exec_cmd: nio create_udp udp-7815c0a7-ee4e-43ca-b346-30c1394958e5 10006 127.0.0.1 10007 
+Aug 18 19:33:28.737 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-7815c0a7-ee4e-43ca-b346-30c1394958e5 
+Aug 18 19:33:28.750 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-7815c0a7-ee4e-43ca-b346-30c1394958e5 1 
+Aug 18 19:33:28.798 HYPERVISOR: exec_cmd: nio create_udp udp-d44494b4-f950-41fd-bcb9-eb086bb752e9 10008 127.0.0.1 10009 
+Aug 18 19:33:28.798 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-d44494b4-f950-41fd-bcb9-eb086bb752e9 
+Aug 18 19:33:28.809 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-d44494b4-f950-41fd-bcb9-eb086bb752e9 1 
+Aug 18 21:38:38.146 HYPERVISOR: exec_cmd: nio bind_filter udp-d44494b4-f950-41fd-bcb9-eb086bb752e9 2 capture 
+Aug 18 21:38:38.163 HYPERVISOR: exec_cmd: nio setup_filter udp-d44494b4-f950-41fd-bcb9-eb086bb752e9 2 en10mb /home/dacer/GNS3/projects/firewall/tmp/captures/Ethernetswitch-1_Ethernet3_to_CiscoASAv98-1-1_Gi00.pcap 
+Aug 18 22:46:33.148 HYPERVISOR: exec_cmd: nio unbind_filter udp-d44494b4-f950-41fd-bcb9-eb086bb752e9 2 
+Aug 18 22:59:38.837 HYPERVISOR: exec_cmd: nio bind_filter udp-d44494b4-f950-41fd-bcb9-eb086bb752e9 2 capture 
+Aug 18 22:59:38.837 HYPERVISOR: exec_cmd: nio setup_filter udp-d44494b4-f950-41fd-bcb9-eb086bb752e9 2 en10mb /home/dacer/GNS3/projects/firewall/tmp/captures/Ethernetswitch-1_Ethernet3_to_CiscoASAv98-1-1_Gi00.pcap 
+Aug 19 00:41:31.753 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-1 
+Aug 19 00:41:32.571 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 19 00:41:33.629 HYPERVISOR: Stopped.
+Aug 19 00:41:33.629 GENERAL: reset done.
